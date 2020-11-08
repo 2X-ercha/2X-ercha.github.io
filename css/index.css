@@ -4065,6 +4065,13 @@ _:future,
 #vcomment .vbtn:hover {
   background: var(--btn-hover-color);
 }
+#vcomment textarea {
+  background: url("/valine/valine.jpg") 100% 100% no-repeat;
+  height: 200px;
+}
+#vcomment textarea:focus {
+  background-image: none;
+}
 #vcomment .vimg {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
