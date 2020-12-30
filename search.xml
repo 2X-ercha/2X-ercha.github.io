@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>新年前爬个明日方舟的立绘</title>
+      <link href="53760.html"/>
+      <url>53760.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/css/APlayer.min.css"><script src="/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/js/Meting.min.js"></script><p>新年前随手写的爬虫，2021新年快乐呀！</p><hr><p>今天有个朋友跟我说，他想爬一下明日方舟的人物立绘</p><p>虽然没玩过明日方舟，但自己也去看了看图，好家伙，画得针不戳</p><p>emmm，那我试着爬一爬吧</p><p><strong>（本代码太水所以就不挂 GitHub 了啦,代码在下面）</strong></p><hr><p>先看看朋友给的图片的链接：<code>http://prts.wiki/images/6/65/%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_2.png</code></p><p>按照这格式，我觉得只能访问主站了…… <a href="http://prts.wiki/">http://prts.wiki</a></p><p>主站长这样<del>（玩方舟的小伙伴别吐槽我）</del></p><p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/20201230232636.png"></p><p>然后我在左侧菜单里面翻找了半天（啊啊啊，立绘在哪里啊！！！）</p><img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0/真叫人质壁分离.jpg" width="300" height="300"><p>。。。我眼瞎，右上角大大的搜索框我看不见。。。</p><hr><p>搜索立绘，然后选了选范围为多媒体，然后最下面把单页最大显示数量调成500</p><p>唉，刚好一页（我不用从好多页网页爬图了，开心！）</p><p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/20201230233429.png"></p><p>现在就得开始爬图了</p><hr><p>F12 看一下网页源代码</p><p>蒽？这个链接貌似有点不对</p><p>给的是 <code>/images/thumb/6/65/%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_2.png</code> ，我要的是这个 <code>http://prts.wiki/images/6/65/%E7%AB%8B%E7%BB%98_%E5%87%AF%E5%B0%94%E5%B8%8C_2.png</code> 嘛！</p><p>比对一下，后面的都一样（那后期字符串剪一剪就差不多啦）</p><hr><p>因为之前也爬过图片，所以自己感觉总体来说难度不大（我发现我还是比较善于用字符串find）</p><p>我就直接上代码了</p><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"><span class="keyword">import</span> time</span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"></span><br><span class="line">url = <span class="string">&quot;http://prts.wiki/index.php?title=%E7%89%B9%E6%AE%8A:%E6%90%9C%E7%B4%A2&amp;limit=500&amp;offset=0&amp;profile=images&amp;search=%E7%AB%8B%E7%BB%98&quot;</span></span><br><span class="line"></span><br><span class="line">headers = &#123;</span><br><span class="line">    <span class="string">&quot;Cookie&quot;</span>: <span class="string">&quot;arccount62298=c; arccount62019=c&quot;</span>,</span><br><span class="line">    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">html = requests.get(url, headers=headers)</span><br><span class="line">html.encoding = html.apparent_encoding</span><br><span class="line">soup = BeautifulSoup(html.text, <span class="string">&quot;html.parser&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">list</span> = soup.find_all(class_ = <span class="string">&quot;searchResultImage&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">try</span>:</span><br><span class="line">    os.mkdir(<span class="string">&quot;./Arknights&quot;</span>)  <span class="comment">##  创建文件夹</span></span><br><span class="line"><span class="keyword">except</span>:</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line">os.chdir(<span class="string">&quot;./Arknights&quot;</span>)</span><br><span class="line">num=<span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> s <span class="keyword">in</span> <span class="built_in">list</span>:</span><br><span class="line">    string = <span class="built_in">str</span>(s)</span><br><span class="line"></span><br><span class="line">    namebegin = string.find(<span class="string">&#x27;title=&quot;文件&#x27;</span>)</span><br><span class="line">    nameend = string[namebegin:].find(<span class="string">&#x27;png&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    name = string[namebegin+<span class="number">10</span>:namebegin+nameend+<span class="number">3</span>]</span><br><span class="line">    name = name.replace(<span class="string">&quot; &quot;</span>,<span class="string">&quot;_&quot;</span>)</span><br><span class="line"></span><br><span class="line">    urlbegin = string.find(<span class="string">&#x27;data-src=&quot;/images/thumb/&#x27;</span>)</span><br><span class="line">    urlend = string[urlbegin:].find(<span class="string">&#x27;png&#x27;</span>)</span><br><span class="line"></span><br><span class="line">    imgurl = <span class="string">&#x27;http://prts.wiki/images/&#x27;</span> + string[urlbegin+<span class="number">24</span>:urlbegin+urlend+<span class="number">3</span>]</span><br><span class="line"></span><br><span class="line">    img = requests.get(imgurl, headers=headers).content</span><br><span class="line">    <span class="keyword">with</span> <span class="built_in">open</span>(name, <span class="string">&#x27;wb&#x27;</span>) <span class="keyword">as</span> f:</span><br><span class="line">        f.write(img)</span><br><span class="line">        num+=<span class="number">1</span></span><br><span class="line">        print(<span class="string">&quot;已爬取&#123;&#125;张,图片名称为：&#123;&#125;，链接为：&#123;&#125;&quot;</span>.<span class="built_in">format</span>(num,name,imgurl))</span><br><span class="line">    time.sleep(<span class="number">1</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>代码不长，但因为不太会 <a href="https://beautifulsoup.readthedocs.io/zh_CN/v4.4.0/#">BeautifulSoup</a> 而走了不少弯路。不过最终还是爬完了所有立绘</p><p>最后结果如下</p><p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/20201230234602.png"></p><p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/20201230234715.png"></p><hr><p>最后再次祝看到这篇博客的小伙伴：</p><h2 id="2021，新年快乐鸭！"><a href="#2021，新年快乐鸭！" class="headerlink" title="2021，新年快乐鸭！"></a>2021，新年快乐鸭！</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Code </category>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的吐槽日记 - 1</title>
       <link href="22496.html"/>
       <url>22496.html</url>
