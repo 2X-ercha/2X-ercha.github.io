@@ -177,44 +177,44 @@ if (asideStatus !== undefined) {
 <p>以及我用了 PicGo 来作为本地上传的工具，这下子方便很多啦！</p>
 <h1 id="搭建过程"><a href="#搭建过程" class="headerlink" title="搭建过程"></a>搭建过程</h1><h2 id="阿里云OSS部分"><a href="#阿里云OSS部分" class="headerlink" title="阿里云OSS部分"></a>阿里云OSS部分</h2><h3 id="购买阿里云的OSS服务"><a href="#购买阿里云的OSS服务" class="headerlink" title="购买阿里云的OSS服务"></a>购买阿里云的OSS服务</h3><p>购买阿里云OSS的网站：<a target="_blank" rel="noopener" href="https://www.aliyun.com/product/oss/">https://www.aliyun.com/product/oss/</a></p>
 <p>可以选择按流付费(默认方式)和买套餐包年包月,个人推荐使用套餐（毕竟9块一年挺划算的）</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed1.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed1.png"></p>
 <p>买完后：</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed2.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed2.png"></p>
 <h3 id="在控制台新建Bucket"><a href="#在控制台新建Bucket" class="headerlink" title="在控制台新建Bucket"></a>在控制台新建Bucket</h3><p>bucket：一个存储图片的地方。</p>
 <p>然后我们进行配置</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed3-1.png"><br><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed3-2.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed3-1.png"><br><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed3-2.png"></p>
 <p>记得读写权限选择公共读，然后地域如果前面你购买时选的是中国大陆通用那你国内节点随意，其他情况的话前后相同就对啦</p>
 <p>然后在概览里面找到这个，记下来（后面配置 PicGo 时要用到的 ”确认存储区域“ ）</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed4.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed4.png"></p>
 <p>然后在文件管理里创建你要放图片的文件夹。比如我这里是 img/</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed5.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed5.png"></p>
 <p>千万千万记得在文件夹名后面加 /</p>
 <h3 id="创建子用户并获取-AccessKey"><a href="#创建子用户并获取-AccessKey" class="headerlink" title="创建子用户并获取 AccessKey"></a>创建子用户并获取 AccessKey</h3><p>鼠标移到右上角头像处，下拉菜单中有一个 AccessKey管理，戳进去</p>
 <p>然后建立子用户</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-1.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-1.png"></p>
 <p>控制访问台这个可选可不选，但编程访问一定要选</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-2.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-2.png"></p>
 <p>然后掏出你的<del>小本本</del>记事本，复制下你的 AccessKeyId 和 AccessKeySecret，这个特别重要（因为之后是查不到的）</p>
 <p><strong>↑ ↑ ↑ ！！！强调<del>3次</del>！！！↑ ↑ ↑</strong></p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-3.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-3.png"></p>
 <p>最后给你的子用户上使用 OSS 服务的管理权限</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-4.png"><br><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-5.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-4.png"><br><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed6-5.png"></p>
 <h2 id="PicGo-配置部分"><a href="#PicGo-配置部分" class="headerlink" title="PicGo 配置部分"></a>PicGo 配置部分</h2><p>PicGo 的 github项目地址 <a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo">在这里</a></p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed7.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed7.png"></p>
 <p>下面的 readme 也有说明相关的下载链接及白嫖开发说明</p>
 <p>你也可以从 <a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">https://github.com/Molunerfinn/PicGo/releases</a> 找到系统对应的文件进行下载</p>
 <p>因为国内下载速度很慢，不限速链接在 <a target="_blank" rel="noopener" href="https://xjhui.lanzoux.com/iiqzehthhni">这里</a> ，蓝奏云好评</p>
 <p>安装后长这样：</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed8-1.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed8-1.png"></p>
 <p>进入图床设置的阿里云OSS</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed8-2.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed8-2.png"></p>
 <p>然后输入你上面记下来的 <code>AccessKeyId</code> 和 <code>AccessKeySecret</code> 、 <code>Bucket名</code> 、 <code>确认存储区域</code> 、 <code>指定存储路径</code></p>
 <p>不会的话可以参考一下我的</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed8-3.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed8-3.png"></p>
 <p>然后我们就配置完啦！试一试，走你！</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed8-4.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed8-4.png"></p>
 <p>引用时直接点图片下方的复制就行啦（记得选择是什么格式的）</p>
-<p><img src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed9.png"></p>
+<p><img src= "/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/picturebed9.png"></p>
 <hr>
 <p>这篇博客的所有图片都是从自己搭的图床引用的</p>
 <p>这里吐槽一下 PicGo 的上传，有时候会上传失败让你重新配置，多试几次就行了</p>
