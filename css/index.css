@@ -1997,7 +1997,7 @@ blockquote footer cite:before {
   border-color: #ff7242;
 }
 .article-sort-item-time {
-  color: #fff;
+  color: #858585;
   font-size: 95%;
 }
 .article-sort-item-time time {
@@ -2078,7 +2078,7 @@ blockquote footer cite:before {
 }
 #page .category-lists .category-list .category-list-count {
   margin-left: 0.4rem;
-  color: #fff;
+  color: #858585;
 }
 #page .category-lists .category-list .category-list-count:before {
   content: '(';
@@ -2407,7 +2407,7 @@ blockquote footer cite:before {
   color: #49b1f5;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
-  color: #fff;
+  color: #858585;
   font-size: 90%;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .post-meta-date {
@@ -2432,7 +2432,7 @@ blockquote footer cite:before {
   margin: 0 0.2rem;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
-  color: #fff;
+  color: #858585;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
   color: #49b1f5;
@@ -2718,7 +2718,7 @@ blockquote footer cite:before {
 #aside-content .aside-list > .aside-list-item .content > time,
 #aside-content .aside-list > .aside-list-item .content > .name {
   display: block;
-  color: #fff;
+  color: #858585;
   font-size: 85%;
 }
 #aside-content .aside-list > .aside-list-item .content > .title,
