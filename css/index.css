@@ -1386,6 +1386,19 @@ body {
 input::placeholder {
   color: var(--font-color);
 }
+#web_bg {
+  position: fixed;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background: url(https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/bg1.jpeg);
+  background-attachment: local;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 h1,
 h2,
 h3,
@@ -1984,7 +1997,7 @@ blockquote footer cite:before {
   border-color: #ff7242;
 }
 .article-sort-item-time {
-  color: #858585;
+  color: #fff;
   font-size: 95%;
 }
 .article-sort-item-time time {
@@ -2065,7 +2078,7 @@ blockquote footer cite:before {
 }
 #page .category-lists .category-list .category-list-count {
   margin-left: 0.4rem;
-  color: #858585;
+  color: #fff;
 }
 #page .category-lists .category-list .category-list-count:before {
   content: '(';
@@ -2394,7 +2407,7 @@ blockquote footer cite:before {
   color: #49b1f5;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
-  color: #858585;
+  color: #fff;
   font-size: 90%;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .post-meta-date {
@@ -2419,7 +2432,7 @@ blockquote footer cite:before {
   margin: 0 0.2rem;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
-  color: #858585;
+  color: #fff;
 }
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a:hover {
   color: #49b1f5;
@@ -2705,7 +2718,7 @@ blockquote footer cite:before {
 #aside-content .aside-list > .aside-list-item .content > time,
 #aside-content .aside-list > .aside-list-item .content > .name {
   display: block;
-  color: #858585;
+  color: #fff;
   font-size: 85%;
 }
 #aside-content .aside-list > .aside-list-item .content > .title,
