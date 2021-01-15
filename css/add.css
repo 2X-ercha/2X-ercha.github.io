@@ -9,8 +9,15 @@ img {
         default;
 }
 
+/* 卡片背景透明度 */
 :root {
-  --card-bg: #ffffffd1;
+  /* --card-bg: #fff; */
+  --card-bg: #ffffff88;
+}
+
+[data-theme="dark"] {
+  /* --card-bg: #121212; */
+  --card-bg: #12121288;
 }
 
 /* Twikoo评论框高度 */
