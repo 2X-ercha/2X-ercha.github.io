@@ -12,7 +12,7 @@ img {
 /* 卡片背景透明度 */
 :root {
   /* --card-bg: #fff; */
-  --card-bg: #ffffff88;
+  --card-bg: #ffefefd9;
 }
 
 [data-theme="dark"] {
