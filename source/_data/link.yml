@@ -1,0 +1,107 @@
+- class_name: 线上友人帐
+  class_desc: 膜一膜 noionion's friends
+  link_list:
+    - name: GamerNoTitle
+      link: https://bili33.top/
+      avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
+      descr: 永远相信 美好的事情 即将发生
+      
+    - name: XJHui's Blog
+      link: https://plushine.cn/
+      avatar: https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/touxiang.jpg
+      descr: 这个博主想骗访客^_^
+
+    - name: uncleacc
+      link: https://www.fezhu.top/
+      avatar: https://cdn.jsdelivr.net/gh/uncleacc/cdn/img/custom/avatar.png
+      descr: 一只努力学习的蒟蒻仔
+    
+    - name: 火喵酱
+      link: https://dorcandy.cn/
+      avatar: https://cdn.jsdelivr.net/gh/zc998800/cdn/image/dorcandy.jpg
+      descr: 一喵一世界
+      
+    - name: Android
+      link: https://android99.me
+      avatar: https://android99.me/img/avatar.png
+      descr: 矩阵
+    
+    - name: 树寒的博客
+      link: https://shuxhan.com
+      avatar: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg
+      descr: 吾将上下而求索！
+      
+    - name: 小嘉的部落格
+      link: //blog.imzjw.cn
+      avatar: //cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg
+      descr: 好记性不如烂笔头
+      
+    - name: CC的部落格
+      link: https://blog.ccknbc.cc
+      avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
+      descr: CC康纳百川
+      
+    - name: Lete乐特
+      link: https://www.lete114.top/
+      avatar: https://www.lete114.top/img/avatar.png
+      descr: 人生只有一次，大胆的生活！！
+
+    - name: dummerfu
+      link: https://dummerfu.top/
+      avatar: https://gitee.com/dummerchen/MY_IMAGE_BED/raw/master/20201018134428.jpg
+      descr: 一个兴趣使然的programmer
+
+    - name: 小康博客
+      link: https://www.antmoe.com/
+      avatar: https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
+      descr: 一个收藏回忆与分享技术的地方！
+    
+    - name: 随性のBlog
+      link: https://hanxea.gitee.io/random/
+      avatar: https://hanxea.gitee.io/img/image.jpg
+      descr: 专注于量子研究，量子物理学，电脑技术，IT与互联网技术
+
+    - name: Heo
+      link: https://blog.zhheo.com/
+      avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师
+    
+    - name: Nescx
+      link: https://www.nesxc.com
+      avatar: https://cdn-1.nesxc.com/img/avatar.jpg
+      descr: 青石落晚巷 故人未还乡
+    
+    - name: 卓越科技的Blog
+      link: https://zykj.js.org/
+      avatar: https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
+      descr: Remarkable life,for science and technology.
+
+    - name: 流恋のBlog
+      link: https://yuanyuanzi.top/
+      avatar: https://cdn.jsdelivr.net/gh/xiayuan-001/blogimg/img/a54294357f4ffef5c797560b33db211.jpg
+      descr: 分享教程与生活！
+      
+    - name: CtrlCV博客
+      link: https://www.hack-er.cn/
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=10001&s=640
+      descr: 一顿CV猛如虎.
+
+
+- class_name: 线下后宫团
+  class_desc: 线下的同学朋友们
+  link_list:
+    - name: lijyya
+      link: http://lijyya.site/
+      avatar: http://lijyya.site/images/avatar.png
+      descr: 听闻远方有你，我愿跋涉千里
+      
+    - name: czj
+      link: https://www.innoinf.com/
+      avatar: https://nwzimg.wezhan.cn/sitefiles10207/10207502/QQ%E5%9B%BE%E7%89%8720200717124242_%E5%89%AF%E6%9C%AC.png
+      descr: 创信博客 - 让技术学习触手可及
+      
+    - name: heart-of-engine
+      link: http://www.heart-of-engine.top/
+      avatar: https://heart-of-engine-picture-bed-1.oss-cn-beijing.aliyuncs.com/img/%E4%B8%AA%E4%BA%BA%E5%A4%B4%E5%83%8F.jpg
+      descr: 专注于数学与编程的完美结合,分享生活,分享知识
+
