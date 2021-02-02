@@ -1,20 +1,20 @@
+sudo: false
 language: node_js
-node_js: stable
-install:
-  - npm install
-script:
-  - hexo g
-after_script:
-  - cd ./public
-  - git init
-  - git config user.name "2X-ercha"
-  - git config user.email "noionion@outlook.com"
-  - git add .
-  - git commit -m "Update docs"
-  - git push --force --quiet "https://${travis}@${GH_REF}" master:master
+node_js:
+  - 10 # use nodejs v10 LTS
+cache: npm
 branches:
   only:
-    - source
-env:
-  global:
-    - GH_REF: github.com:2X-ercha/2X-ercha.github.io.git
+    - source # build master branch only
+script:
+  - hexo generate # generate static files
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $travis
+  keep-history: true
+  on:
+    branch: source
+  local-dir: public
+
+
