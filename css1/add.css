@@ -1,0 +1,51 @@
+<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/css/APlayer.min.css"><script src="/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/js/Meting.min.js"></script>/* 鼠标样式 */
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+        default;
+}
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+
+/* 卡片背景透明度 */
+:root {
+  /* --card-bg: #fff; */
+  --card-bg: #ffefefd9;
+}
+
+[data-theme="dark"] {
+  /* --card-bg: #121212; */
+  --card-bg: #12121288;
+}
+
+/* Twikoo评论框高度 */
+.el-textarea__inner {
+  /* min-height: 75px; */
+  /* height: 75px; */
+  min-height: 210px !important;
+  height: 210px !important;
+}
+
+
+/* 页脚半透明 */
+#footer {
+    background: rgba(255,255,255,.15);
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+
+#footer::before {
+    background: rgba(255,255,255,.15)
+}
+
+#footer #footer-wrap {
+    color: var(--font-color);
+}
+
+#footer #footer-wrap a {
+    color: var(--font-color);
+}
