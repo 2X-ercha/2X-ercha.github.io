@@ -84,7 +84,7 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+favicon: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
 
 # Avatar (頭像)
 avatar:
@@ -92,31 +92,31 @@ avatar:
   effect: false
 
 # The banner image of home page
-index_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/home.jpg
+index_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/bg1.jpeg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/page1.jpg
+default_top_img: "#00000000" 
 
 # The banner image of archive page
-archive_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/page1.jpg
+archive_img: 
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/page1.jpg
+tag_img: 
 
 # The banner image of tag page
 # format:
 #  - tag name: xxxxx
-tag_per_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/page1.jpg
+tag_per_img: 
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/page1.jpg
+category_img: 
 
 # The banner image of category page
 # format:
 #  - category name: xxxxx
-category_per_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/page1.jpg
+category_per_img: 
 
 cover:
   # display the cover or not (是否顯示文章封面)
@@ -139,7 +139,7 @@ error_img:
 error_404:
   enable: false
   subtitle: 'Page Not Found'
-  background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
+  background: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/home1.jpeg
 
 post_meta:
   page: # Home Page
@@ -248,7 +248,7 @@ comments:
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
     - Twikoo
-  # - Valine
+    - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -498,7 +498,7 @@ tag_ui: # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: url(https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/bg1.jpeg)
 
 # Footer Background
 footer_bg: false
@@ -515,11 +515,11 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (動態彩帶)
@@ -569,12 +569,12 @@ ClickShowText:
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化頁面顯示)
 beautify:
-  enable: false
-  field: post # site/post
+  enable: true
+  field: site # site/post
   title-prefix-icon: '\f0c1'
   title-prefix-icon-color: '#F47466'
 
@@ -641,7 +641,7 @@ aside:
       link: https://github.com/2X-ercha
   card_announcement:
     enable: true
-    content: "走过路过就顺便留下足迹呗！\n(由于评论系统更换，2021年1月3日前的评论将被删除)"
+    content: "走过路过就顺便留下足迹呗！\n"
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -685,7 +685,7 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   avatar: true
@@ -698,7 +698,7 @@ newest_comments:
     enable: false
     forum:
     api_key:
-  twikoo: false
+  twikoo: true
   waline: false
 
 # Bottom right button (右下角按鈕)
@@ -815,14 +815,14 @@ instantpage: false
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
 pangu:
-  enable: false
+  enable: true
   field: site # site/post
 
 # Lazyload (圖片懶加載)
 # https://github.com/verlok/lazyload
 lazyload:
   enable: true
-  post: /img/loading.gif
+  post: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif
 
 # PWA
 # See https://github.com/JLHwung/hexo-offline
@@ -853,9 +853,9 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+    <link rel="stylesheet" href="/css1/add.css">
   bottom:
-    # - <script src="xxxx"></script>
+    # <script src="/js/add.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
@@ -877,7 +877,9 @@ CDN:
   disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://cdn.jsdelivr.net/npm/twikoo/dist/twikoo.all.min.js
+
+  twikoo: https://cdn.jsdelivr.net/npm/twikoo@1.2.0/dist/twikoo.all.min.js
+  
   waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
 
   # share
@@ -948,24 +950,3 @@ CDN:
 
   artitalk: https://cdn.jsdelivr.net/npm/artitalk
 
-# 以下是自己添加的一些东西
-# Flink Page Add
-Flink:
-  #requirement
-  require_headline: A Few Requirements
-  requirement1: noionion 不接受广告呢，这个博客只是用来分享自己的一些心得和生活学习记录的
-  requirement2: 互换友链的话 HTTP 和 HTTPS 均可，不强制性要求小绿锁，但是只有一个 IP 或者带端口的不接受哦
-  requirement3: 网站要有维护，定期或不定期均可，线下朋友请忽略这一条
-  requirement4: 如果你已经把我加进了你的友链，鄙人将感到十分荣幸，当然我处理的速度也会快一些呢~
-  requirement5: 如果你想联系我，在 About 页面中有我的相关联系方式
-
-  #swap friend url
-  bb: 如果你想要和我交换友链，请在下方留言或发邮件到 noionion@outlook.com 即可
-  bb_wow: 记得备注好你的 name, url, img, description 等信息哦
-  
-  #my url
-  me: "My Friend Link Information"
-  name: "name: noionion"
-  url: "url: https://noionion.top/"
-  img: "img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg"
-  desc: "desc: 用这生命中的每一秒，给自己一个不后悔的未来"
