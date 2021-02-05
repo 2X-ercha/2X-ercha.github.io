@@ -18,8 +18,6 @@ img {
 [data-theme="dark"] {
   /* --card-bg: #121212; */
   --card-bg: #12121288;
-  --btn-hover-color: #787878;
-  --btn-bg: #1f1f1f;
   --btn-hover-color: #ff3f3f;
   --btn-bg: #a153ff;
   /* --font-color: rgba(255,255,255,0.7); */
