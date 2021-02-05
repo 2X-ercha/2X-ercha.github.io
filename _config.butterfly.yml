@@ -7,24 +7,26 @@
 #   name || link || icon
 
 menu:
-  Home: / || fas fa-home
+  主页: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
-  Tags || fas fa-tags:
-   - Diary || /tags/Diary || fas fa-book
-   - Course || /tags/Course || fas fa-folder
+  分类 || fas fa-tags:
+   - 随笔 || /tags/Diary || fas fa-book
+   - 教程 || /tags/Course || fas fa-folder
    - C++ || /tags/C/ || fas fa-terminal
    - Python || /tags/Python/ ||fas fa-terminal
-   - Project || /tags/Project/ ||fas fa-project-diagram
+   - 项目？ || /tags/Project/ ||fas fa-project-diagram
   # Categories: /categories/ || fas fa-folder-open
-  Entertainment || fas fa-gamepad:
-   - Music || /music/ || fas fa-music
+  列表 || fas fa-list-ul:
+   - 音乐 || /music/ || fas fa-music
+   - 碎言碎语 || /talk/ || fas fa-comment
+   - 小被几 || https://hpp.noionion.workers.dev/hpp/admin/login || fas fa-keyboard
   #   - Movie || /movies/ || fas fa-video
-  Message_Board: /messageboard/ || fas fa-comment-alt
-  Link: /link/ || fas fa-link
-  About: /about/ || fas fa-heart
+  留言板: /messageboard/ || fas fa-comment-alt
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
-hide_sidebar_menu_child: false
+hide_sidebar_menu_child: true
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -157,7 +159,7 @@ post_meta:
 
 # wordcount (字數統計)
 wordcount:
-  enable: false
+  enable: true
   post_wordcount: true
   min2read: true
   total_wordcount: true
@@ -201,7 +203,7 @@ reward:
 related_post:
   enable: true
   limit: 6 # Number of posts displayed
-  date_type: created # or created or updated 文章日期顯示創建日或者更新日
+  date_type: updated # or created or updated 文章日期顯示創建日或者更新日
 
 # figcaption (圖片描述文字)
 photofigcaption: true
@@ -286,7 +288,7 @@ gitalk:
   repo:
   owner:
   admin:
-  language: en # en, zh-CN, zh-TW, es-ES, fr, ru
+  language: zh-CN # en, zh-CN, zh-TW, es-ES, fr, ru
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: false # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
@@ -612,7 +614,7 @@ subtitle:
   # source: 3  調用一句網（簡體） http://yijuzhan.com/
   # source: 4  調用今日詩詞（簡體） https://www.jinrishici.com/
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: 2
+  source: false
   # 如果有英文逗號' , ',請使用轉義字元 &#44;
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
