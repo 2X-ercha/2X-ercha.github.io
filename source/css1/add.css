@@ -57,3 +57,46 @@ img {
 #footer #footer-wrap a {
     color: var(--font-color);
 }
+
+
+/* hpp-talk */
+.hpp_talk_img {
+    width: auto!important;
+    max-width: 100px!important;
+}
+
+.panel-footer {
+    border-radius: 0 0 3px 3px;
+    padding: 1px 15px;
+    background-color: #a153ff;
+}
+
+#article-container img {
+    margin: 0 auto 0rem;
+}
+
+.img-square {
+    border-radius: 100%;
+}
+
+[data-theme='dark'] .hide-button, [data-theme='dark'] .btn-beautify, [data-theme='dark'] .mermaid, [data-theme='dark'] .post-outdate-notice, [data-theme='dark'] .error-img, [data-theme='dark'] #article-container iframe, [data-theme='dark'] img, [data-theme='dark'] .gist, [data-theme='dark'] .ads-wrap {
+    filter: brightness(1);
+}
+
+.text-muted {
+    color: #f9a5fc;
+}
+
+element.style {
+    width: 100px;
+    height: 40px;
+    border-width: 0px;
+    border-radius: 100px;
+    background: #dbbeff;
+    cursor: pointer;
+    outline: none;
+    font-family: auto;
+    font-size: 16px;
+    margin: .2rem auto 0;
+    display: block;
+}
