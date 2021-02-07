@@ -4,7 +4,7 @@ date: 2021-02-05 16:14:55
 type: "talk"
 ---
 <!-- 引用 HexoPlusPlus_Talk组件 -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.9/talk.css" /> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@478d606/talk.css" /> 
 <script src="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@1.0.9/talk_user.js"></script>
 <!-- 创建HexoPlusPlus_Talk容器 -->
 <div id="hpp_talk"></div>
