@@ -7,6 +7,7 @@ tags:
 top_img: 'http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/hpptop.png'
 cover: 'https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/hppcover.png'
 description: '说实在，HPP-talk是真的不好看，我只好试试改一改了（其实是下学期打算学点css）'
+abbrlink: 14413
 date: 2021-02-07 21:54:00
 updated: 2021-02-07 21:54:00
 ---
