@@ -65,7 +65,7 @@ img {
     max-width: 100px!important;
 }
 
-.panel-footer {
+.hppt_panel-footer {
     border-radius: 0 0 3px 3px!important;
     padding: 1px 15px!important;
     background-color: #a153ff!important;
@@ -75,7 +75,7 @@ img {
     margin: 0 auto 0rem!important;
 }
 
-.img-square {
+.hppt_img-square {
     border-radius: 100%!important;
 }
 
@@ -83,11 +83,11 @@ img {
     filter: brightness(1)!important;
 }
 
-.text-muted {
+.hppt_text-muted {
     color: #f9a5fc!important;
 }
 
-element.style {
+.hppt_button_nextpage {
     width: 100px!important;
     height: 40px!important;
     border-width: 0px!important;
