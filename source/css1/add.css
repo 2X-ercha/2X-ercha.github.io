@@ -101,7 +101,7 @@ img {
     display: block!important;
 }
 
-.hppt_button_nextpage.a:hover {
+a.hppt_button_nextpage {
     color: #000000!important;
     font-weight: bolder!important;
 }
