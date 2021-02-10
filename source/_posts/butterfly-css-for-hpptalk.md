@@ -19,9 +19,11 @@ github: https://github.com/2X-ercha/butterfly-css-for-hpptalk
 
 --------
 
-## 第一个魔改的css样式（不知道怎么命名）
+## Bfnoion
 
 引用地址：https://cdn.jsdelivr.net/gh/2x-ercha/butterfly-css-for-hpptalk/Butterfly_1.css
+
+已对bf主题色适配（已支持魔改颜色后的bf）
 
 ### 效果图：
 
