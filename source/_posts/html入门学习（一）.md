@@ -68,19 +68,12 @@ html
 比较可能会在md里面打的：
 
 <b style="color: red;">常用红色加粗文本</b><br/>`<b style="color: red;">常用红色加粗文本</b>`
-<br/>
 <b style="color: orange;">常用橙色加粗文本</b><br/>`<b style="color: orange;">常用橙色加粗文本</b>`
-<br/>
 <b style="color: yellow;">常用黄色加粗文本</b><br/>`<b style="color: yellow;">常用黄色加粗文本</b>`
-<br/>
 <b style="color: green;">常用绿色加粗文本</b><br/>`<b style="color: green;">常用绿色加粗文本</b>`
-<br/>
 <b style="color: cyan;">常用青色加粗文本</b><br/>`<b style="color: cyan;">常用青色加粗文本</b>`
-<br/>
 <b style="color: blue;">常用蓝色加粗文本</b><br/>`<b style="color: blue;">常用蓝色加粗文本</b>`
-<br/>
 <b style="color: purple;">常用紫色加粗文本</b><br/>`<b style="color: purple;">常用紫色加粗文本</b>`
-<br/>
 <strong style="color: violet;">还有strong加粗</strong><br/>`<strong style="color: violet;">还有strong加粗</strong>`
 
 --------
@@ -89,22 +82,13 @@ html
 
 <b style="color: white;">b标签是加粗</b>
 <strong style="color: cornsilk;">strong标签也是加粗</strong>
-<br/>
 <big style="color: red;">big标签是放大</big>
-正常
 <small style="color: blueviolet;">small标签是缩小</small>
-<br/>
 <em style="color: pink;">em是斜体</em>
 <i style="color: cornsilk;">i也是斜体</i>
-<br/>
-<sup style="color: cyan;">sup上标</sup>
-正常
-<sub style="color: cyan;">sub下标</sub>
-<br/>
+<sup style="color: cyan;">sup上标</sup>正常<sub style="color: cyan;">sub下标</sub>
 <ins style="color: orange;">ins标签插入字（下划线）</ins>
-<br/>
 <del style="color: violet;">del标签删除字</del>
- <br/>
 
 --------
 
