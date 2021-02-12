@@ -106,6 +106,12 @@
       avatar: https://zfe.space/images/headimage.png
       descr: 做个有梦想的人！
 
+    - name: JeckXu
+      link: https://jeckxu.cn
+      avatar: https://gitee.com/JeckXu666/jeckxu_img/raw/master/blog_img/%E5%BE%AE%E8%8A%AF%E7%89%87%20(14).png
+      descr: 嵌入式技术记录与分享
+
+
 - class_name: 线下后宫团
   class_desc: 线下的同学朋友们
   link_list:
