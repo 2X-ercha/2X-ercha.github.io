@@ -1,3 +1,11 @@
+- class_name: 店长专属
+  class_desc: 我也不知道我为什么要给店长弄个专属……
+  link_list:
+    - name: Akilarの糖果屋
+      link: https://akilar.top/
+      avatar: https://akilar.top/img/siteicon/favicon.png
+      descr: 期待您的光临！
+
 - class_name: 线上友人帐
   class_desc: 膜一膜 noionion's friends
   link_list:
