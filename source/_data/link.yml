@@ -40,8 +40,8 @@
       descr: 吾将上下而求索！
       
     - name: 小嘉的部落格
-      link: //blog.imzjw.cn
-      avatar: //cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg
+      link: https://blog.imzjw.cn
+      avatar: https://cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg
       descr: 好记性不如烂笔头
       
     - name: CC的部落格
