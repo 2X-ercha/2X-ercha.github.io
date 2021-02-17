@@ -1,3 +1,16 @@
+/* 字体 */
+@font-face{
+    font-family:'tea' ;  /* 字体名自定义即可 */
+    src:url('/fonts/xindi_tea_base.ttf'); /* 字体文件路径 */
+    font-display : swap;
+}
+
+h1,h2,h3,h4,h5,h6,a#site-name,span#subtitle,a.site-page,a.article-title,a.categoryBar-list-link,a.blog-slider__title,.article-sort-title,.tag-cloud-title,.category-title,a.category-list-link {
+    font-family: 'tea';/* , sans-serif; */
+}
+
+
+
 /* 鼠标样式 */
 body {
     cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
