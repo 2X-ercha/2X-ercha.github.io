@@ -1,8 +1,7 @@
 ---
 title: 新年前爬个明日方舟的立绘
 categories:
-  - Code
-  - Python
+  - 爬虫试水
 tags:
   - Python
 top_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/ark.png

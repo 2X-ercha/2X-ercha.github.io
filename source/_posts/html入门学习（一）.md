@@ -1,8 +1,7 @@
 ---
 title: html入门学习（一）
 categories:
-  - Code
-  - html
+  - 前端入门学习
 tags:
   - html
 top_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/pagecode.jpg
@@ -123,7 +122,7 @@ html
 如果` <address> `元素位于` <article>` 元素内部，则它表示该文章作者/所有者的联系信息。
 `<address>` 元素的文本通常呈现为斜体。大多数浏览器会在该元素的前后添加换行。
 如
- 
+
 <address>
 Written by <a href="mailto:noionion@outlook.com">noionion</a>.<br/> 
 Visit us at:<br/>

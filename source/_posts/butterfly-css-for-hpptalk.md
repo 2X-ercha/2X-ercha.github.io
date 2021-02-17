@@ -1,7 +1,7 @@
 ---
 title: 'butterfly-css-for-hpptalk: 给HPP的说说页魔改主题（适用于Butterfly）'
 categories:
-  - Course
+  - 前端入门学习
 tags:
   - Project
 top_img: 'http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/hpptop.png'

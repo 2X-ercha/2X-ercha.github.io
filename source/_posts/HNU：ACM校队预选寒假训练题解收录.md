@@ -1,8 +1,7 @@
 ---
 title: 'HNU:ACM校队预选寒假训练题解收录'
 categories:
-  - Code
-  - C++
+  - C++学习笔记
 tags:
   - C++
   - ACM

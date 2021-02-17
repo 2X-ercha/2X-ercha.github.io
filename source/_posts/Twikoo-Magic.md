@@ -1,7 +1,7 @@
 ---
 title: 'Twikoo-Magic: 一个适用于Twikoo评论系统和HexoPlusPlus的表情仓库'
 categories:
-  - Course
+  - 实用项目
 tags:
   - Project
 top_img: 'https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/Twikoo.png'

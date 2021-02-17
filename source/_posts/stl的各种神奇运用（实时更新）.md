@@ -1,8 +1,7 @@
 ---
 title: stl的正确食用方式（不定时更新）
 categories:
-  - Code
-  - C++
+  - C++学习笔记
 tags:
   - C++
 top_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/pagecode.jpg

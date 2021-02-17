@@ -13,7 +13,8 @@ menu:
    - 随笔 || /tags/Diary || fas fa-book
    - 教程 || /tags/Course || fas fa-folder
    - C++ || /tags/C/ || fas fa-terminal
-   - Python || /tags/Python/ ||fas fa-terminal
+   - Python || /tags/Python/ || fas fa-terminal
+   - HTML || /tags/html/ || fas fa-terminal
    - 项目？ || /tags/Project/ ||fas fa-project-diagram
   # Categories: /categories/ || fas fa-folder-open
   列表 || fas fa-list-ul:
@@ -871,6 +872,11 @@ CDN:
   jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js
   main: /js/main.js
   utils: /js/utils.js
+  
+  # 首页轮播图
+  swiper_js: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/js/swiper.min.js
+  swiper_css: https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.6/css/swiper.min.css
+  swiper_init: /js/swiper_init.js
 
   # pjax
   pjax: https://cdn.jsdelivr.net/npm/pjax/pjax.min.js
@@ -955,3 +961,37 @@ CDN:
 
   artitalk: https://cdn.jsdelivr.net/npm/artitalk
 
+# 首页分类磁铁卡片
+# 仅显示一级分类
+categoryBar:
+  enable: true
+  column: even # 显示列数,odd：3列 | even：4列
+  row: 2 #显示行数，默认两行，超过行数切换为滚动显示
+  descr:
+    - ACM训练笔记啦
+    - 开始学点前端知识
+    - 可以搞一搞
+    - 乱七八糟的教程
+    - 最会爬了(bushi)
+    - 仅仅用于测试
+    - 日常吐槽哔哔
+  cover:
+    - url('https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/cover/1.jpg')
+    - url('http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/cover/2.jpg')
+    - url('http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/cover/3.jpg')
+    - url('http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/cover/4.png')
+    - url('http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/cover/5.jpeg')
+    - url('http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/cover/6.jpeg')
+    - url('http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/cover/7.jpeg')
+    - url('http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/cover/8.jpeg')
+    # - url('')
+    # - url('')
+    # - url('')
+    # - url('') 
+    
+    # - url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover1.webp')
+    # - '#abcdef' # HEX格式色值需要用''包裹，不然会被识别成注释
+    # - rgba(45,67,89,0.7)
+    # - linear-gradient(rgba(0, 0, 0, 0.4) 25%, rgba(200,16 , 16, 0) 100%)
+    # - url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover5.webp')
+    # - url('https://cdn.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@v3.3.3_2/img/cover6.webp')
