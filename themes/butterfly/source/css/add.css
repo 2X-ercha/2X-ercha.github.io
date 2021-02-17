@@ -1,0 +1,64 @@
+/* 鼠标样式 */
+body {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+        default;
+}
+a,
+img {
+    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+        default;
+}
+
+/* 首页磁帖 */
+a.categoryBar-list-link {
+    text-shadow: #0000001a 1px 0 0, #000000 0 1px 0, #000000 -1px 0 0, #00000000 0 -1px 0;
+}
+
+/* 卡片背景透明度 */
+:root {
+  /* --card-bg: #fff; */
+  --card-bg: #ffefefd9!important;
+}
+
+[data-theme="dark"] {
+  /* --card-bg: #121212; */
+  --card-bg: #12121288!important;
+  --btn-hover-color: #787878!important;
+  --btn-bg: #1f1f1f!important;
+  --btn-hover-color: #ff3f3f!important;
+  --btn-bg: #a153ff!important;
+  /* --font-color: rgba(255,255,255,0.7); */
+  /* --hr-border: rgba(255,255,255,0.4); */
+  --font-color: rgb(255, 255, 255)!important;
+  --hr-border: rgb(161, 83, 255)!important;
+}
+
+/* Twikoo评论框高度 */
+.el-textarea__inner {
+  /* min-height: 75px; */
+  /* height: 75px; */
+  min-height: 210px !important;
+  height: 210px !important;
+}
+
+
+/* 页脚半透明 */
+#footer {
+    background: rgba(255,255,255,.15);
+    color: #000;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    backdrop-filter: saturate(100%) blur(5px)
+}
+
+#footer::before {
+    background: rgba(255,255,255,.15)
+}
+
+#footer #footer-wrap {
+    color: var(--font-color);
+}
+
+#footer #footer-wrap a {
+    color: var(--font-color);
+}

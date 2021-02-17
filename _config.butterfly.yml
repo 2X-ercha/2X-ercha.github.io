@@ -857,7 +857,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    <link rel="stylesheet" href="/css1/add.css">
+    <link rel="stylesheet" href="/css/add.css">
   bottom:
     - <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
     - <script src="https://cdn.jsdelivr.net/gh/2X-ercha/Butterfly-friend-poor-html/friendcircle/request.js"></script>
