@@ -1,12 +1,18 @@
 /* 字体 */
 @font-face{
     font-family:'tea' ;  /* 字体名自定义即可 */
-    src:url('https://cdn.jsdelivr.net/gh/2x-ercha/cdn-for-try/xindi_tea_base.TTF'); /* 字体文件路径 */
+    src:url('https://cdn.jsdelivr.net/gh/2x-ercha/cdn-for-try/fonts/xindi_tea_base.TTF'); /* 字体文件路径 */
     font-display : swap;
 }
 
-h1,h2,h3,h4,h5,h6,a#site-name,span#subtitle,a.site-page,a.article-title,a.categoryBar-list-link,a.blog-slider__title,.article-sort-title,.tag-cloud-title,.category-title,a.category-list-link {
-    font-family: 'tea';/* , sans-serif; */
+@font-face{
+    font-family:'aqqxs' ;  /* 字体名自定义即可 */
+    src:url('https://cdn.jsdelivr.net/gh/2x-ercha/cdn-for-try/fonts/FXAiQingQiXiangSuo.ttf'); /* 字体文件路径 */
+    font-display : swap;
+}
+
+h1,h2,h3,h4,h5,h6,span,a#site-name,span#subtitle,a.site-page,a.article-title,a.categoryBar-list-link,a.blog-slider__title,.article-sort-title,.tag-cloud-title,.category-title,a.category-list-link {
+    font-family: 'aqqxs', sans-serif;
 }
 
 
@@ -27,7 +33,7 @@ a.categoryBar-list-link {
     text-shadow: #0000001a 1px 0 0, #000000 0 1px 0, #000000 -1px 0 0, #00000000 0 -1px 0;
 }
 
-/* 卡片背景透明度 */
+/* 卡片背景透明度颜色重写 */
 :root {
   /* --card-bg: #fff; */
   --card-bg: #ffefefd9;
