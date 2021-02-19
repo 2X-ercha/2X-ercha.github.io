@@ -11,7 +11,18 @@
     font-display : swap;
 }
 
-h1,h2,h3,h4,h5,h6,span,a#site-name,span#subtitle,a.site-page,a.article-title,a.categoryBar-list-link,a.blog-slider__title,.article-sort-title,.tag-cloud-title,.category-title,a.category-list-link {
+h1,h2,h3,h4,h5,h6,
+a#site-name,span#subtitle,a.site-page,
+a.title,
+#aside-content,
+a.article-sort-item-title,
+a.article-title,
+a.categoryBar-list-link,
+a.blog-slider__title,
+.article-sort-title,
+.tag-cloud-title,
+.category-title,
+a.category-list-link {
     font-family: 'aqqxs', sans-serif;
 }
 
