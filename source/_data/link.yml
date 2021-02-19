@@ -5,6 +5,7 @@
       link: https://akilar.top/
       avatar: https://akilar.top/img/siteicon/favicon.png
       descr: 期待您的光临！
+      siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
 
 - class_name: 线上友人帐
   class_desc: 膜一膜 noionion's friends
@@ -13,39 +14,44 @@
       link: https://bili33.top/
       avatar: https://cdn.jsdelivr.net/gh/GamerNoTitle/Picture-repo@1.0/AboutMe/logo-mini.png
       descr: 永远相信 美好的事情 即将发生
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/bili33.top.png
       
     - name: XJHui's Blog
       link: https://plushine.cn/
       avatar: https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/touxiang.jpg
       descr: 这个博主想骗访客^_^
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/plushine.cn.png
 
     - name: uncleacc
       link: https://www.fezhu.top/
       avatar: https://cdn.jsdelivr.net/gh/uncleacc/cdn/img/custom/avatar.png
       descr: 一只努力学习的蒟蒻仔
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.fezhu.top.png
     
     - name: 火喵酱
       link: https://dorcandy.cn/
       avatar: https://cdn.jsdelivr.net/gh/zc998800/cdn/image/dorcandy.jpg
       descr: 一喵一世界
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/dorcandy.cn.png
       
     - name: Android
-      link: https://android99.me
+      link: https://android99.me/
       avatar: https://android99.me/img/avatar.png
       descr: 矩阵
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/android99.me.png
     
     - name: 树寒的博客
-      link: https://shuxhan.com
+      link: https://shuxhan.com/
       avatar: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg
       descr: 吾将上下而求索！
       
     - name: 小嘉的部落格
-      link: https://blog.imzjw.cn
+      link: https://blog.imzjw.cn/
       avatar: https://cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg
       descr: 好记性不如烂笔头
       
     - name: CC的部落格
-      link: https://blog.ccknbc.cc
+      link: https://blog.ccknbc.cc/
       avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
       descr: CC康纳百川
       
@@ -75,7 +81,7 @@
       descr: 爱折腾的设计师
     
     - name: Nescx
-      link: https://www.nesxc.com
+      link: https://www.nesxc.com/
       avatar: https://cdn-1.nesxc.com/img/avatar.jpg
       descr: 青石落晚巷 故人未还乡
     
@@ -95,7 +101,7 @@
       descr: 一顿CV猛如虎.
       
     - name: 陈YF的博客
-      link: https://blog.cyfan.top
+      link: https://blog.cyfan.top/
       avatar: https://unpkg.zhimg.com/chenyfan-oss@1.0.0/pic/BLOGER.jpg
       descr: 一个在互联网角落挣扎的小小博客，很小很小
       
@@ -103,19 +109,20 @@
       link: https://home.mx142.cn/
       avatar: https://www.mx142.cn/medias/logo.png
       descr: 一个分享知识和快乐的地方！
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/home.mx142.cn.png
       
     - name: 未央の童话镇
-      link: https://forever97.top
+      link: https://forever97.top/
       avatar: https://forever97.top/img/avatar.png
       descr: 在人海里梦游
       
     - name: 小冰博客
-      link: https://zfe.one
+      link: https://zfe.one/
       avatar: https://zfe.space/images/headimage.png
       descr: 做个有梦想的人！
 
     - name: JeckXu
-      link: https://jeckxu.cn
+      link: https://jeckxu.cn/
       avatar: https://gitee.com/JeckXu666/jeckxu_img/raw/master/blog_img/%E5%BE%AE%E8%8A%AF%E7%89%87%20(14).png
       descr: 嵌入式技术记录与分享
 
