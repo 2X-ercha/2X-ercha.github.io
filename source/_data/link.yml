@@ -129,7 +129,12 @@
     - name: YFun's Note
       link: https://note.yfun.top/
       avatar: https://note.yfun.top/images/favicon.png
-      desrc: 我们生活在大地上，但我们的梦想超越天空。
+      descr: 我们生活在大地上，但我们的梦想超越天空。
+
+    - name: “绒布球”
+      link: “https://rongbuqiu.com/"
+      avatar: “https://p.pstatp.com/origin/138a1000258dc4c420bbf"
+      descr: 绒布球的快乐小站
 
 - class_name: 线下后宫团
   class_desc: 线下的同学朋友们
