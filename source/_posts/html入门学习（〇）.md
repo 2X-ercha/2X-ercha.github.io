@@ -18,8 +18,14 @@ date: 2021-02-19 19:57:27
 
 [菜鸟教程-HTML 教程](https://www.runoob.com/html/html-tutorial.html)
 
-###educoder的新用途
+### educoder的新用途
 
 [Web应用开发——HTML/CSS](https://www.educoder.net/paths/844)
 
 [JavaScript在线实战：从入门到精通](https://www.educoder.net/paths/40)
+
+--------
+
+以后有看到就继续加上去
+
+同时魔改博客的时候也在实践中学习css和js喽！
