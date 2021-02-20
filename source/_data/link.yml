@@ -136,6 +136,11 @@
       avatar: https://p.pstatp.com/origin/138a1000258dc4c420bbf
       descr: 绒布球的快乐小站
 
+    - name: Skyil
+      link: https://skyil.cn/
+      avatar: https://cdn.jsdelivr.net/gh/skyilz/CDN/img/avatar.jpg
+      descr: 何以解忧？唯有代码与游戏
+
 - class_name: 线下后宫团
   class_desc: 线下的同学朋友们
   link_list:
