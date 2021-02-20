@@ -5,7 +5,7 @@ categories:
 tags:
   - C++
 top_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/pagecode.jpg
-cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/covercode.jpg
+# cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/covercode.jpg
 description: 被迫复习
 abbrlink: 10146
 date: 2020-11-28 14:48:27

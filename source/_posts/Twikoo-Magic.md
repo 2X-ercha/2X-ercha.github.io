@@ -5,7 +5,7 @@ categories:
 tags:
   - Project
 top_img: 'https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/Twikoo.png'
-cover: 'https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/Twikoo.png'
+# cover: 'https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/Twikoo.png'
 description: Twikoo / HexoPlusPlus与Twikoo-Magic一起食用更配哦
 abbrlink: 4712
 date: 2021-01-07 11:12:00

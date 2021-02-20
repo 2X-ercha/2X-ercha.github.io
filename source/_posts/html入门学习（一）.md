@@ -5,7 +5,7 @@ categories:
 tags:
   - html
 top_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/pagecode.jpg
-cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/covercode.jpg
+# cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/covercode.jpg
 description: 来学学新东西
 abbrlink: 10752
 date: 2021-02-11 19:57:27

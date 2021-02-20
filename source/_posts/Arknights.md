@@ -5,7 +5,7 @@ categories:
 tags:
   - Python
 top_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/ark.png
-cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/ark.png
+# cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/ark.png
 description: 元旦前一天爬一爬
 abbrlink: 53760
 date: 2020-12-31 00:00:00

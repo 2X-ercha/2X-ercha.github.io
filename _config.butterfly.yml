@@ -133,6 +133,23 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/13.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/14.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/15.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/16.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/17.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/19.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/2.png
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/20.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/21.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/22.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/23.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/24.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/25.jpg
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/4.png
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/8.png
+    - https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/9.png
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:

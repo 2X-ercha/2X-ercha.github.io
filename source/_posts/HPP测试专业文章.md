@@ -5,7 +5,7 @@ categories:
 tags:
   - Course
 top_img: 'http://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/hpptop.png'
-cover: 'https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/hppcover.png'
+# cover: 'https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/hppcover.png'
 description: 这是一篇专门用来测试HexoPlusPlus新功能的文章
 abbrlink: 17660
 date: 2021-02-06 17:27:00
