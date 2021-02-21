@@ -5,6 +5,8 @@ tags:
   - Diary
   - Course
 description: 一如魔改深似海，一直魔改一直耍
+top_img: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg
+cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg
 abbrlink: 10567
 date: 2021-02-20 20:43:07
 ---
