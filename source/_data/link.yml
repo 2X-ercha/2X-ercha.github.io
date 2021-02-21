@@ -7,6 +7,19 @@
       descr: 期待您的光临！
       siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
 
+- class_name: 闰土刺猹
+  class_desc: 原因：看见了一只傻猹就想拿叉子刺<br><b style="color:cyan">（店长群里的专属称号）</b>
+  link_list:
+    - name: 【闰土→】陈YF
+      link: https://blog.cyfan.top/
+      avatar: https://unpkg.zhimg.com/chenyfan-oss@1.0.0/pic/BLOGER.jpg
+      descr: 一个在互联网角落挣扎的小小博客，很小很小
+
+    - name: 【猹→】贰猹
+      link: https://noionion.top/
+      avatar: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
+      descr: 用这生命中的每一秒，给自己一个不后悔的未来
+
 - class_name: 线上友人帐
   class_desc: 膜一膜 noionion's friends
   link_list:
@@ -100,11 +113,6 @@
       avatar: https://q1.qlogo.cn/g?b=qq&nk=10001&s=640
       descr: 一顿CV猛如虎.
       
-    - name: 陈YF的博客
-      link: https://blog.cyfan.top/
-      avatar: https://unpkg.zhimg.com/chenyfan-oss@1.0.0/pic/BLOGER.jpg
-      descr: 一个在互联网角落挣扎的小小博客，很小很小
-      
     - name: Mx
       link: https://home.mx142.cn/
       avatar: https://www.mx142.cn/medias/logo.png
@@ -140,6 +148,11 @@
       link: https://skyil.cn/
       avatar: https://cdn.jsdelivr.net/gh/skyilz/CDN/img/avatar.jpg
       descr: 何以解忧？唯有代码与游戏
+
+    - name: 青葱博客
+      link: 'https://imciraos.com/'
+      avatar: 'https://cdn.jsdelivr.net/gh/ciraos/greatimgbed@master/avatar.jpg'
+      descr: 一切皆付笑谈中
 
 - class_name: 线下后宫团
   class_desc: 线下的同学朋友们

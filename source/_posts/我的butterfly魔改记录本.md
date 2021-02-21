@@ -31,6 +31,8 @@ root
     └─butterfly
         ├─layout
         │   ├─includes
+        │   │   ├─post
+        │   │   │   └─post-copyright.pug
         │   │   ├─page
         │   │   │   └─flink.pug
         │   ├─index.pug
@@ -38,15 +40,17 @@ root
         └─source
             ├─css
             │   ├─_layout
-            │   │   └─categoryBar.styl
-            │   │   └─swiperstyle.styl
+            │   │   ├─categoryBar.styl
+            │   │   ├─swiperstyle.styl
+            │   │   └─post.styl
             │   ├─_page
             │   │   └─flink.styl
             │   ├─commentsbar.css
             │   ├─index.styl
             │   └─add.css
             └─js
-                └─swiper_init.js
+                ├─swiper_init.js
+                └─kernel.js
 
 ```
 
@@ -102,11 +106,29 @@ root
 
 --------
 
+## 版权信息美化
+
+> 参考教程：Nesxc的[butterfly版权美化教程](https://www.nesxc.com/post/hexocc.html)
+
+修改的主题源码：  
+`[root]\themes\butterfly\layout\includes\post\post-copyright.pug`  
+`[root]\themes\butterfly\source\css\_layout\post.styl`
+
+## 拒绝IE,从我做起
+
+> 参考教程: Nesxc的[Butterfly检测IE内核跳转教程](https://www.nesxc.com/post/noie.html)
+
+新增的主题源码：  
+`[root]\themes\butterfly\source\js\kernel.js`
+`[root]\themes\butterfly\source\kernel.html`
+
+--------
+
 # 非主题源码修改区
 
 ## 双栏卡片主页文章
 
-> 参考文章：冰老师的[教程：基于Butterfly主题的双栏卡片主页文章css样式](https://zfe.space/post/52914.html)
+> 参考教程：冰老师的[教程：基于Butterfly主题的双栏卡片主页文章css样式](https://zfe.space/post/52914.html)
 
 (我这里直接在主题配置文件引入冰老师的css，所以不涉及其他修改)
 
@@ -114,7 +136,7 @@ root
 
 ## 字体样式修改
 
-> 参考文章：冰老师的[Custom Beautify](https://akilar.top/posts/ebf20e02/)
+> 参考教程：店长的[Custom Beautify](https://akilar.top/posts/ebf20e02/)
 
 ```CSS
 @font-face{

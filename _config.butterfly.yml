@@ -879,7 +879,9 @@ inject:
   bottom:
     - <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
     - <script src="https://cdn.jsdelivr.net/gh/2X-ercha/Butterfly-friend-poor-html/friendcircle/request.js"></script>
+    - <script defer data-pjax src="/js/kernel.js"></script>
     # <script src="/js/add.js"></script>
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
