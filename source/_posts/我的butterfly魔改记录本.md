@@ -165,6 +165,17 @@ a.category-list-link {
 
 --------
 
+## 版权字体微调
+
+```CSS
+.post-copyright {
+    font-family: 'aqqxs', sans-serif;
+    font-size: large
+}
+```
+
+--------
+
 ## 首页磁铁字体微调
 
 其实就是用阴影给分类的标题上了描边
