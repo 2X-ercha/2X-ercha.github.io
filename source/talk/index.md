@@ -2,6 +2,7 @@
 title: 碎言碎语 | talk
 date: 2021-02-05 16:14:55
 type: "talk"
+sitemap: false
 ---
 <!-- 引用 HexoPlusPlus_Talk组件 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@31d2340/talk.css" /> 

@@ -1,6 +1,7 @@
 ---
 title: 留言板 | Message_Board
 date: 2020-12-16 11:28:12
+sitemap: false
 ---
 <link rel="stylesheet" href="/css/commentsbar.css"/>
   <div id="computer">
