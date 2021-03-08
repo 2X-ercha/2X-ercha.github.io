@@ -230,13 +230,19 @@ img {
 
 ## Twikoo评论框高度
 
+根据店长的建议修改成了这样：
+
+> - 首先只需要设置最小高度即可，不需要再加一条高度（虽然文本框是超出转换为滚动条的，但是还是要符合开发逻辑才行啊）。
+> - 然后加一条在聚焦状态下的样式，隐藏图片。这样手机端输入的时候不会被背景图片影响文字输入。
+
 ```CSS
-.el-textarea__inner {
-  /* min-height: 75px; */
-  /* height: 75px; */
-  min-height: 210px !important;
-  height: 210px !important;
-}
+.tk-input[data-v-619b4c52]
+  .el-textarea__inner{
+    min-height: 210px !important;
+  }
+  .el-textarea__inner:focus{
+      background-image: none !important;
+  }
 ```
 
 --------
