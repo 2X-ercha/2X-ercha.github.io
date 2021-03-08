@@ -145,7 +145,7 @@
       descr: 绒布球的快乐小站
 
     - name: Skyil
-      link: https://skyil.cn/
+      link: https://blog.skyil.cn/
       avatar: https://cdn.jsdelivr.net/gh/skyilz/CDN/img/avatar.jpg
       descr: 何以解忧？唯有代码与游戏
 
@@ -168,6 +168,11 @@
       link: https://wr0926.ml
       avatar: https://cdn.jsdelivr.net/gh/wayne0926/myphoto/img/avatar.jpg
       descr: 以梦为马，不负韶华。
+    
+    - name: 天昕
+      link: https://sutianxin.top
+      avatar: https://gitee.com/sutianxin/my-hexo-blog-photo/raw/master/20210213111233.png
+      descr: 往者不谏 来者可追
 
 
 - class_name: 线下后宫团
