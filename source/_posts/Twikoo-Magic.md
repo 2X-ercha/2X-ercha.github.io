@@ -13,7 +13,7 @@ updated: 2021-02-09 22:38:00
 ---
 # Twikoo-Magic
 
-github仓库地址：https://github.com/2X-ercha/Twikoo-and-HexoPlusPlus-Magic
+github仓库地址：https://github.com/2X-ercha/Twikoo-Magic
 
 ### 更新说明
 
