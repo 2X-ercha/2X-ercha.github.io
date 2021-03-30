@@ -1,10 +1,11 @@
 ---
-title: '用于某次py教材编写而做的精简复习（万字初稿）'
+title: 用于某次py教材编写而做的精简复习（万字初稿）
 categories:
   - 教程
 tags:
   - Python
 description: balabala水文章
+abbrlink: 63595
 ---
 其实本来不打算把这些发上来的，但有时候做东西做着做着就被苟到了。
 
