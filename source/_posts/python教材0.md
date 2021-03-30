@@ -105,11 +105,7 @@ Anaconda 官网地址：https://www.anaconda.com/
 
 下载后，可以以默认的选项安装，建议在下图步骤时将`Add Anaconda3 to my PATH environment variable`勾上）
 
-![image-20210225174931808](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210225174931808.png)
-
 在安装结束后，你将会在windows的开始面板处找到Anaconda的文件夹
-
-![image-20210225181101115](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210225181101115.png)
 
 其中的`Jupyter Notebook`和`Spyder`就是我们课程中所使用的两个软件.
 
@@ -120,8 +116,6 @@ Anaconda 官网地址：https://www.anaconda.com/
 Spyder 是一个强大的Python科学环境。它具有综合开发工具的高级编辑、分析、调试和分析功能与科学包的数据探索、交互执行、深度检查和优美的可视化功能的独特组合。
 
 ##### 2.界面
-
-![img](https://docs.spyder-ide.org/current/_static/tour/default-layout-main.png)
 
 左侧是我们写Python代码的窗口；右上角是变量生成区，同时绘图结果会在这里；右下角是控制台，代码运行结果也在这里显示。
 
@@ -144,11 +138,7 @@ Jupyter Notebook文档中包含了交互计算、说明文档、数学公式、�
 
 运行后，软件将打开一个本地网页（注意运行期间不要关闭电脑打开的命令行）
 
-![image-20210305171744425](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210305171744425.png)
-
 用 Jupyter Notebook打开`.ipynb`文件后
-
-![image-20210305171833137](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210305171833137.png)
 
 文档中的每一个单元格称为一个cell,每一个cell都可以独立运行并显示结果,但前面cell的运行结果会影响到后面的cell，也就是说前面cell定义的变量，导入的库，后面的cell仍可以访问与使用，这一点要特别注意。
 
@@ -157,8 +147,6 @@ Jupyter Notebook文档中包含了交互计算、说明文档、数学公式、�
 这里只介绍 Anaconda 图形化界面的安装方法，另外还有命令行的安装方法自行了解
 
 打开文件夹中的`Anaconda Navigator`，在Not installed选项卡中搜索你要安装的库即可
-
-![image-20210225192219958](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210225192219958.png)
 
 --------
 
@@ -299,13 +287,9 @@ print(np.sqrt(x))			#以 别名.对象名 的方式引用
 
 ### 2.1.5 Python程序调试简介
 
-学会调试程序是学好python编程的最基本的技能，首先在编程过程中学会快捷键的使用，在spyder 编辑状态下常见的快捷键的使用见下图
-
-![img](file:///C:/Users/ggp/AppData/Local/Temp/msohtmlclip1/01/clip_image002.png)
+学会调试程序是学好python编程的最基本的技能，首先在编程过程中学会快捷键的使用
 
 其次学会用debug可实现单步、设置断点调试程序， 通过ctrl+F5进入调试状态，ctrl+F12可进入下一步，ctrl+shift+F12可结束调试，运行到对应的语句就能够在右侧的窗口看到对应的变量和对象的值的变化，见下图*****，具体的调试过程可自行上网查询资料。
-
-![image-20210322184209257](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210322184209257.png)
 
 最后，程序调试的过程中可以多次使用print()函数输出程序执行过程中的中间结果，可以最直观地查看程序代码的编写是否正确，这也是初学者最常用的程序调试方法。
 
@@ -316,10 +300,6 @@ print(np.sqrt(x))			#以 别名.对象名 的方式引用
 案例问题描述：
 
 如图所示，世界机器人大赛比赛项目：机器人定点投篮比赛正在如火如荼地进行中，已知某机器人以14m/s 的出手速度V0,1.9m的出手高度H和40°的出手角度θ投出篮球，在不考虑空气阻力和落点有效区域，请建立坐标系并绘制蓝球的运动轨迹。（S点为蓝球离手瞬间位置，g=9.8m/s2），并计算在V0和高度H一定的情况下确定投球角度θ的范围，使其投球命中篮筐。
-
-<img src="C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210225202158865.png" alt="image-20210225202158865" style="zoom: 120%;" /><img src="file:///C:\Users\ggp\Documents\Tencent Files\2274362243\Image\C2C\VX[J0OETKHS16Z5FTGLHVE2.png" alt="img" style="zoom:50%;" />
-
-<img src="E:\个人项目\教材编写\流程图\3.png" alt="3" style="zoom:50%;" /><img src="E:\个人项目\教材编写\流程图\4.png" alt="4" style="zoom:50%;" />
 
 为解决上述问题，不管是人工还是计算，都得知道球水平和垂直方向的坐标系，假设投出铅球的时刻为0，则在t 时刻，铅球的坐标（xt,yt）如下：
 $$
@@ -362,8 +342,6 @@ $$
  
 
 本节案例任务：如何在屏幕上绘制篮球在某一个时间点的坐标
-
-![image-20210225203019294](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210225203019294.png)
 
 任务分析：
 
@@ -1130,10 +1108,6 @@ print(fx)
 
 从机器人抛球的初始状态（出手速度V0，出手角度θ，抛球高度H）,根据初等物理知识可得知，球从抛出T=0到落地的时间Tmax可通过公式计算得知，在0-Tmax的范围内可以获得n个数据点，这些数据点组成了球的运动轨迹，如何通过Python的条件分支if 来保证球的运动轨迹范围，这是本节要解决的第一个问题。
 
-根据物理知识计算可知：
-
-![image-20210226100448613](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210226100448613.png)
-
 任务分析：通过如下步骤可以实现上述任务：
 
 （1）   通过前面所学的表达式的计算求解Tmax的值
@@ -1173,8 +1147,6 @@ Python语言支持逻辑运算符，以下假设变量 a 为 10, b为 20:
 
 #### 1、单分支语句-if语句
 
-![单分支](.\流程图\单分支.png)
-
 例1：
 
 ```Python
@@ -1208,8 +1180,6 @@ a是偶数
 
 #### 2、二分支语句-if-else语句
 
-![二分支](.\流程图\二分支.png)
-
 ```Python
 a = int(input("a="))
 if a % 2 == 0:
@@ -1231,8 +1201,6 @@ a是偶数
 ```
 
 #### 3、多分支语句-if-elif-else语句
-
-![多分支](.\流程图\多分支.png)
 
 ```Python
 age = int(input("请输入你家狗狗的年龄: "))
@@ -1289,8 +1257,6 @@ print(xt,yt)       #打印
 
 案例2-4代码实现了在合理的范围内输出1个数据点的任务，但如果要在屏幕上输出n 个点，则要在合理的范围内生成n个数据点，这需要程序执行一些重复迭代的操作，这也是本节案例要解决的第二个问题。 
 
-![image-20210226105803709](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210226105803709.png)
-
 任务分析：通过如下步骤可以实现上述任务：
 
 （1）根据表达式的计算求解Tmax的值
@@ -1325,8 +1291,6 @@ while 条件表达式：
 ```
 
 **执行流程图如下：**
-
-![普通循环](.\流程图\while循环.png)
 
 同样需要注意冒号和缩进。另外，在 Python 中没有 do..while 循环。
 
@@ -1467,8 +1431,6 @@ break用于中断当前循环的执行，提前退出循环结构。一般与if�
 
 **break 执行流程图：**
 
-![break](.\流程图\break.png)
-
 例：
 
 ```Python
@@ -1496,8 +1458,6 @@ print('循环结束。')
 与break不同的是，continue语句用于中止本次循环的执行，开始下一次循环
 
 **continue 执行流程图：**
-
-![continue](E:\个人项目\教材编写\流程图\continue.png)
 
 例：
 
@@ -1602,8 +1562,6 @@ for i in range(1,10):
 
 **案例2-6  求cos(x) 的值，直到最后一项绝对值小于1e-7（即10<sup>-7</sup> ）为止（注：，x为弧度值）**
 
-  ![image-20210304174229314](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210304174229314.png)            
-
  ```Python
 from math import radians
 x = eval(input("输入x的值(0~90)："))
@@ -1650,10 +1608,7 @@ plt.grid(True)
 plt.axis([0,30,0,3])         
 plt.show()  
 ```
-
-【运行结果】
-
- ![image-20210304174531018](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210304174531018.png)                              
+                 
 
 
 --------
@@ -1691,10 +1646,6 @@ plt.show()
 任务描述：
 
 从机器人抛球的初始状态（出手速度V0，出手角度θ，抛球高度H）,根据初等物理知识可得知，球从抛出T=0到落地的时间Tmax可通过公式计算得知，在0-Tmax的范围内可以获得n个数据点，将这n个数据点保存到数据容器-列表中，并通过导入数据可视化库建立坐标轴并在坐标轴内绘制球的运动轨迹
-
-任务分析：
-
-![image-20210226121822111](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210226121822111.png)
 
 通过如下步骤可以实现上述任务：
 
@@ -1740,17 +1691,9 @@ plt.show()
 
 #### 1、序列索引
 
-序列中，每个元素都有属于自己的编号（索引）。从起始元素开始，索引值从 0 开始递增，如图1所示。
+序列中，每个元素都有属于自己的编号（索引）。从起始元素开始，索引值从 0 开始递增
 
-![image-20210226122214237](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210226122214237.png)
-
-​																				图 1 序列索引值示意图
-
-除此之外，Python 还支持索引值是负数，此类索引是从右向左计数，换句话说，从最后一个元素开始计数，从索引值 -1 开始，如图 2 所示。
-
-![image-20210226122242014](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210226122242014.png)
-
-​																				图 2 负值索引示意图
+除此之外，Python 还支持索引值是负数，此类索引是从右向左计数，换句话说，从最后一个元素开始计数，从索引值 -1 开始
 
 注意，在使用负值作为列序中各元素的索引值时，是从 -1 开始，而不是从 0 开始。
 
@@ -3229,10 +3172,6 @@ print(class1[1]['name'])
 
 案例任务：根据不同的高度初速度和不同的角度绘制铅球的飞行轨迹
 
-案例描述：
-
-![image-20210311170023700](C:\Users\ggp\AppData\Roaming\Typora\typora-user-images\image-20210311170023700.png)
-
 案例分析：
 
 ### 2.5.1 函数的基本概念
@@ -3792,10 +3731,6 @@ plt.legend(legend_list)                         # 绘制图例
 plt.show()                                      # 在窗口中展示绘制结果
 ```
 
-【运行结果】
-
-<img src=".\流程图\4.png" />
-
 ### 2.5.6 同一机器人，不同角度范围解决定点投篮问题
 
 案例描述：
@@ -3844,10 +3779,6 @@ plt.grid(True)                                  # 启用坐标网格线
 plt.axis([0, 8, 0, 7])                          # 定义x轴范围为[0, 8]，y轴范围为[0, 7]
 plt.show()
 ```
-
-【运行结果】
-
-![5](.\流程图\5.png)
 
 ### 2.5.7 本节小结
 
