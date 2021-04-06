@@ -182,10 +182,10 @@
     - name: HopeLight|Blog
       link: https://ranas.cn/
       avatar: https://cdn.jsdelivr.net/gh/HopeLight/photo/blog/icon.png
-      link: 生亦何欢，死亦何苦
+      descr: 生亦何欢，死亦何苦
     
     - name: BARAN 的小站🔥🔥🔥
-      link: https://cxvh.com
+      link: https://cxvh.com/
       avatar: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.jpg
       descr: 指尖跳动留下足迹.
 
