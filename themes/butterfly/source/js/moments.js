@@ -1,4 +1,4 @@
-var requests_url = 'https://hexo-circle-of-friends-api.2x-ercha.vercel.app/api'; //api地址
+var requests_url = 'https://hexo-circle-of-friends-api-2x-ercha.vercel.app/api'; //api地址
 var orign_data = []; //api请求所得到的源数据
 var maxnumber = 20; //页面展示文章数量
 var addnumber = 10; //每次加载增加的篇数
