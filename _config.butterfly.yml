@@ -875,10 +875,10 @@ css_prefix: true
 inject:
   head:
     - <link rel="stylesheet" href="/css/add.css">
+    - <link rel="stylesheet" href="/css/moments.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.css"/>
   bottom:
     - <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
-    - <script src="https://cdn.jsdelivr.net/gh/2X-ercha/Butterfly-friend-poor-html/friendcircle/request.js"></script>
     - <script defer data-pjax src="/js/kernel.js"></script>
     - <script defer data-pjax src="/js/moments.js"></script>
     # <script src="/js/add.js"></script>
