@@ -1,0 +1,29 @@
+.moments-item-img img {
+    border-radius: 50px;
+}
+
+.moments-item-info span {
+    padding-left: .3rem;
+    padding-right: .3rem;
+    font-weight: 600;
+}
+
+a.moments-item-title {
+    color: #4978f5 !important;
+    font-weight: 900;
+}
+
+.moments_post_time {
+    float: none !important;
+    color: #ff612c;
+}
+
+[data-theme="dark"] a.moments-item-title {
+    color: #cfa8ff !important;
+    font-weight: 900;
+}
+
+[data-theme="dark"] .moments_post_time {
+    float: none !important;
+    color: darksalmon;
+}
