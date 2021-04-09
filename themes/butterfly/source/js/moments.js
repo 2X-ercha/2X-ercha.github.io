@@ -82,14 +82,25 @@ var data_handle = (nofollow,data, maxnumber) => {
         rel = '';
       }
       html_item += ' <div class="moments-item">';
-      html_item += ' <a target="' + opentype + '" class="moments-item-img" href="' + post_item[2] + '" title="' + post_item[0] + '"rel="'+ rel + '">';
-      html_item += '<img onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/Zfour/Butterfly-friend-poor-html/friendcircle/404.png&quot;"';
-      html_item += ' src="' + post_item[4] + '"></a>';
-      html_item += '<div class="moments-item-info"><div class="moments-item-time"><i class="far fa-user"></i>';
-      html_item += '<span>' + post_item[3] + '</span>';
-      html_item += ' <div class="moments_post_time"><i class="far fa-calendar-alt"></i>' +
-          '<time datetime="' + post_item[1] + '" title="' + post_item[1] + '">' + post_item[1] + '</time></div>';
-      html_item += `</div><a target="${opentype}" class="moments-item-title" href="${post_item[2]}" title="${post_item[0]}"rel="${rel}">${post_item[0]}</a></div>`;
+        
+        //左侧头像
+        html_item += ' <a target="' + opentype + '" class="moments-item-img" href="' + post_item[2] + '" title="' + post_item[0] + '"rel="'+ rel + '">';
+        html_item += '<img onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/Zfour/Butterfly-friend-poor-html/friendcircle/404.png&quot;"';
+        html_item += ' src="' + post_item[4] + '"></a>';
+        //右侧文章信息
+        html_item += '<div class="moments-item-info">';
+          //文章名
+          html_item += `<a target="${opentype}" class="moments-item-title" href="${post_item[2]}" title="${post_item[0]}"rel="${rel}">${post_item[0]}</a>`;
+          
+          html_item += '<div class="moments-item-time">';
+            //文章作者
+            html_item += '<span>' + post_item[3] + '</span>';
+            //文章时间
+            html_item += '<time class="moments_post_time" datetime="' + post_item[1] + '" title="' + post_item[1] + '">' + post_item[1] + '</time>';
+          html_item += '</div>'
+
+        html_item += '</div>'
+      
       html_item += '</div>';
 
     }
