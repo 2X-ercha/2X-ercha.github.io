@@ -877,11 +877,16 @@ inject:
     - <link rel="stylesheet" href="/css/add.css">
     - <link rel="stylesheet" href="/css/moments.css">
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.css"/>
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'">  #动画标签anima的依赖
   bottom:
     - <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
     - <script defer data-pjax src="/js/kernel.js"></script>
     - <script defer data-pjax src="/js/moments.js"></script>
     # <script src="/js/add.js"></script>
+    - <script defer src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script>
+    # 自butterfly_v3.4.0+开始，主题基本实现去jquery化，需要自己添加引用，请读者根据版本自行决定是否添加这行引用。
+    - <script defer src="https://cdn.jsdelivr.net/npm/hexo-theme-volantis@latest/source/js/issues.min.js"></script>
+    #数据集合标签issues的依赖
 
 
 # CDN

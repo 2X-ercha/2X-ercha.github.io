@@ -22,7 +22,7 @@ date: 2021-02-20 20:43:07
 
 记录魔改历程也是为了以后主题更新能找到回家的路（毕竟主题更新相当于把大部分魔改推倒重来）
 
-所以也记录和备份我修改/添加过的文件，方便查询
+所以也记录和备份我修改/添加过的文件，方便查询（不含标签外挂）
 
 ```
 root
@@ -401,6 +401,16 @@ a.moments-item-title {
 }
 ```
 
+--------
+
+## 基于Butterfly的外挂标签引入
+
+> 参考教程：店长的[Akilarの糖果屋-基于Butterfly的外挂标签引入](https://akilar.top/posts/615e2dec/)
+
+因为这里涉及的源码修改都是直接拷贝的，所以不写新增和修改源码了。
+
+--------
+
 # 非主题源码修改区
 
 ## 双栏卡片主页文章
@@ -543,6 +553,22 @@ img {
   /* --hr-border: rgba(255,255,255,0.4); */
   --font-color: rgb(255, 255, 255);
   --hr-border: rgb(161, 83, 255);
+}
+```
+
+--------
+
+## 标签外挂css微调
+
+店长那直接白嫖过来的标签外挂不怎么适合我的颜色魔改，所以也相应地做了微调
+
+```CSS
+#article-container .tabs > .tab-contents .tab-item-content.active{
+    background-color: #ffffffaa;
+}
+
+[data-theme="dark"] #article-container .tabs > .tab-contents .tab-item-content.active{
+    background-color: #0000005e;
 }
 ```
 
