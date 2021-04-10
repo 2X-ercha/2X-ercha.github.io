@@ -105,3 +105,12 @@ a.categoryBar-list-link {
 #footer #footer-wrap a {
     color: var(--font-color);
 }
+
+/* 标签外挂css微调 */
+#article-container .tabs > .tab-contents .tab-item-content.active{
+    background-color: #ffffffaa;
+}
+
+[data-theme="dark"] #article-container .tabs > .tab-contents .tab-item-content.active{
+    background-color: #0000005e;
+}
