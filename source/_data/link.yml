@@ -189,6 +189,11 @@
       avatar: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.jpg
       descr: 指尖跳动留下足迹.
 
+    - name: 猫のレインボー島
+      link: https://annko.cn
+      avatar: https://cdn.jsdelivr.net/gh/annkoxx/img_annko/img/annkoan.gif
+      descr: 分享|创新|友爱
+
 - class_name: 线下后宫团
   class_desc: 线下的同学朋友们
   link_list:
