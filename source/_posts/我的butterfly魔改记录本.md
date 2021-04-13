@@ -475,9 +475,9 @@ a.categoryBar-list-link {
 
 --------
 
-## 鼠标样式及页脚半透明
+## 鼠标样式及各种透明
 
-> 参考文章：小康的[Hexo 博客之 butterfly 主题优雅魔改系列](https://www.antmoe.com/posts/a811d614/index.html)
+> 参考文章：小康的[Hexo 博客之 butterfly 主题优雅魔改系列](https://www.antmoe.com/posts/a811d614/index.html)和店长的[Custom Beautify](https://akilar.top/posts/ebf20e02/)
 
 ```CSS
 /* 鼠标样式 */
@@ -491,25 +491,27 @@ img {
         default;
 }
 
-/* 页脚半透明 */
-#footer {
-    background: rgba(255,255,255,.15);
-    color: #000;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    backdrop-filter: saturate(100%) blur(5px)
+/* 页脚透明 */
+#footer{
+    background: transparent!important;
 }
 
-#footer::before {
-    background: rgba(255,255,255,.15)
+/* 头图透明 */
+#page-header{
+  background: transparent!important;
 }
 
-#footer #footer-wrap {
-    color: var(--font-color);
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+#page-header.post-bg:before {
+  background-color: transparent!important;
 }
 
-#footer #footer-wrap a {
-    color: var(--font-color);
+/*夜间模式伪类遮罩层透明*/
+[data-theme="dark"] #footer::before{
+  background: transparent!important;
+}
+[data-theme="dark"] #page-header::before{
+  background: transparent!important;
 }
 ```
 
