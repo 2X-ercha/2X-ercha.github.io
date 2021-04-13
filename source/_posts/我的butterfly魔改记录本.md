@@ -118,6 +118,8 @@ root
 `[root]\themes\butterfly\layout\includes\post\post-copyright.pug`  
 `[root]\themes\butterfly\source\css\_layout\post.styl`
 
+--------
+
 ## 拒绝IE,从我做起
 
 > 参考教程: Nesxc的[Butterfly检测IE内核跳转教程](https://www.nesxc.com/post/noie.html)
