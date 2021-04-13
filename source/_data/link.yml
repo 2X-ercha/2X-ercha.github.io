@@ -14,11 +14,13 @@
       link: https://blog.cyfan.top/
       avatar: https://unpkg.zhimg.com/chenyfan-oss@1.0.0/pic/BLOGER.jpg
       descr: 一个在互联网角落挣扎的小小博客，很小很小
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/blog.cyfan.top.png
 
     - name: 【猹→】贰猹
       link: https://noionion.top/
       avatar: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
       descr: 用这生命中的每一秒，给自己一个不后悔的未来
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/noionion.top.png
 
 - class_name: 线上友人帐
   class_desc: 膜一膜 noionion's friends
@@ -57,51 +59,61 @@
       link: https://shuxhan.com/
       avatar: https://shuxhan-imgbed.oss-cn-hangzhou.aliyuncs.com/img/20210108164434.jpg
       descr: 吾将上下而求索！
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/shuxhan.com.png
       
     - name: 小嘉的部落格
       link: https://blog.imzjw.cn/
       avatar: https://cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg
       descr: 好记性不如烂笔头
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/blog.imzjw.cn.png
       
     - name: CC的部落格
       link: https://blog.ccknbc.cc/
       avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
       descr: CC康纳百川
+      siteshot: https://cdn.jsdelivr.net/gh/ccknbc-actions/blogroll@webp/www.ccknbc.cc.webp
       
     - name: Lete乐特
       link: https://www.lete114.top/
       avatar: https://www.lete114.top/img/avatar.png
       descr: 人生只有一次，大胆的生活！！
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.lete114.top.png
 
     - name: dummerfu
       link: https://dummerfu.top/
       avatar: https://gitee.com/dummerchen/MY_IMAGE_BED/raw/master/20201018134428.jpg
       descr: 一个兴趣使然的programmer
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/dummerfu.top.png
 
     - name: 小康博客
       link: https://www.antmoe.com/
       avatar: https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
       descr: 一个收藏回忆与分享技术的地方！
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.antmoe.com.png
     
     - name: 随性のBlog
-      link: https://hanxea.gitee.io/random/
+      link: https://hanxea.gitee.io/
       avatar: https://hanxea.gitee.io/img/image.jpg
       descr: 专注于量子研究，量子物理学，电脑技术，IT与互联网技术
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/hanxea.gitee.io.png
 
     - name: Heo
       link: https://blog.zhheo.com/
       avatar: https://blog.zhheo.com/img/avatar.png
       descr: 爱折腾的设计师
+      siteshot: https://7.dusays.com/2020/10/27/ff9603f42ee09.png
     
     - name: Nescx
       link: https://www.nesxc.com/
       avatar: https://cdn-1.nesxc.com/img/avatar.jpg
       descr: 青石落晚巷 故人未还乡
+      siteshot: https://cdn.jsdelivr.net/gh/Nesxc/ScreenShot@gh-pages/www.hack-gov.com.cn.jpg
     
     - name: 卓越科技的Blog
       link: https://zykj.js.org/
       avatar: https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
       descr: Remarkable life,for science and technology.
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/zykj.js.org.png
 
     - name: 流恋のBlog
       link: https://yuanyuanzi.top/

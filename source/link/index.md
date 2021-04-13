@@ -30,3 +30,6 @@ sitemap: false
 * link: https://noionion.top/
 * avatar: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
 * descr: 用这生命中的每一秒，给自己一个不后悔的未来
+
+选填：
+* siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/noionion.top.png
