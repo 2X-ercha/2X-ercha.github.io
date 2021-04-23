@@ -206,6 +206,13 @@
       avatar: https://cdn.jsdelivr.net/gh/annkoxx/img_annko/img/annkoan.gif
       descr: 分享|创新|友爱
 
+    - name: WangFly’s Blog
+      link: http://www.hui-blog.cool/
+      avatar: https://s3.ax1x.com/2021/01/04/sCdwSs.jpg
+      descr: 路漫漫其修远兮，吾将上下而求索！
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.hui-blog.cool.png
+
+
 - class_name: 线下后宫团
   class_desc: 线下的同学朋友们
   link_list:
