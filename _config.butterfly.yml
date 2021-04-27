@@ -17,14 +17,16 @@ menu:
    - HTML || /tags/html/ || fas fa-terminal
    - 项目？ || /tags/Project/ ||fas fa-project-diagram
   # Categories: /categories/ || fas fa-folder-open
-  列表 || fas fa-list-ul:
+  乱七八糟 || fas fa-list-ul:
    - 音乐 || /music/ || fas fa-music
    - 碎言碎语 || /talk/ || fas fa-comment
    - 小被几 || https://hpp.noionion.workers.dev/hpp/admin/login || fas fa-keyboard
   #   - Movie || /movies/ || fas fa-video
-  留言板: /messageboard/ || fas fa-comment-alt
-  友链: /link/ || fas fa-link
-  窝边草: /friendcircle/ || fas fa-wine-glass
+  小信箱: /messageboard/ || fas fa-comment-alt
+  链接小册子 || fas fa-address-book:
+   - 友链 || /link/ || fas fa-link
+   - 窝边草 || /friendcircle/ || fas fa-wine-glass
+   - OI Wiki || https://oi-wiki.org/ || fas fa-terminal
   关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
