@@ -274,5 +274,18 @@
       link: https://ranas.cn/
       avatar: https://cdn.jsdelivr.net/gh/HopeLight/photo/blog/icon.png
       descr: 生亦何欢，死亦何苦
-    
+
+
+- class_name: 测试朋友圈
+  class_desc: 这里是用来测试友链朋友圈各种主题及用于复现一些站点的奇怪问题<br><b style="color:cyan">在此列出顺便真诚地感谢！</b>
+  link_list:
+    - name: 泰戈尔のBlog
+      link: https://www.iftiger.com/
+      avatar: https://ittiger.top/%E5%A4%B4%E5%83%8F.jpg
+      descr: 【sitemap爬取失败问题复现】智慧成就科技，科技改变生活。
+
+    - name: Yremp
+      link: https://yremp.live/
+      avatar: https://cdn.jsdelivr.net/gh/yremp/resource@2.0/img/custom/head.jpg
+      descr: 【Sakura主题测试】流年，谁给过的倾城
     
