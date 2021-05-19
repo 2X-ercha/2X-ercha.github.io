@@ -12,7 +12,7 @@
       descr: 期待您的光临！
       siteshot: https://cdn.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/akilar.top.jpg
 
-    - name: 【洪】Heo
+    - name: 【红】Heo
       link: https://blog.zhheo.com/
       avatar: https://blog.zhheo.com/img/avatar.png
       descr: 爱折腾的设计师
@@ -274,5 +274,10 @@
       link: https://ranas.cn/
       avatar: https://cdn.jsdelivr.net/gh/HopeLight/photo/blog/icon.png
       descr: 生亦何欢，死亦何苦
+    
+    - name: 泰戈尔のBlog
+      link: https://www.iftiger.com
+      avatar: https://ittiger.top/%E5%A4%B4%E5%83%8F.jpg
+      descr: 智慧成就科技，科技改变生活。
     
     
