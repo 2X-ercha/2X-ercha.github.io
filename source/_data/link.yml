@@ -68,7 +68,7 @@
       
     - name: 小嘉的部落格
       link: https://blog.imzjw.cn/
-      avatar: https://cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg
+      avatar: https://cdn.jsdelivr.net/npm/nanshen/avatar.jpg
       descr: 好记性不如烂笔头
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/blog.imzjw.cn.png
       
@@ -154,11 +154,6 @@
       link: https://blog.skyil.cn/
       avatar: https://cdn.jsdelivr.net/gh/skyilz/CDN/img/avatar.jpg
       descr: 何以解忧？唯有代码与游戏
-
-    - name: 青葱博客
-      link: 'https://blog.itciraos.com/'
-      avatar: 'https://blog.itciraos.com/mysource/avatar.jpeg'
-      descr: 一切皆付笑谈中
 
     - name: 萌茶屋
       link: https://cha.moe
@@ -260,6 +255,11 @@
       descr: 画君年少时，而今君已老
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/siuze.top.png
 
+    - name: Ekennis
+      link: http://noobzyk.top/
+      avatar: http://www.noobzyk.top/wp-content/uploads/2020/11/preview-副本.jpg
+      descr: 暂时还没有成为合格的ACMer,正在上学
+
 
 - class_name: 失联友链
   class_desc: 你们哪去了，我想你们！
@@ -274,6 +274,11 @@
       link: https://ranas.cn/
       avatar: https://cdn.jsdelivr.net/gh/HopeLight/photo/blog/icon.png
       descr: 生亦何欢，死亦何苦
+    
+    - name: 青葱博客
+      link: 'https://blog.itciraos.com/'
+      avatar: 'https://blog.itciraos.com/mysource/avatar.jpeg'
+      descr: 一切皆付笑谈中
 
 
 - class_name: 测试朋友圈
