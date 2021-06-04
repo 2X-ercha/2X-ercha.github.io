@@ -7,9 +7,10 @@ tags:
   - Project
 top_img: 'https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/HNU.png'
 description: 不知道怎么用自动打卡？使用说明书来啦！
-abbrlink: 3355
+abbrlink: 33550
+hidden: true
 date: 2021-04-22 20:00:00
-updated: 2021-04-22 20:00:00
+updated: 2021-06-04 23:16:00
 ---
 
 应广大同学们的要求，我还是把自动打卡项目公开了emmm。
