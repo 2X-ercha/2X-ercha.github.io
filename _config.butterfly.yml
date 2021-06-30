@@ -664,7 +664,7 @@ aside:
       link: https://github.com/2X-ercha
   card_announcement:
     enable: true
-    content: "走过路过就顺便留下足迹呗！\n"
+    content: "禁止盗站以及未标明作者和原帖地址的转载<br>禁止盗站以及未标明作者和原帖地址的转载<br>禁止盗站以及未标明作者和原帖地址的转载<br>(重复3遍以示郑重"
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all

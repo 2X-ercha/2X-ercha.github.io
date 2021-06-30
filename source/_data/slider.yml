@@ -1,3 +1,10 @@
+- cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/danger.jpeg
+  timeline: '2021-07-01' # 日期，需要用''包裹
+  link: /10853.html
+  title: "严肃: 严防盗站，志此以告"
+  description: 猹很生气，于是开启了防盗链并写文警告
+  button: ◥前往确认◤
+
 - cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/page2.jpg
   timeline: '2020-11-03'
   link: /46581.html
@@ -12,9 +19,3 @@
   description: Twikoo / HexoPlusPlus与Twikoo-Magic一起食用更配哦！
   button: ◥让我康康◤
 
-- cover: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/HNU.png
-  timeline: '2021-01-24' # 日期，需要用''包裹
-  link: /7431.html
-  title: 如何实现校园疫情防控自动打卡
-  description: 假期懒床怎么办？快自己写个一键/自动打卡吧！
-  button: ◥让我康康◤
