@@ -32,10 +32,12 @@ sitemap: false
 
 ## "My Friend Link Information
 
-* name: 贰猹的小窝
-* link: https://noionion.top/
-* avatar: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg
-* descr: 用这生命中的每一秒，给自己一个不后悔的未来
+```yml
+name: 贰猹的小窝
+link: https://noionion.top/
+avatar: http://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
+descr: 用这生命中的每一秒，给自己一个不后悔的未来
 
-选填：
-* siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/noionion.top.png
+# 选填：
+siteshot: http://pub-noionion.oss-cn-hangzhou.aliyuncs.com/noionion.top.png
+```
