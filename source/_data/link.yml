@@ -220,7 +220,7 @@
 
 
 - class_name: 线下后宫团
-  class_desc: 线下的同学朋友们
+  class_desc: 其实是现实中同校或者认识的人啪（不一定能见到面）
   link_list:
     - name: lijyya
       link: http://lijyya.site/
@@ -265,6 +265,10 @@
       avatar: http://www.noobzyk.top/wp-content/uploads/2020/11/preview-副本.jpg
       descr: 暂时还没有成为合格的ACMer,正在上学
 
+    - name: 愚人而已
+      link: https://afool.top/
+      avatar: https://afool.top/images/nekosense.jpeg
+      descr: 以愚者之名攀上顶峰
 
 - class_name: 失联友链
   class_desc: 你们哪去了，我想你们！

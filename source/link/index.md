@@ -35,9 +35,9 @@ sitemap: false
 ```yml
 name: 贰猹的小窝
 link: https://noionion.top/
-avatar: http://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
+avatar: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
 descr: 用这生命中的每一秒，给自己一个不后悔的未来
 
 # 选填：
-siteshot: http://pub-noionion.oss-cn-hangzhou.aliyuncs.com/noionion.top.png
+siteshot: https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/noionion.top.png
 ```
