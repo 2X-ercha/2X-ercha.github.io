@@ -2,7 +2,7 @@
   class_desc: 一个神奇的组织<a href="https://github.com/Rock-Candy-Tea"><b style="color:cyan">Rock-Candy-Tea</b></a>
   link_list:
     - name: 【冰】小冰博客
-      link: https://zfe.one/
+      link: https://zfe.space/
       avatar: https://zfe.space/images/headimage.png
       descr: 做个有梦想的人！
 
@@ -217,6 +217,11 @@
       link: https://ruavan.one/
       avatar: https://ruavan.one/img/avatar.png
       descr: 一只想贴贴的小猫（确信
+
+    - name: PiCpo的阁楼
+      link: http://picpo.top/
+      avatar: https://q1.qlogo.cn/g?b=qq&s=640&nk=2587188250
+      descr: PiCpo的温馨小窝
 
 
 - class_name: 线下后宫团
