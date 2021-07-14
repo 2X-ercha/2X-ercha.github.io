@@ -222,6 +222,18 @@
       link: http://picpo.top/
       avatar: https://q1.qlogo.cn/g?b=qq&s=640&nk=2587188250
       descr: PiCpo的温馨小窝
+    
+    - name: XJHui's Blog
+      link: https://plushine.cn/
+      avatar: https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/touxiang.jpg
+      descr: 这个博主想骗访客^_^
+      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/plushine.cn.png
+      
+    - name: HopeBlog
+      link: https://ranas.cn/
+      avatar: https://cdn.jsdelivr.net/gh/HopeLight/photo/posts/tx.webp
+      descr: 黎明将至的曙光，怎敢弃途于未来
+      siteshot: https://cdn.jsdelivr.net/gh/HopeLight/ScreenShot@gh-pages/ranas.cn.jpg
 
 
 - class_name: 线下后宫团
@@ -278,17 +290,6 @@
 - class_name: 失联友链
   class_desc: 你们哪去了，我想你们！
   link_list:
-    - name: XJHui's Blog
-      link: https://plushine.cn/
-      avatar: https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/touxiang.jpg
-      descr: 这个博主想骗访客^_^
-      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/plushine.cn.png
-      
-    - name: HopeLight|Blog
-      link: https://ranas.cn/
-      avatar: https://cdn.jsdelivr.net/gh/HopeLight/photo/blog/icon.png
-      descr: 生亦何欢，死亦何苦
-    
     - name: 青葱博客
       link: 'https://blog.itciraos.com/'
       avatar: 'https://blog.itciraos.com/mysource/avatar.jpeg'
