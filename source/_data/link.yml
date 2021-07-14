@@ -231,7 +231,7 @@
       
     - name: HopeBlog
       link: https://ranas.cn/
-      avatar: https://cdn.jsdelivr.net/gh/HopeLight/photo/posts/tx.webp
+      avatar: https://cdn.jsdelivr.net/gh/HopeLight/photo@1.0/blogfile/tx.webp
       descr: 黎明将至的曙光，怎敢弃途于未来
       siteshot: https://cdn.jsdelivr.net/gh/HopeLight/ScreenShot@gh-pages/blog.ranas.cn.jpg
 
