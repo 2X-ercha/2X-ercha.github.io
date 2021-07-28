@@ -241,6 +241,12 @@
       descr: 有朋自远方来，不亦乐乎。
       siteshot: 'https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.itciraos.cn/'
 
+    - name: 快乐星球
+      link: https://wxydejoy.top/
+      avatar: https://wxydejoy.top/img/icon/android-chrome-96x96.png
+      descr: 什么是快乐星球!!!
+      siteshot: https://wxydejoy.top/img/siteshot.png
+
 
 - class_name: 线下后宫团
   class_desc: 其实是现实中同校或者认识的人啪（不一定能见到面）
@@ -285,7 +291,7 @@
 
     - name: Ekennis
       link: http://noobzyk.top/
-      avatar: http://www.noobzyk.top/wp-content/uploads/2020/11/preview-副本.jpg
+      avatar: https://ekkepic.oss-cn-beijing.aliyuncs.com/img/20210701163211.png
       descr: 暂时还没有成为合格的ACMer,正在上学
 
     - name: 愚人而已
