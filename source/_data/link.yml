@@ -252,6 +252,18 @@
       avatar: https://blog.xujiayao.top/file/avatar.jpg
       descr: 没有个性，如何签名？
 
+    - name: 和泉聆风
+      link: https://www.limewtea.com/
+      avatar: https://www.limewtea.com/img/avatar.png
+      descr: 一只萝莉的咕咕咕博客
+      siteshot: https://cdn.jsdelivr.net/gh/zhanghengjun/loli/blogsn.png
+
+    - name: Jason の小窝
+      link: https://fictory.cn/
+      avatar: https://fictory.cn/img/avatar.jpg
+      descr: 因为热爱，所以执着
+      siteshot: https://aholicy.oss-cn-shenzhen.aliyuncs.com/blog/siteout.jpg
+
 
 - class_name: 线下后宫团
   class_desc: 其实是现实中同校或者认识的人啪（不一定能见到面）
