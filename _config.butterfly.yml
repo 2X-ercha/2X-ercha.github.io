@@ -8,6 +8,7 @@
 
 menu:
   主页: / || fas fa-home
+  魔改测试站: https://blogdev.noionion.top/ || fas fa-flask
   # Archives: /archives/ || fas fa-archive
   分类 || fas fa-tags:
    - 随笔 || /tags/Diary || fas fa-book
