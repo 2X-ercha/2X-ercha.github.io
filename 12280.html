@@ -1,0 +1,344 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改 | 贰猹の小窝</title><meta name="keywords" content="Course,Diary,hexo,butterfly"><meta name="author" content="noionion"><meta name="copyright" content="noionion"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="开始自己魔改博客了！">
+<meta property="og:type" content="article">
+<meta property="og:title" content="猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改">
+<meta property="og:url" content="http://noionion.top/12280.html">
+<meta property="og:site_name" content="贰猹の小窝">
+<meta property="og:description" content="开始自己魔改博客了！">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg">
+<meta property="article:published_time" content="2021-08-21T00:00:00.000Z">
+<meta property="article:modified_time" content="2021-08-21T00:00:00.000Z">
+<meta property="article:author" content="noionion">
+<meta property="article:tag" content="Course">
+<meta property="article:tag" content="Diary">
+<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="butterfly">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg"><link rel="shortcut icon" href="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg"><link rel="canonical" href="http://noionion.top/12280"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":120,"languages":{"author":"作者: noionion","link":"链接: ","source":"来源: 贰猹の小窝","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-08-21 00:00:00'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><link rel="stylesheet" href="/css/add.css"><link rel="stylesheet" href="/css/moments.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.css"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'"><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="贰猹の小窝" type="application/atom+xml">
+<link rel="alternate" href="/rss.xml" title="贰猹の小窝" type="application/rss+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://blogdev.noionion.top/"><i class="fa-fw fas fa-flask"></i><span> 魔改测试站</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-tags"></i><span> 分类</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/tags/Diary"><i class="fa-fw fas fa-book"></i><span> 随笔</span></a></li><li><a class="site-page" href="/tags/Course"><i class="fa-fw fas fa-folder"></i><span> 教程</span></a></li><li><a class="site-page" href="/tags/C/"><i class="fa-fw fas fa-terminal"></i><span> C++</span></a></li><li><a class="site-page" href="/tags/Python/"><i class="fa-fw fas fa-terminal"></i><span> Python</span></a></li><li><a class="site-page" href="/tags/html/"><i class="fa-fw fas fa-terminal"></i><span> HTML</span></a></li><li><a class="site-page" href="/tags/Project/"><i class="fa-fw fas fa-project-diagram"></i><span> 项目？</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list-ul"></i><span> 乱七八糟</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/talk/"><i class="fa-fw fas fa-comment"></i><span> 碎言碎语</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://hpp.noionion.workers.dev/hpp/admin/login"><i class="fa-fw fas fa-keyboard"></i><span> 小被几</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-alt"></i><span> 小信箱</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-address-book"></i><span> 链接小册子</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page" href="/friendcircle/"><i class="fa-fw fas fa-wine-glass"></i><span> 窝边草</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://oi-wiki.org/"><i class="fa-fw fas fa-terminal"></i><span> OI Wiki</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">贰猹の小窝</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" target="_blank" rel="noopener" href="https://blogdev.noionion.top/"><i class="fa-fw fas fa-flask"></i><span> 魔改测试站</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-tags"></i><span> 分类</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/tags/Diary"><i class="fa-fw fas fa-book"></i><span> 随笔</span></a></li><li><a class="site-page" href="/tags/Course"><i class="fa-fw fas fa-folder"></i><span> 教程</span></a></li><li><a class="site-page" href="/tags/C/"><i class="fa-fw fas fa-terminal"></i><span> C++</span></a></li><li><a class="site-page" href="/tags/Python/"><i class="fa-fw fas fa-terminal"></i><span> Python</span></a></li><li><a class="site-page" href="/tags/html/"><i class="fa-fw fas fa-terminal"></i><span> HTML</span></a></li><li><a class="site-page" href="/tags/Project/"><i class="fa-fw fas fa-project-diagram"></i><span> 项目？</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-list-ul"></i><span> 乱七八糟</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page" href="/talk/"><i class="fa-fw fas fa-comment"></i><span> 碎言碎语</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://hpp.noionion.workers.dev/hpp/admin/login"><i class="fa-fw fas fa-keyboard"></i><span> 小被几</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fas fa-comment-alt"></i><span> 小信箱</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw fas fa-address-book"></i><span> 链接小册子</span><i class="fas fa-chevron-down expand hide"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page" href="/friendcircle/"><i class="fa-fw fas fa-wine-glass"></i><span> 窝边草</span></a></li><li><a class="site-page" target="_blank" rel="noopener" href="https://oi-wiki.org/"><i class="fa-fw fas fa-terminal"></i><span> OI Wiki</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-21T00:00:00.000Z" title="发表于 2021-08-21 00:00:00">2021-08-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-08-21T00:00:00.000Z" title="更新于 2021-08-21 00:00:00">2021-08-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E9%AD%94%E6%94%B9%E6%97%A5%E8%AE%B0%E6%9C%AC/">魔改日记本</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">3.2k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>13分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><div class="note red icon flat"><i class="note-icon fas fa-fan"></i><p>温馨提示：本日记本只提供魔改参考，并不做通用处理，很多源码修改都需要根据自己博客做小小微调</p>
+</div>
+
+<div class="note purple icon flat"><i class="note-icon far fa-hand-scissors"></i><p>另外在修改源码时注意做好备份处理。本帖只提供思路与方法，如果哪里炸了，请检查语法与缩进等，猹概不负责啦！</p>
+</div>
+
+<p>继白嫖<a target="_blank" rel="noopener" href="https://akilar.top/">店长</a>、<a target="_blank" rel="noopener" href="https://zfe.space/">冰老师</a>、<a target="_blank" rel="noopener" href="https://www.antmoe.com/">小康</a>、<a target="_blank" rel="noopener" href="https://www.nesxc.com/">小N</a>等大佬的魔改之后，猹终于不满于白嫖，开始想动手实操，把自己的博客调教成想要的样子，也以此来使猹学前端有实操的机会。</p>
+<p>当然在整个站点还没修改完之前，这些魔改内容只会在<a target="_blank" rel="noopener" href="https://blogdev.noionion.top/">猹的魔改测试站</a>出现。你可以在测试站点进行预览。<del>（当然测试站点会有非常多的bug和还没调的设置和样式，这些也不需要和猹吐槽）</del>在魔改完成之前主站也不会再做任何样式调整</p>
+<p><strong>注</strong>：这部分前言内容会在魔改日记本的每一篇都出现；另外这是一篇日记而非教程，文风可能不是那么友好（逃</p>
+<hr>
+<h2 id="菜单栏魔改的各部分"><a href="#菜单栏魔改的各部分" class="headerlink" title="菜单栏魔改的各部分"></a>菜单栏魔改的各部分</h2><h3 id="菜单栏居中布局和右侧功能实现"><a href="#菜单栏居中布局和右侧功能实现" class="headerlink" title="菜单栏居中布局和右侧功能实现"></a>菜单栏居中布局和右侧功能实现</h3><p>猹的菜单栏一直用的是butterfly最原生的布局，即左侧博客名右侧菜单栏（搜索按钮和菜单）</p>
+<p><img src= "https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/20210820174952.png" alt="魔改前的菜单栏"></p>
+<p>而这样多的菜单项目虽然一目了然，但终归看起来太杂太乱，不能给猹一种简洁的感觉。而猹对<a target="_blank" rel="noopener" href="https://blog.zhheo.com/">洪哥</a>和<a target="_blank" rel="noopener" href="https://ranas.cn/">小雨</a>的菜单栏那种居中而又功能完备的菜单栏艳羡已久。想来想去就此开始了自己的魔改之路。</p>
+<details cyan><summary> 彩色图标等前置教程 </summary>
+              <div class='content'>
+              <p>既然要魔改，那顺便也把图标换成彩色的吧！这里用的是店长的教程帖子<del>（能白嫖的部分还是尽量白嫖的好）</del></p><p>如果不需要彩色图标，这部分请忽略~</p><div class="tag link"><a class="link-card" title="前置：Hexo 引入阿里矢量图标库" target="_blank" rel="noopener" href="https://akilar.top/posts/d2ebecef/"><div class="left"><img src= "https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Akilarlxh/akilarlxh.github.io/img/siteicon/favicon.ico"/></div><div class="right"><p class="text">前置：Hexo 引入阿里矢量图标库</p><p class="url">https://akilar.top/posts/d2ebecef/</p></div></a></div><div class="tag link"><a class="link-card" title="菜单栏多色图标配置教程" target="_blank" rel="noopener" href="https://akilar.top/posts/23fdf850/#菜单栏多色图标配置教程"><div class="left"><img src= "https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Akilarlxh/akilarlxh.github.io/img/siteicon/favicon.ico"/></div><div class="right"><p class="text">菜单栏多色图标配置教程</p><p class="url">https://akilar.top/posts/23fdf850/#菜单栏多色图标配置教程</p></div></a></div><div class="tag link"><a class="link-card" title="Social 卡片彩色图标引入" target="_blank" rel="noopener" href="https://akilar.top/posts/23fdf850/#Social卡片彩色图标引入"><div class="left"><img src= "https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Akilarlxh/akilarlxh.github.io/img/siteicon/favicon.ico"/></div><div class="right"><p class="text">Social 卡片彩色图标引入</p><p class="url">https://akilar.top/posts/23fdf850/#Social卡片彩色图标引入</p></div></a></div>
+              </div>
+            </details>
+
+<details red open><summary> 菜单选项居中 </summary>
+              <div class='content'>
+              <p>前置摸完了之后，首先要解决的是菜单栏的居中问题。这部分的源码在<code>[blogroot]\themes\butterfly\layout\includes\header\nav.pug</code></p><p>而检查它的CSS之后，发现<code>div#blog_name</code>的css有一条<code>flex: 1</code></p><p>因而整个菜单栏的最右侧也需要一个相同<code>flex</code>属性的<code>div</code>来平衡。因为右侧我要做一个搜索和黑夜模式切换的功能，所以姑且id命名为<code>navFn</code></p><p>然后给它加个<code>flex: 1</code>的css属性就给菜单栏完成了居中（居中如果用偏移之类的方法显然是会出bug的，改变设备宽度就会发现它又不居中了，改源码加样式是最好的方法）</p><p>然后<strong>子菜单居中</strong>一样参考的一样是店长的文章，这里我就不再写一遍</p><div class="tag link"><a class="link-card" title="butterfly-heo 主题反编译日记" target="_blank" rel="noopener" href="https://akilar.top/posts/ecff41cf/"><div class="left"><img src= "https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif" data-lazy-src="https://cdn.jsdelivr.net/gh/Akilarlxh/akilarlxh.github.io/img/siteicon/favicon.ico"/></div><div class="right"><p class="text">butterfly-heo 主题反编译日记</p><p class="url">https://akilar.top/posts/ecff41cf/</p></div></a></div>
+              </div>
+            </details>
+
+<details yellow open><summary> 右侧功能区 </summary>
+              <div class='content'>
+              <p>搜索功能是bf菜单栏自带的功能，这里只需要把<code>nav.bug</code>中的搜索模块代码从<code>#menus</code>移到咱刚刚新建的<code>#navFn</code>中即可。如果想将图标换成彩色的，则类似于social卡片彩色图标的替换做法（注意缩进，这里不能直接用我的，你没有这个图标）</p><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">      if (theme.algolia_search.enable || theme.local_search.enable)</span><br><span class="line">        #search-button</span><br><span class="line">          a.social-icon.search</span><br><span class="line"><span class="deletion">-           i.fas.fa-search.fa-fw</span></span><br><span class="line"><span class="addition">+           svg.icon(aria-hidden=&quot;true&quot;)</span></span><br><span class="line"><span class="addition">+             use(xlink:href=`#`+ &#x27;icon-sousuo&#x27;)</span></span><br><span class="line">            span=&#x27; 搜索&#x27;</span><br></pre></td></tr></table></figure><p>而切换功能相对就复杂一点点，而基础的布局和上边类似（不过那个if判断就没啥必要了），主要是需要调用一个切换的js，我这里就直接扒了bf的js</p><p>注，这里其实是PUG，但没有bf没有PUG的代码高亮，只能用PY了</p><figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="comment">#darkmodeBt</span></span><br><span class="line">  a.darkmode.switch</span><br><span class="line">    svg.icon(aria-hidden=<span class="string">&quot;true&quot;</span>)</span><br><span class="line">      use(xlink:href=`<span class="comment">#`+ &#x27;icon-deng1&#x27;)</span></span><br><span class="line">    <span class="keyword">if</span> (theme.display_mode == <span class="string">&#x27;dark&#x27;</span>)</span><br><span class="line">      span<span class="comment">#darkmode-switch=&#x27; 开灯&#x27;</span></span><br><span class="line">    <span class="keyword">else</span>  </span><br><span class="line">      span<span class="comment">#darkmode-switch=&#x27; 关灯&#x27;</span></span><br></pre></td></tr></table></figure><p>怎么引入js这里就不用我多说了</p><figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.addEventListener(<span class="string">&#x27;DOMContentLoaded&#x27;</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> navFn = &#123;</span><br><span class="line">    switchDarkMode: <span class="function">() =&gt;</span> &#123; <span class="comment">// Switch Between Light And Dark Mode</span></span><br><span class="line">      <span class="keyword">const</span> nowMode = <span class="built_in">document</span>.documentElement.getAttribute(<span class="string">&#x27;data-theme&#x27;</span>) === <span class="string">&#x27;dark&#x27;</span> ? <span class="string">&#x27;dark&#x27;</span> : <span class="string">&#x27;light&#x27;</span></span><br><span class="line">      <span class="keyword">if</span> (nowMode === <span class="string">&#x27;light&#x27;</span>) &#123;</span><br><span class="line">        activateDarkMode()</span><br><span class="line">        saveToLocal.set(<span class="string">&#x27;theme&#x27;</span>, <span class="string">&#x27;dark&#x27;</span>, <span class="number">2</span>)</span><br><span class="line">        GLOBAL_CONFIG.Snackbar !== <span class="literal">undefined</span> &amp;&amp; btf.snackbarShow(GLOBAL_CONFIG.Snackbar.day_to_night)</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">&#x27;darkmode-switch&#x27;</span>).innerHTML = <span class="string">&#x27; 开灯&#x27;</span></span><br><span class="line">      &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        activateLightMode()</span><br><span class="line">        saveToLocal.set(<span class="string">&#x27;theme&#x27;</span>, <span class="string">&#x27;light&#x27;</span>, <span class="number">2</span>)</span><br><span class="line">        GLOBAL_CONFIG.Snackbar !== <span class="literal">undefined</span> &amp;&amp; btf.snackbarShow(GLOBAL_CONFIG.Snackbar.night_to_day)</span><br><span class="line">        <span class="built_in">document</span>.getElementById(<span class="string">&#x27;darkmode-switch&#x27;</span>).innerHTML = <span class="string">&#x27; 关灯&#x27;</span></span><br><span class="line">      &#125;</span><br><span class="line">      <span class="comment">// handle some cases</span></span><br><span class="line">      <span class="keyword">typeof</span> utterancesTheme === <span class="string">&#x27;function&#x27;</span> &amp;&amp; utterancesTheme()</span><br><span class="line">      <span class="keyword">typeof</span> FB === <span class="string">&#x27;object&#x27;</span> &amp;&amp; <span class="built_in">window</span>.loadFBComment()</span><br><span class="line">      <span class="built_in">window</span>.DISQUS &amp;&amp; <span class="built_in">document</span>.getElementById(<span class="string">&#x27;disqus_thread&#x27;</span>).children.length &amp;&amp; <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> <span class="built_in">window</span>.disqusReset(), <span class="number">200</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="built_in">document</span>.getElementById(<span class="string">&#x27;darkmodeBt&#x27;</span>).addEventListener(<span class="string">&#x27;click&#x27;</span>, <span class="function"><span class="keyword">function</span> (<span class="params"></span>)</span>&#123;</span><br><span class="line">    navFn.switchDarkMode()</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><p>之后是这俩按钮的CSS控制，一个是居右的显示，另一个是移动端开灯关灯字样的隐藏（css我都用stylus写的，如果会引入的可以也用stylus写，经过nib的转换后兼容性更好）</p><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line">#nav</span><br><span class="line">  <span class="comment">/* 搜索与黑夜切换样式 */</span> </span><br><span class="line">  #search-button</span><br><span class="line">    <span class="attribute">display</span>: inline</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0.3rem</span> </span><br><span class="line">    <span class="attribute">position</span>: relative</span><br><span class="line">    <span class="attribute">padding-bottom</span>: <span class="number">0.3rem</span></span><br><span class="line">    <span class="attribute">text-shadow</span>: <span class="number">0.05rem</span> <span class="number">0.05rem</span> <span class="number">0.1rem</span> rgb(<span class="number">0</span> <span class="number">0</span> <span class="number">0</span> / <span class="number">30%</span>)</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">0.78em</span></span><br><span class="line">    <span class="attribute">cursor</span>: pointer</span><br><span class="line">  #darkmodeBt</span><br><span class="line">    <span class="attribute">display</span>: inline</span><br><span class="line">    <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0.3rem</span> </span><br><span class="line">    <span class="attribute">position</span>: relative</span><br><span class="line">    <span class="attribute">padding-bottom</span>: <span class="number">0.3rem</span></span><br><span class="line">    <span class="attribute">text-shadow</span>: <span class="number">0.05rem</span> <span class="number">0.05rem</span> <span class="number">0.1rem</span> rgb(<span class="number">0</span> <span class="number">0</span> <span class="number">0</span> / <span class="number">30%</span>)</span><br><span class="line">    <span class="attribute">font-size</span>: <span class="number">0.78em</span></span><br><span class="line">    <span class="attribute">cursor</span>: pointer</span><br><span class="line"></span><br><span class="line"><span class="selector-id">#nav</span>.hide-menu</span><br><span class="line">  <span class="comment">/* 手机模式开关灯字样隐藏 */</span></span><br><span class="line">  #darkmodeBt</span><br><span class="line">    span</span><br><span class="line">      <span class="attribute">display</span>: none <span class="meta">!important</span></span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details blue><summary> 屏幕宽度缩减后菜单栏变成两行的bug修复 </summary>
+              <div class='content'>
+              <p>这个情况得直接去改butterfly的<code>main.js</code>（我心里一万个不愿意），它的宽度是动态计算的，所以只需要把右侧的新增部分纳入计算即可</p><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">  document.addEventListener(&#x27;DOMContentLoaded&#x27;, function () &#123;</span><br><span class="line">    const $blogName = document.getElementById(&#x27;site-name&#x27;)</span><br><span class="line">    let blogNameWidth = $blogName &amp;&amp; $blogName.offsetWidth</span><br><span class="line">    const $menusEle = document.querySelector(&#x27;#menus .menus_items&#x27;)</span><br><span class="line">    let menusWidth = $menusEle &amp;&amp; $menusEle.offsetWidth</span><br><span class="line">    const $searchEle = document.querySelector(&#x27;#search-button&#x27;)</span><br><span class="line">    let searchWidth = $searchEle &amp;&amp; $searchEle.offsetWidth</span><br><span class="line"><span class="addition">+   $darkmodeBtEle = document.querySelector(&#x27;#darkmodeBt&#x27;)</span></span><br><span class="line"><span class="addition">+   let darkmodeBtWidth = $darkmodeBtEle &amp;&amp; $darkmodeBtEle.offsetWidth</span></span><br><span class="line"></span><br><span class="line">    const adjustMenu = (change = false) =&gt; &#123;</span><br><span class="line">      if (change) &#123;</span><br><span class="line">        blogNameWidth = $blogName &amp;&amp; $blogName.offsetWidth</span><br><span class="line">        menusWidth = $menusEle &amp;&amp; $menusEle.offsetWidth</span><br><span class="line">        searchWidth = $searchEle &amp;&amp; $searchEle.offsetWidth</span><br><span class="line">      &#125;</span><br><span class="line">      const $nav = document.getElementById(&#x27;nav&#x27;)</span><br><span class="line">      let t</span><br><span class="line">      if (window.innerWidth &lt; 768) t = true</span><br><span class="line"><span class="deletion">-     else t = blogNameWidth + menusWidth + searchWidth &gt; $nav.offsetWidth - 120</span></span><br><span class="line"><span class="addition">+     else t = blogNameWidth + menusWidth + searchWidth + darkmodeBtWidth &gt; $nav.offsetWidth - 120</span></span><br><span class="line"></span><br><span class="line">      if (t) &#123;</span><br><span class="line">        $nav.classList.add(&#x27;hide-menu&#x27;)</span><br><span class="line">      &#125; else &#123;</span><br><span class="line">        $nav.classList.remove(&#x27;hide-menu&#x27;)</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details green><summary> 效果展示及nav.pug源码 </summary>
+              <div class='content'>
+              <p><img src= "https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/20210820175139.png" alt="魔改后的菜单栏"></p><figure class="highlight py"><table><tr><td class="code"><pre><span class="line">nav<span class="comment">#nav</span></span><br><span class="line">  span<span class="comment">#blog_name</span></span><br><span class="line">    a<span class="comment">#site-name(href=url_for(&#x27;/&#x27;)) #[=config.title]</span></span><br><span class="line">    </span><br><span class="line">  <span class="comment">#menus</span></span><br><span class="line">    !=partial(<span class="string">&#x27;includes/header/menu_item&#x27;</span>, &#123;&#125;, &#123;cache: true&#125;)</span><br><span class="line"></span><br><span class="line">    <span class="comment">#toggle-menu</span></span><br><span class="line">      a.site-page</span><br><span class="line">        svg.icon(aria-hidden=<span class="string">&quot;true&quot;</span>)</span><br><span class="line">          use(xlink:href=`<span class="comment">#`+ &#x27;icon-mulu&#x27;)</span></span><br><span class="line"></span><br><span class="line">  <span class="comment">#navFn</span></span><br><span class="line">    <span class="keyword">if</span> (theme.algolia_search.enable || theme.local_search.enable)</span><br><span class="line">      <span class="comment">#search-button</span></span><br><span class="line">        a.social-icon.search</span><br><span class="line">          svg.icon(aria-hidden=<span class="string">&quot;true&quot;</span>)</span><br><span class="line">            use(xlink:href=`<span class="comment">#`+ &#x27;icon-sousuo&#x27;)</span></span><br><span class="line">          span=<span class="string">&#x27; 搜索&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">#darkmodeBt</span></span><br><span class="line">      a.darkmode.switch</span><br><span class="line">        svg.icon(aria-hidden=<span class="string">&quot;true&quot;</span>)</span><br><span class="line">          use(xlink:href=`<span class="comment">#`+ &#x27;icon-deng1&#x27;)</span></span><br><span class="line">        <span class="keyword">if</span> (theme.display_mode == <span class="string">&#x27;dark&#x27;</span>)</span><br><span class="line">          span<span class="comment">#darkmode-switch=&#x27; 开灯&#x27;</span></span><br><span class="line">        <span class="keyword">else</span>  </span><br><span class="line">          span<span class="comment">#darkmode-switch=&#x27; 关灯&#x27;</span></span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<h3 id="侧边菜单栏的UI调整"><a href="#侧边菜单栏的UI调整" class="headerlink" title="侧边菜单栏的UI调整"></a>侧边菜单栏的UI调整</h3><p>可能很多来看这篇魔改的目的是看这个吧，毕竟改完的侧边菜单栏是真的漂亮（逃</p>
+<p>先看看魔改前后效果吧（左侧两幅是魔改前的，右边魔改后的</p>
+<p><img src= "https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/sidebar.png" alt="侧边菜单栏魔改前后对比"></p>
+<p>这个魔改是我把自己分别丢到读者和博主的角度去看的。身为读者我一般不会再手机端阅读时，把页面拖到最下边去看博主信息，一般是直接下一页（即使留言也是在博主信息上面的</p>
+<p><strong>而身为博主当然不止希望读者只看到自己的文章而忽略了博主本身</strong></p>
+<p>显然在移动端，<strong>简单的侧边栏下移到底部的布局是十分不合理的</strong>。所以如何体现作者信息卡片成了移动端UI布局的一个要点。而<strong>把作者信息丢到侧边菜单栏</strong>无疑是最好的选择。</p>
+<p>原先的布局未免又过于简陋，一个头像和一个文章标签分类数量怎么能表现作者本人和风格呢？至少得和侧边栏一样吧~</p>
+<p>（那既然改了侧边菜单栏的布局，干脆把背景啥的都改的可爱一点吧）猹如是想到</p>
+<details cyan open><summary> 侧边菜单栏作者信息卡片 </summary>
+              <div class='content'>
+              <p>这边基本上可以直接搬运侧栏的源码，但是由于类名的不同，需要自己重新写一下css（其实还是搬运）</p><p>修改的源码为<code>[blogroot]\themes\butterfly\layout\includes\sidebar.pug</code></p><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line">      //- 作者头像、名字、描述，此部分原先的代码在bf的版本更迭中有修改，要根据自己的bf版本源码做相应调整 -//</span><br><span class="line"><span class="deletion">-     .avatar-img.is-center</span></span><br><span class="line"><span class="deletion">-       img(src=url_for(theme.avatar.img) onerror=`onerror=null;src=&#x27;$&#123;theme.error_img.flink&#125;&#x27;` alt=&quot;avatar&quot;)</span></span><br><span class="line"><span class="addition">+     .is-center#sidebar-avatar</span></span><br><span class="line"><span class="addition">+       .avatar-img</span></span><br><span class="line"><span class="addition">+         img(src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src=&#x27;` + url_for(theme.error_img.flink) + `&#x27;` alt=&quot;avatar&quot;)</span></span><br><span class="line"><span class="addition">+       .author-info__name= config.author</span></span><br><span class="line"><span class="addition">+       .author-info__description!= theme.aside.card_author.description || config.description</span></span><br></pre></td></tr></table></figure><p>然后在<code>hr</code>之前添加这段代码</p><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="addition">+     //- begin follow_me按钮</span></span><br><span class="line"><span class="addition">+     if theme.aside.card_author.button.enable</span></span><br><span class="line"><span class="addition">+       a#card-info-btn.button--animated(href=theme.aside.card_author.button.link)</span></span><br><span class="line"><span class="addition">+         i(class=theme.aside.card_author.button.icon)</span></span><br><span class="line"><span class="addition">+         span=theme.aside.card_author.button.text</span></span><br><span class="line"><span class="addition">+     //- end     </span></span><br><span class="line"><span class="addition">+     //- begin 社交</span></span><br><span class="line"><span class="addition">+     if(theme.social)</span></span><br><span class="line"><span class="addition">+       .menu-info-social-icons.is-center</span></span><br><span class="line"><span class="addition">+         !=fragment_cache(&#x27;social&#x27;, function()&#123;return partial(&#x27;includes/header/social&#x27;)&#125;)</span></span><br><span class="line"><span class="addition">+     //- end</span></span><br><span class="line"></span><br><span class="line">      hr</span><br></pre></td></tr></table></figure><p>然后调整作者信息等的css</p><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line">#sidebar</span><br><span class="line">  #sidebar-menus</span><br><span class="line">    <span class="comment">/* 手机侧栏菜单展开 信息、头像位置调整*/</span></span><br><span class="line">    .site-data</span><br><span class="line">      <span class="attribute">margin-top</span>: <span class="number">0.5rem</span></span><br><span class="line">    #sidebar-avatar</span><br><span class="line">      <span class="attribute">margin-top</span>: <span class="number">0.2rem</span></span><br><span class="line">      <span class="comment">/* 作者名 */</span></span><br><span class="line">      .author-info__name</span><br><span class="line">        <span class="attribute">font-weight</span>: <span class="number">500</span></span><br><span class="line">        <span class="attribute">font-size</span>: <span class="number">1.57em</span></span><br><span class="line">    <span class="comment">/* 手机侧栏菜单展开 follow_me按钮*/</span></span><br><span class="line">    #card-info-btn</span><br><span class="line">      <span class="attribute">display</span>: block</span><br><span class="line">      <span class="attribute">margin</span>: <span class="number">0.3rem</span> <span class="number">1rem</span> <span class="number">0</span> <span class="number">1rem</span></span><br><span class="line">      <span class="attribute">background-color</span>: var(--btn-bg)</span><br><span class="line">      <span class="attribute">color</span>: var(--btn-color)</span><br><span class="line">      <span class="attribute">text-align</span>: center</span><br><span class="line">      <span class="attribute">line-height</span>: <span class="number">2.4</span></span><br><span class="line">      <span class="attribute">overflow</span>: hidden</span><br><span class="line">      <span class="attribute">border-radius</span>: <span class="number">0.625rem</span></span><br><span class="line">    <span class="comment">/* 手机侧栏菜单展开 社交图标 */</span></span><br><span class="line">    .menu-info-social-icons</span><br><span class="line">      <span class="attribute">margin</span>: <span class="number">0.5rem</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0</span></span><br><span class="line">      .social-<span class="attribute">icon</span></span><br><span class="line">        <span class="attribute">display</span>: inline</span><br><span class="line">        <span class="attribute">padding</span>: <span class="number">0</span> <span class="number">0.7rem</span> <span class="number">0</span> <span class="number">0.7rem</span></span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details red open><summary> 背景彩色渐变css </summary>
+              <div class='content'>
+              <p>这个就是纯css了，不需要再额外添加什么其它的东西</p><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line">#sidebar</span><br><span class="line">  #sidebar-menus</span><br><span class="line">    <span class="attribute">background</span>: linear-gradient(<span class="number">60deg</span>, <span class="number">#ffd7e4</span> <span class="number">0%</span>, <span class="number">#c8f1ff</span> <span class="number">100%</span>)</span><br><span class="line"></span><br><span class="line"><span class="selector-attr">[data-theme=<span class="string">&quot;dark&quot;</span>]</span></span><br><span class="line">  #sidebar</span><br><span class="line">    #sidebar-menus</span><br><span class="line">      <span class="attribute">background</span>: linear-gradient(<span class="number">60deg</span>, <span class="number">#2c0c16</span> <span class="number">0%</span>, <span class="number">#043749</span> <span class="number">100%</span>)</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details yellow><summary> 猹的可爱简笔画形象 </summary>
+              <div class='content'>
+              <p>猹一直想把自己的简笔画形象加到博客里，丢进侧边菜单栏作为一点点缀能让猹的博客看起来更加可爱一点点</p><p>于是我在上下各加了一个<code>div</code>容器放置两张简笔画图片，改变css大小和偏移位置来融入菜单栏的其他各部分之间</p><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line">#sidebar</span><br><span class="line">  #sidebar-menus</span><br><span class="line">    .simply-cha-<span class="attribute">top</span></span><br><span class="line">      <span class="attribute">margin</span>: <span class="number">0</span> <span class="number">0</span> -<span class="number">3rem</span> <span class="number">0</span></span><br><span class="line">      <span class="attribute">height</span>: <span class="number">4rem</span></span><br><span class="line">      <span class="attribute">background</span>: url(<span class="string">&quot;/img/simplycha-top.png&quot;</span>)</span><br><span class="line">      <span class="attribute">background-size</span>: contain</span><br><span class="line">      <span class="attribute">background-repeat</span>: no-repeat</span><br><span class="line">      <span class="attribute">background-position</span>: <span class="number">100%</span> <span class="number">0%</span></span><br><span class="line">    .simply-cha</span><br><span class="line">      <span class="attribute">margin-top</span>: -<span class="number">4rem</span></span><br><span class="line">      <span class="attribute">height</span>: <span class="number">5rem</span></span><br><span class="line">      <span class="attribute">background</span>: url(<span class="string">&quot;/img/simplycha.png&quot;</span>)</span><br><span class="line">      <span class="attribute">background-size</span>: contain</span><br><span class="line">      <span class="attribute">background-repeat</span>: no-repeat</span><br></pre></td></tr></table></figure><p>由于一个子菜单收缩带来了奇怪的bug，和店长探讨之后发现只有js动态控制一条道路可行，我。。。难受</p><p><img src= "https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/20210820215456.png" alt="吸底"></p><p>但猹很小天才的想到，猹决定把上下展开的按钮隐藏了，不动态变化了就不需要考虑啦</p><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line">#sidebar</span><br><span class="line">  #sidebar-menus</span><br><span class="line">    <span class="selector-class">.fas</span><span class="selector-class">.fa-chevron-down</span>.expand</span><br><span class="line">      <span class="attribute">display</span>: none</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details blue><summary> 一点点个人强迫症修复 </summary>
+              <div class='content'>
+              <p>既然把个人信息栏丢进侧边菜单了，那是不是在移动端的时候侧栏就可以关了？</p><p>然而bf的配置项<code>aside: button: false</code>只能在屏宽小于768px的时候有效，而在屏宽在768-900px的时候还是会把整个侧边栏显示在下边（看着超难受</p><p>于是乎我把900px以下的都关了，同时为了保证900px屏宽下一定会出现移动端导航栏样式，顺便把main.js的计算下限调了（这部分代码在上一节的修复里提到过</p><figure class="highlight styl"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@media</span> screen <span class="keyword">and</span> (<span class="attribute">max-width</span>: <span class="number">900px</span>)</span><br><span class="line">  #aside-content</span><br><span class="line">    display: none</span><br></pre></td></tr></table></figure><figure class="highlight diff"><table><tr><td class="code"><pre><span class="line"><span class="deletion">-     if (window.innerWidth &lt; 768) t = true</span></span><br><span class="line"><span class="addition">+     if (window.innerWidth &lt;= 900) t = true</span></span><br><span class="line">      else t = blogNameWidth + menusWidth + searchWidth + darkmodeBtWidth &gt; $nav.offsetWidth - 120</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<details green><summary> sidebar.pug源码 </summary>
+              <div class='content'>
+              <figure class="highlight py"><table><tr><td class="code"><pre><span class="line"><span class="comment">#sidebar</span></span><br><span class="line">  <span class="comment">#menu-mask</span></span><br><span class="line">  <span class="comment">#sidebar-menus</span></span><br><span class="line">    .simply-cha-top</span><br><span class="line">    //- begin 打算换成网站左上角图</span><br><span class="line">    .<span class="keyword">is</span>-center<span class="comment">#sidebar-avatar</span></span><br><span class="line">      .avatar-img</span><br><span class="line">        img(src=url_for(theme.avatar.img) onerror=`this.onerror=null;this.src=<span class="string">&#x27;` + url_for(theme.error_img.flink) + `&#x27;</span>` alt=<span class="string">&quot;avatar&quot;</span>)</span><br><span class="line">      .author-info__name= config.author</span><br><span class="line">      .author-info__description!= theme.aside.card_author.description || config.description</span><br><span class="line">    //- end</span><br><span class="line"></span><br><span class="line">    .site-data</span><br><span class="line">      <span class="keyword">if</span> site.posts.length</span><br><span class="line">        .data-item.<span class="keyword">is</span>-center</span><br><span class="line">          .data-item-link</span><br><span class="line">            a(href=url_for(config.archive_dir) + <span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">              .headline= _p(<span class="string">&#x27;aside.articles&#x27;</span>) </span><br><span class="line">              .length-num= site.posts.length</span><br><span class="line"></span><br><span class="line">      <span class="keyword">if</span> site.tags.length</span><br><span class="line">        .data-item.<span class="keyword">is</span>-center</span><br><span class="line">          .data-item-link</span><br><span class="line">            a(href=url_for(config.tag_dir) + <span class="string">&#x27;/&#x27;</span> )</span><br><span class="line">              .headline= _p(<span class="string">&#x27;aside.tags&#x27;</span>)</span><br><span class="line">              .length-num= site.tags.length</span><br><span class="line"></span><br><span class="line">      <span class="keyword">if</span> site.categories.length</span><br><span class="line">        .data-item.<span class="keyword">is</span>-center</span><br><span class="line">          .data-item-link</span><br><span class="line">            a(href=url_for(config.category_dir) + <span class="string">&#x27;/&#x27;</span>)</span><br><span class="line">              .headline= _p(<span class="string">&#x27;aside.categories&#x27;</span>) </span><br><span class="line">              .length-num= site.categories.length</span><br><span class="line"></span><br><span class="line">    //- begin follow_me按钮</span><br><span class="line">    <span class="keyword">if</span> theme.aside.card_author.button.enable</span><br><span class="line">      a<span class="comment">#card-info-btn.button--animated(href=theme.aside.card_author.button.link)</span></span><br><span class="line">        i(class=theme.aside.card_author.button.icon)</span><br><span class="line">        span=theme.aside.card_author.button.text</span><br><span class="line">    //- end</span><br><span class="line">    </span><br><span class="line">    //- begin 社交</span><br><span class="line">    <span class="keyword">if</span>(theme.social)</span><br><span class="line">      .menu-info-social-icons.<span class="keyword">is</span>-center</span><br><span class="line">        !=fragment_cache(<span class="string">&#x27;social&#x27;</span>, function()&#123;<span class="keyword">return</span> partial(<span class="string">&#x27;includes/header/social&#x27;</span>)&#125;)</span><br><span class="line">    //- end</span><br><span class="line"></span><br><span class="line">    hr</span><br><span class="line">    !=partial(<span class="string">&#x27;includes/header/menu_item&#x27;</span>, &#123;&#125;, &#123;cache: true&#125;)</span><br><span class="line"></span><br><span class="line">    .simply-cha</span><br></pre></td></tr></table></figure>
+              </div>
+            </details>
+
+<hr>
+<h3 id="售后（糖果屋小广告"><a href="#售后（糖果屋小广告" class="headerlink" title="售后（糖果屋小广告"></a>售后（糖果屋小广告</h3><p>菜单栏的魔改就这样结束啦！如果有需要询问的，可以加入糖果屋交流讨论（猹已经常驻糖果屋且不想开自己的群</p>
+<img src= "https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/loading.gif" data-lazy-src=https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/akicandyroom.jpg alt='🧊Akilarの糖果屋' style='max-height:500px'></article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="http://noionion.top/12280.html">http://noionion.top/12280.html</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>noionion</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2021-08-21</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2021-08-21</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Course/">Course</a><a class="post-meta__tags" href="/tags/Diary/">Diary</a><a class="post-meta__tags" href="/tags/hexo/">hexo</a><a class="post-meta__tags" href="/tags/butterfly/">butterfly</a></div><div class="post_share"><div class="social-share" data-image="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/48071.html"><img class="next-cover" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/4.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">一些博弈论的基础题型和解法（不讲证明（kbd</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/10567.html" title="个人哔哔: 我的butterfly魔改记录"><img class="cover" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2021-02-20</div><div class="title">个人哔哔: 我的butterfly魔改记录</div></div></a></div><div><a href="/17660.html" title="HPP专用测试文章"><img class="cover" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/19.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2021-02-06</div><div class="title">HPP专用测试文章</div></div></a></div><div><a href="/44642.html" title="简单搭建一个廉价、私人、无限制图片大小的稳定图床"><img class="cover" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2020-12-12</div><div class="title">简单搭建一个廉价、私人、无限制图片大小的稳定图床</div></div></a></div><div><a href="/32088.html" title="【转载】基于Butterfly的外挂标签引入"><img class="cover" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2021-04-10</div><div class="title">【转载】基于Butterfly的外挂标签引入</div></div></a></div><div><a href="/46581.html" title="个人哔哔: 关于我为什么搞博客"><img class="cover" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/13.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2020-12-29</div><div class="title">个人哔哔: 关于我为什么搞博客</div></div></a></div><div><a href="/54068.html" title="个人哔哔: 友链朋友圈开发二三事"><img class="cover" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/15.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2021-07-31</div><div class="title">个人哔哔: 友链朋友圈开发二三事</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Twikoo</span><span class="switch-btn"></span><span class="second-comment">Valine</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/head.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">noionion</div><div class="author-info__description">欢迎光临小窝！</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">28</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">10</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">8</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/2X-ercha"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/2X-ercha" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:noioonion@outlook.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">禁止盗站以及未标明作者和原帖地址的转载<br>禁止盗站以及未标明作者和原帖地址的转载<br>禁止盗站以及未标明作者和原帖地址的转载<br>(重复3遍以示郑重</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%8F%9C%E5%8D%95%E6%A0%8F%E9%AD%94%E6%94%B9%E7%9A%84%E5%90%84%E9%83%A8%E5%88%86"><span class="toc-number">2.</span> <span class="toc-text">菜单栏魔改的各部分</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%8F%9C%E5%8D%95%E6%A0%8F%E5%B1%85%E4%B8%AD%E5%B8%83%E5%B1%80%E5%92%8C%E5%8F%B3%E4%BE%A7%E5%8A%9F%E8%83%BD%E5%AE%9E%E7%8E%B0"><span class="toc-number">2.1.</span> <span class="toc-text">菜单栏居中布局和右侧功能实现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BE%A7%E8%BE%B9%E8%8F%9C%E5%8D%95%E6%A0%8F%E7%9A%84UI%E8%B0%83%E6%95%B4"><span class="toc-number">2.2.</span> <span class="toc-text">侧边菜单栏的UI调整</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%94%AE%E5%90%8E%EF%BC%88%E7%B3%96%E6%9E%9C%E5%B1%8B%E5%B0%8F%E5%B9%BF%E5%91%8A"><span class="toc-number">2.3.</span> <span class="toc-text">售后（糖果屋小广告</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/12280.html" title="猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改"><img data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/18.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改"/></a><div class="content"><a class="title" href="/12280.html" title="猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改">猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改</a><time datetime="2021-08-21T00:00:00.000Z" title="发表于 2021-08-21 00:00:00">2021-08-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/48071.html" title="一些博弈论的基础题型和解法（不讲证明（kbd"><img data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/4.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="一些博弈论的基础题型和解法（不讲证明（kbd"/></a><div class="content"><a class="title" href="/48071.html" title="一些博弈论的基础题型和解法（不讲证明（kbd">一些博弈论的基础题型和解法（不讲证明（kbd</a><time datetime="2021-08-16T20:18:03.000Z" title="发表于 2021-08-16 20:18:03">2021-08-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/54068.html" title="个人哔哔: 友链朋友圈开发二三事"><img data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/15.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="个人哔哔: 友链朋友圈开发二三事"/></a><div class="content"><a class="title" href="/54068.html" title="个人哔哔: 友链朋友圈开发二三事">个人哔哔: 友链朋友圈开发二三事</a><time datetime="2021-07-31T00:30:00.000Z" title="发表于 2021-07-31 00:30:00">2021-07-31</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/51816.html" title="ACM暑假训练：【求极大化矩阵】DP之悬线法"><img data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/2.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ACM暑假训练：【求极大化矩阵】DP之悬线法"/></a><div class="content"><a class="title" href="/51816.html" title="ACM暑假训练：【求极大化矩阵】DP之悬线法">ACM暑假训练：【求极大化矩阵】DP之悬线法</a><time datetime="2021-07-24T01:00:00.000Z" title="发表于 2021-07-24 01:00:00">2021-07-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/13221.html" title="ACM暑假训练：01字典树杂谈"><img data-lazy-src="https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/deemo_for_cover/9.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ACM暑假训练：01字典树杂谈"/></a><div class="content"><a class="title" href="/13221.html" title="ACM暑假训练：01字典树杂谈">ACM暑假训练：01字典树杂谈</a><time datetime="2021-07-23T13:55:07.000Z" title="发表于 2021-07-23 13:55:07">2021-07-23</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By noionion</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>(()=>{
+  const $countDom = document.getElementById('twikoo-count')
+  const init = () => {
+    let initData = {
+      el: '#twikoo-wrap',
+      envId: 'blog-twikoo-5gjox0si204192ef',
+      region: ''
+    }
+
+    if (false) {
+      const otherData = false
+      initData = Object.assign(initData, otherData)
+    }
+    
+    twikoo.init(initData)
+  }
+
+  const getCount = () => {
+    twikoo.getCommentsCount({
+      envId: 'blog-twikoo-5gjox0si204192ef',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      $countDom.innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const loadTwikoo = (bool = false) => {
+    if (typeof twikoo === 'object') {
+      init()
+      bool && $countDom && setTimeout(getCount,0)
+    } else {
+      getScript('https://cdn.jsdelivr.net/npm/twikoo@1.2.0/dist/twikoo.all.min.js').then(()=> {
+        init()
+        bool && $countDom && setTimeout(getCount,0)
+      })
+    }
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo(true)
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      appId: 'i1p42ILOLq6a71v2ffqcIuD1-MdYXbMMI',
+      appKey: 'k3HV2N8hP8J8PG36l7q8eTc3',
+      placeholder: '可以在昵称处填写你的QQ号来自动补全QQ昵称和QQ邮箱蛤~ \n已经更新了大量的表情包可以直接使用啦 \n已经启用了邮箱提醒功能，回复会有邮件提示，请注意查收！',
+      avatar: 'mp',
+      meta: 'nick,mail'.split(','),
+      pageSize: '10',
+      lang: 'en',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: 'https://cdn.jsdelivr.net/gh/GamerNoTitle/ValineCDN@master/',
+      emojiMaps: "",
+      enableQQ: true,
+      path: window.location.pathname,
+    }
+
+    if (false) { 
+      initData.requiredFields= (''.split(','))
+    }
+    
+    if (false) {
+      const otherData = false
+      initData = Object.assign(initData, otherData)
+    }
+    
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Twikoo' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script></div><script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script><script defer data-pjax src="/js/kernel.js"></script><script defer data-pjax src="/js/moments.js"></script><script defer src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script defer src="https://cdn.jsdelivr.net/npm/hexo-theme-volantis@latest/source/js/issues.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

@@ -3315,6 +3315,9 @@ li.categoryBar-list-item:nth-child(6)>span::after {
 li.categoryBar-list-item:nth-child(7)>span::after {
   content: '日常吐槽哔哔' !important;
 }
+li.categoryBar-list-item:nth-child(8)>span::after {
+  content: '自己的魔改小本本' !important;
+}
 li.categoryBar-list-item {
   width: 24% !important;
 }

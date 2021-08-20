@@ -6,7 +6,7 @@
   <link href="http://noionion.top/atom.xml" rel="self"/>
   
   <link href="http://noionion.top/"/>
-  <updated>2021-08-16T20:18:03.000Z</updated>
+  <updated>2021-08-21T00:00:00.000Z</updated>
   <id>http://noionion.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改</title>
+    <link href="http://noionion.top/12280.html"/>
+    <id>http://noionion.top/12280.html</id>
+    <published>2021-08-21T00:00:00.000Z</published>
+    <updated>2021-08-21T00:00:00.000Z</updated>
+    
+    
+    <summary type="html">开始自己魔改博客了！</summary>
+    
+    
+    
+    <category term="魔改日记本" scheme="http://noionion.top/categories/%E9%AD%94%E6%94%B9%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
+    
+    
+    <category term="Course" scheme="http://noionion.top/tags/Course/"/>
+    
+    <category term="Diary" scheme="http://noionion.top/tags/Diary/"/>
+    
+    <category term="hexo" scheme="http://noionion.top/tags/hexo/"/>
+    
+    <category term="butterfly" scheme="http://noionion.top/tags/butterfly/"/>
+    
+  </entry>
   
   <entry>
     <title>一些博弈论的基础题型和解法（不讲证明（kbd</title>
@@ -388,27 +413,6 @@
     
     
     <category term="Python" scheme="http://noionion.top/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>个人哔哔: ACM新生杯的前前后后</title>
-    <link href="http://noionion.top/22496.html"/>
-    <id>http://noionion.top/22496.html</id>
-    <published>2020-12-28T10:43:07.000Z</published>
-    <updated>2020-12-28T10:43:07.000Z</updated>
-    
-    
-    <summary type="html">ACM新生杯日记</summary>
-    
-    
-    
-    <category term="贰猹随笔" scheme="http://noionion.top/categories/%E8%B4%B0%E7%8C%B9%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="ACM" scheme="http://noionion.top/tags/ACM/"/>
-    
-    <category term="Diary" scheme="http://noionion.top/tags/Diary/"/>
     
   </entry>
   
