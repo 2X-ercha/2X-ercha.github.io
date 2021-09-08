@@ -15,8 +15,31 @@
     <atom:link href="http://noionion.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>欢迎光临小窝！</description>
-    <pubDate>Wed, 08 Sep 2021 17:30:00 GMT</pubDate>
+    <pubDate>Wed, 08 Sep 2021 20:45:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>友链朋友圈3.0食用说明书</title>
+      <link>http://noionion.top/47095.html</link>
+      <guid>http://noionion.top/47095.html</guid>
+      <pubDate>Wed, 08 Sep 2021 20:45:00 GMT</pubDate>
+      
+      <description>这是经过了两个大版本重构后全新的友链朋友圈的全新说明书</description>
+      
+      
+      
+      
+      <category domain="http://noionion.top/categories/%E5%AE%9E%E7%94%A8%E9%A1%B9%E7%9B%AE/">实用项目</category>
+      
+      
+      <category domain="http://noionion.top/tags/Python/">Python</category>
+      
+      <category domain="http://noionion.top/tags/Project/">Project</category>
+      
+      
+      <comments>http://noionion.top/47095.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>HNU:小学期软件实训第三周（这周简单一点，水题较多）</title>
@@ -436,27 +459,6 @@
       
       
       <comments>http://noionion.top/7431.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Twikoo-Magic: 一个适用于Twikoo评论系统和HexoPlusPlus的表情仓库</title>
-      <link>http://noionion.top/4712.html</link>
-      <guid>http://noionion.top/4712.html</guid>
-      <pubDate>Thu, 07 Jan 2021 11:12:00 GMT</pubDate>
-      
-      <description>Twikoo / HexoPlusPlus与Twikoo-Magic一起食用更配哦</description>
-      
-      
-      
-      
-      <category domain="http://noionion.top/categories/%E5%AE%9E%E7%94%A8%E9%A1%B9%E7%9B%AE/">实用项目</category>
-      
-      
-      <category domain="http://noionion.top/tags/Project/">Project</category>
-      
-      
-      <comments>http://noionion.top/4712.html#disqus_thread</comments>
       
     </item>
     

@@ -6,7 +6,7 @@
   <link href="http://noionion.top/atom.xml" rel="self"/>
   
   <link href="http://noionion.top/"/>
-  <updated>2021-09-08T17:30:00.000Z</updated>
+  <updated>2021-09-08T20:45:00.000Z</updated>
   <id>http://noionion.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>友链朋友圈3.0食用说明书</title>
+    <link href="http://noionion.top/47095.html"/>
+    <id>http://noionion.top/47095.html</id>
+    <published>2021-09-08T20:45:00.000Z</published>
+    <updated>2021-09-08T20:45:00.000Z</updated>
+    
+    
+    <summary type="html">这是经过了两个大版本重构后全新的友链朋友圈的全新说明书</summary>
+    
+    
+    
+    <category term="实用项目" scheme="http://noionion.top/categories/%E5%AE%9E%E7%94%A8%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="Python" scheme="http://noionion.top/tags/Python/"/>
+    
+    <category term="Project" scheme="http://noionion.top/tags/Project/"/>
+    
+  </entry>
   
   <entry>
     <title>HNU:小学期软件实训第三周（这周简单一点，水题较多）</title>
@@ -394,25 +415,6 @@
     
     
     <category term="Python" scheme="http://noionion.top/tags/Python/"/>
-    
-    <category term="Project" scheme="http://noionion.top/tags/Project/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Twikoo-Magic: 一个适用于Twikoo评论系统和HexoPlusPlus的表情仓库</title>
-    <link href="http://noionion.top/4712.html"/>
-    <id>http://noionion.top/4712.html</id>
-    <published>2021-01-07T11:12:00.000Z</published>
-    <updated>2021-02-09T22:38:00.000Z</updated>
-    
-    
-    <summary type="html">Twikoo / HexoPlusPlus与Twikoo-Magic一起食用更配哦</summary>
-    
-    
-    
-    <category term="实用项目" scheme="http://noionion.top/categories/%E5%AE%9E%E7%94%A8%E9%A1%B9%E7%9B%AE/"/>
-    
     
     <category term="Project" scheme="http://noionion.top/tags/Project/"/>
     
