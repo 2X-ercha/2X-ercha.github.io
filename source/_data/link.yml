@@ -119,8 +119,8 @@
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/zykj.js.org.png
 
     - name: 流恋のBlog
-      link: https://yuanyuanzi.top/
-      avatar: https://cdn.jsdelivr.net/gh/xiayuan-001/blogimg/img/a54294357f4ffef5c797560b33db211.jpg
+      link: https://yuanyuanzi.gitee.io
+      avatar: https://cdn.jsdelivr.net/gh/xiayuan-001/blogimg/img/wallhaven-721q7e.jpg
       descr: 分享教程与生活！
       
     - name: CtrlCV博客
@@ -277,6 +277,34 @@
       avatar: https://gitee.com/starfall-dust/tuchuang/raw/master/img/202108281334241.jpg
       descr: 钻之深，易沉海；钻之潜，易往初
 
+    - name: XIAOMING’S BLOG
+      link: https://le360.cc/
+      avatar: https://le360.cc/usr/uploads/logo.jpg
+      dexcr: 记录生活点滴，谱写精彩生活！
+
+    - name: Haobo’s Blog
+      link: https://discover304.top/
+      avatar: https://discover304.top/img/head.png
+      descr: 半只脚跨入炼丹师的大门的新人
+      siteshot: https://discover304.top/img/siteshot.png
+
+    - name: CC’s Zone
+      link: https://ccs.zone/
+      avatar: https://cdn.jsdelivr.net/gh/caicheng918/CDN/photo/avater.jpg
+      descr: 从未来再见
+
+    - name: JayantGoel
+      link : http://jayantgoel001.github.io/
+      avatar: https://avatars.githubusercontent.com/u/54479676?v=4
+      descr: looking forward to your visit!
+      siteshot: https://cdn.jsdelivr.net/gh/JayantGoel001/JayantGoel001.github.io@master/images/bgimg.webp
+
+    - name: 猿来是你
+      link: https://xingchuangyang.gitee.io
+      avatar: https://pic.chuangyang.xin/519b2a7e3594fb98f7d6842dd6d71162.jpg
+      descr: Java、PHP、Android
+
+
 
 - class_name: 线下后宫团
   class_desc: 其实是现实中同校或者认识的人啪（不一定能见到面）
@@ -339,6 +367,11 @@
       link: https://acmezone.tk/
       avatar: https://www.seaeye.cn/img/Xayah.jpg
       descr: 这世界上有多少人，就有多少道。莫问前程，各行各道。同道为亲，道不同不相为谋。生如长河，渡船千艘，唯自渡方是真渡。
+
+    - name: SkyWT
+      link: https://skywt.cn/
+      avatar: https://skywt.cn/usr/themes/sky/assets/avatar.png
+      descr: 我们的征途是星辰大海。
 
 
 
