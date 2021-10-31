@@ -7,6 +7,10 @@ sitemap: false
 ## 邻居们的好文章
 
 **就是朋友圈啦！**
+
+<!-- fontawesome图标的依赖，主题自带的不用加这行 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+
 <!-- 友链朋友圈样式 -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Rock-Candy-Tea/hexo-friendcircle-demo@main/css/akilar-SAO.css">
 
@@ -26,4 +30,7 @@ sitemap: false
   localStorage.setItem("fdatalist",JSON.stringify(fdata))
 </script>
 
-<script defer src="https://cdn.jsdelivr.net/gh/Rock-Candy-Tea/hexo-friendcircle-demo@main/js/fcircle.js"></script>
+<!-- 全局引入抓取方法 -->
+<script defer src="https://cdn.jsdelivr.net/gh/Rock-Candy-Tea/hexo-friendcircle-demo@main/js/fetch.js"></script>
+<!-- 局部引入页面元素生成方法 -->
+<script async src="https://cdn.jsdelivr.net/gh/Rock-Candy-Tea/hexo-friendcircle-demo@main/js/fcircle.js" charset="utf-8"></script>
