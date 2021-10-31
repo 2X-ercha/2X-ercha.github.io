@@ -6,7 +6,7 @@
   <link href="http://noionion.top/atom.xml" rel="self"/>
   
   <link href="http://noionion.top/"/>
-  <updated>2021-09-24T14:32:00.000Z</updated>
+  <updated>2020-10-31T15:00:00.000Z</updated>
   <id>http://noionion.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>个人哔哔: 一年期至，又一年始（不定时写完）</title>
+    <link href="http://noionion.top/47865.html"/>
+    <id>http://noionion.top/47865.html</id>
+    <published>2021-10-31T15:00:00.000Z</published>
+    <updated>2020-10-31T15:00:00.000Z</updated>
+    
+    
+    <summary type="html">突然想写点东西</summary>
+    
+    
+    
+    <category term="贰猹随笔" scheme="http://noionion.top/categories/%E8%B4%B0%E7%8C%B9%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="Diary" scheme="http://noionion.top/tags/Diary/"/>
+    
+  </entry>
   
   <entry>
     <title>友链朋友圈3.0食用说明书</title>
@@ -396,27 +415,6 @@
     <category term="C++" scheme="http://noionion.top/tags/C/"/>
     
     <category term="ACM" scheme="http://noionion.top/tags/ACM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何实现校园疫情防控自动打卡</title>
-    <link href="http://noionion.top/7431.html"/>
-    <id>http://noionion.top/7431.html</id>
-    <published>2021-01-24T23:38:00.000Z</published>
-    <updated>2021-06-04T23:16:00.000Z</updated>
-    
-    
-    <summary type="html">假期懒床怎么办？快自己写个一键/自动打卡吧！</summary>
-    
-    
-    
-    <category term="实用项目" scheme="http://noionion.top/categories/%E5%AE%9E%E7%94%A8%E9%A1%B9%E7%9B%AE/"/>
-    
-    
-    <category term="Python" scheme="http://noionion.top/tags/Python/"/>
-    
-    <category term="Project" scheme="http://noionion.top/tags/Project/"/>
     
   </entry>
   
