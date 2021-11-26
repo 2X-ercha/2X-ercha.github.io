@@ -60,9 +60,9 @@
     
     - name: 火喵酱
       link: https://cat.dorcandy.cn/
-      avatar: https://cdn.jsdelivr.net/gh/zc998800/cdn/image/dorcandy.jpg
+      avatar: https://cat.dorcandy.cn/logo
       descr: 一喵一世界
-      siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/dorcandy.cn.png
+      siteshot: https://cat.dorcandy.cn/background
       
     - name: Android
       link: https://android99.me/
@@ -272,9 +272,9 @@
       avatar: http://3404565214.test.upcdn.net/kodbox/hexo图片/Logo.png
       descr: 生命不息，折腾不止
 
-    - name: 深海小屋
-      link: https://bntx.ml/
-      avatar: https://gitee.com/starfall-dust/tuchuang/raw/master/img/202108281334241.jpg
+    - name: 安冉岛
+      link: https://ardao.cn/
+      avatar: https://cdn.jsdelivr.net/gh/king-zhangbn/picgo//img202111221202464.jpg
       descr: 钻之深，易沉海；钻之潜，易往初
 
     - name: XIAOMING’S BLOG
@@ -304,6 +304,26 @@
       avatar: https://pic.chuangyang.xin/519b2a7e3594fb98f7d6842dd6d71162.jpg
       descr: Java、PHP、Android
 
+    - name: Xin's Blog
+      link: https://blog.xingmouren.cn/
+      avatar: https://info.xinmouren.cn/blog-global-image/%E4%B8%BB%E9%A1%B5%E5%A4%B4%E5%83%8F.png
+      descr: 嵌入式的日子真不好过！
+
+    - name: slowsail’space
+      link: https://slowsail.top/
+      avatar: https://slowsail.top/img/avatar.jpg
+      descr: Hello World!
+
+    - name: Patrick’s Blog
+      link: https://zhang_shaolong.gitee.io/
+      avatar: https://zhang_shaolong.gitee.io/img/avatar.jpeg
+      descr: 理想主义的少年永远不会被现实招安。
+      siteshot: https://zhang_shaolong.gitee.io/img/Snipaste.png
+
+    - name: kaiboshi
+      link: https://kaiboshi.gitee.io/
+      avatar: https://kaiboshi.gitee.io/medias/avatar.png
+      descr: 做一个有梦想的咸鱼
 
 
 - class_name: 线下后宫团
