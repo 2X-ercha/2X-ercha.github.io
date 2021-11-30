@@ -305,9 +305,10 @@
       descr: Java、PHP、Android
 
     - name: Xin's Blog
-      link: https://blog.xingmouren.cn/
-      avatar: https://info.xinmouren.cn/blog-global-image/%E4%B8%BB%E9%A1%B5%E5%A4%B4%E5%83%8F.png
+      link: https://blog.xinmouren.cn/
+      avatar: https://info.xinmouren.cn/custom.gif
       descr: 嵌入式的日子真不好过！
+      siteshot: https://info.xinmouren.cn/shoot.png
 
     - name: slowsail’space
       link: https://slowsail.top/
@@ -324,6 +325,12 @@
       link: https://kaiboshi.gitee.io/
       avatar: https://kaiboshi.gitee.io/medias/avatar.png
       descr: 做一个有梦想的咸鱼
+
+    - name: Black Flies
+      link: https://www.yyyzyyyz.cn/
+      avatar: https://cdn.jsdelivr.net/gh/hiltay/imgcdn/img/202111191951780.JPG
+      descr: When nothing goes right,just go left.
+      siteshot: https://cdn.jsdelivr.net/gh/hiltay/imgcdn/img/202111191934973.jpg
 
 
 - class_name: 线下后宫团
