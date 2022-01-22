@@ -334,7 +334,7 @@
 
     - name: Gahotx
       link: https://gahotx.cn/
-      avatar: https://cdn.jsdelivr.net/gh/Gahotx/cdn@master/cover/cat.jpg
+      avatar: https://npm.elemecdn.com/gahotx-cdn@1.0.13/photo/cat.jpg
       descr: Don’t repeat yourself
 
     - name: LISIR
