@@ -108,7 +108,7 @@
     
     - name: 小N博客
       link: https://www.nesxc.com/
-      avatar: https://cdn-1.nesxc.com/img/avatar.gif
+      avatar: https://public.cdn.nesxc.com/avatar.jpg
       descr: 青石落晚巷 故人未还乡
       siteshot: https://cdn.jsdelivr.net/gh/Nesxc/ScreenShot@gh-pages/www.hack-gov.com.cn.jpg
     
@@ -130,7 +130,7 @@
       
     - name: Mx
       link: https://home.mx142.cn/
-      avatar: https://www.mx142.cn/medias/logo.png
+      avatar: https://mingxin142.gitee.io/images/logo.png
       descr: 一个分享知识和快乐的地方！
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/home.mx142.cn.png
       
@@ -331,6 +331,33 @@
       avatar: https://cdn.jsdelivr.net/gh/hiltay/imgcdn/img/202111191951780.JPG
       descr: When nothing goes right,just go left.
       siteshot: https://cdn.jsdelivr.net/gh/hiltay/imgcdn/img/202111191934973.jpg
+
+    - name: Gahotx
+      link: https://gahotx.cn/
+      avatar: https://cdn.jsdelivr.net/gh/Gahotx/cdn@master/cover/cat.jpg
+      descr: Don’t repeat yourself
+
+    - name: LISIR
+      link: https://lisir.me/
+      avatar: https://unpkg.zhimg.com/wkwbk-img@1.0.1/imgs/avatar.png
+      descr: 记住，你什么都不缺，你缺的是从头再来的勇气！
+
+    - name: FiveFire 的博客
+      link: https://fivefirex.github.io/
+      avatar: https://cdn.jsdelivr.net/gh/fivefirex/cdn/avatar.jpeg
+      descr: 啥也不会的菜鸟，开发编程
+      siteshot: https://cdn.jsdelivr.net/gh/fivefirex/cdn/fivefire2021-siteshot.jpg
+
+    - name: HuRan Blog
+      link: https://blog.huran.xyz/
+      avatar: https://img.huran.xyz/avatar.png
+      descr: 长风破浪会有时，直挂云帆济沧海
+      siteshot: https://unpkg.zhimg.com/hexo-avatar/link-siteshot/huran.png
+    
+    - name: 星空下的YZY
+      link: https://226yzy.com/
+      avatar: https://s4.ax1x.com/2021/12/11/oTDujJ.jpg
+      descr: 记录一枚菜鸟的征程
 
 
 - class_name: 线下后宫团
