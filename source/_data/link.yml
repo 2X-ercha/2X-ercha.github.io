@@ -145,7 +145,7 @@
       descr: 嵌入式技术记录与分享
 
     - name: YFun's Note
-      link: https://note.yfun.top/
+      link: https://blog.yfun.top/
       avatar: https://note.yfun.top/images/favicon.png
       descr: 我们生活在大地上，但我们的梦想超越天空。
 
@@ -359,6 +359,21 @@
       avatar: https://s4.ax1x.com/2021/12/11/oTDujJ.jpg
       descr: 记录一枚菜鸟的征程
 
+    - name: Sam’s blog
+      link: https://samissa.top/
+      avatar: https://cdn.jsdelivr.net/gh/Sam-afk-del/some-picture/logo/logo.png
+      descr: 且听风吟，静待花开
+
+    - name: 如此肤浅
+      link: https://zengyq.cn/
+      avatar: https://gitee.com/zengyuqin/drawing-bed/raw/master/img/boji.png
+      descr: 但行好事，莫问前程！
+
+    - name: 木木木木木
+      link: https://immmmm.com/
+      avatar: https://gravatar.loli.net/avatar/ba83fa02fc4b2ba621514941307e21be
+      descr: 不问明天，悠然浪费
+
 
 - class_name: 线下后宫团
   class_desc: 其实是现实中同校或者认识的人啪（不一定能见到面）
@@ -427,6 +442,11 @@
       avatar: https://skywt.cn/usr/themes/sky/assets/avatar.png
       descr: 我们的征途是星辰大海。
 
+    - name: 滚圆的小橘子的博客
+      link: https://roundedorange.top/
+      avatar: https://roundedorange.top/pictures/avatar.png
+      descr: 凡有所学，皆成性格。
+      siteshot: https://roundedorange.top/pictures/siteshot.png
 
 
 - class_name: 测试朋友圈
