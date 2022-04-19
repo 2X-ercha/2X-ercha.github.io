@@ -15,8 +15,60 @@
     <atom:link href="https://noionion.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>欢迎光临小窝！</description>
-    <pubDate>Tue, 30 Nov 2021 21:00:00 GMT</pubDate>
+    <pubDate>Tue, 19 Apr 2022 20:01:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>rust写个操作系统：课程实验blogos移至armV8深度解析（更新中）</title>
+      <link>https://noionion.top/16433.html</link>
+      <guid>https://noionion.top/16433.html</guid>
+      <pubDate>Tue, 19 Apr 2022 20:01:00 GMT</pubDate>
+      
+      <description>对课程实验的试验记录和深度解析（也差不多是我的实验报告）</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/16433.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>关于linux: 设备树浅析（更新中）</title>
+      <link>https://noionion.top/36455.html</link>
+      <guid>https://noionion.top/36455.html</guid>
+      <pubDate>Tue, 19 Apr 2022 20:00:00 GMT</pubDate>
+      
+      <description>对设备树的一些个人理解和解析</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/DTS/">DTS</category>
+      
+      <category domain="https://noionion.top/tags/Linux/">Linux</category>
+      
+      
+      <comments>https://noionion.top/36455.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>猹的魔改日记-小菜单和复制/F12提示栏</title>
@@ -419,48 +471,6 @@
       
       
       <comments>https://noionion.top/10752.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly-css-for-hpptalk: 给HPP的说说页魔改主题（适用于Butterfly）</title>
-      <link>https://noionion.top/14413.html</link>
-      <guid>https://noionion.top/14413.html</guid>
-      <pubDate>Sun, 07 Feb 2021 21:54:00 GMT</pubDate>
-      
-      <description>说实在，HPP-talk是真的不好看，我只好试试改一改了（其实是下学期打算学点css）</description>
-      
-      
-      
-      
-      <category domain="https://noionion.top/categories/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0/">前端入门学习</category>
-      
-      
-      <category domain="https://noionion.top/tags/Project/">Project</category>
-      
-      
-      <comments>https://noionion.top/14413.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>HPP专用测试文章</title>
-      <link>https://noionion.top/17660.html</link>
-      <guid>https://noionion.top/17660.html</guid>
-      <pubDate>Sat, 06 Feb 2021 17:27:00 GMT</pubDate>
-      
-      <description>这是一篇专门用来测试HexoPlusPlus新功能的文章</description>
-      
-      
-      
-      
-      <category domain="https://noionion.top/categories/%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95/">用于测试</category>
-      
-      
-      <category domain="https://noionion.top/tags/Course/">Course</category>
-      
-      
-      <comments>https://noionion.top/17660.html#disqus_thread</comments>
       
     </item>
     

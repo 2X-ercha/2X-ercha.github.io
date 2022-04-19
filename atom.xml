@@ -6,7 +6,7 @@
   <link href="https://noionion.top/atom.xml" rel="self"/>
   
   <link href="https://noionion.top/"/>
-  <updated>2021-11-30T21:00:00.000Z</updated>
+  <updated>2022-04-19T20:01:00.000Z</updated>
   <id>https://noionion.top/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>rust写个操作系统：课程实验blogos移至armV8深度解析（更新中）</title>
+    <link href="https://noionion.top/16433.html"/>
+    <id>https://noionion.top/16433.html</id>
+    <published>2022-04-19T20:01:00.000Z</published>
+    <updated>2022-04-19T20:01:00.000Z</updated>
+    
+    
+    <summary type="html">对课程实验的试验记录和深度解析（也差不多是我的实验报告）</summary>
+    
+    
+    
+    <category term="教程" scheme="https://noionion.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="os" scheme="https://noionion.top/tags/os/"/>
+    
+    <category term="rust" scheme="https://noionion.top/tags/rust/"/>
+    
+    <category term="blogos" scheme="https://noionion.top/tags/blogos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于linux: 设备树浅析（更新中）</title>
+    <link href="https://noionion.top/36455.html"/>
+    <id>https://noionion.top/36455.html</id>
+    <published>2022-04-19T20:00:00.000Z</published>
+    <updated>2022-04-19T20:00:00.000Z</updated>
+    
+    
+    <summary type="html">对设备树的一些个人理解和解析</summary>
+    
+    
+    
+    <category term="教程" scheme="https://noionion.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="DTS" scheme="https://noionion.top/tags/DTS/"/>
+    
+    <category term="Linux" scheme="https://noionion.top/tags/Linux/"/>
+    
+  </entry>
   
   <entry>
     <title>猹的魔改日记-小菜单和复制/F12提示栏</title>
@@ -381,44 +429,6 @@
     
     
     <category term="html" scheme="https://noionion.top/tags/html/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly-css-for-hpptalk: 给HPP的说说页魔改主题（适用于Butterfly）</title>
-    <link href="https://noionion.top/14413.html"/>
-    <id>https://noionion.top/14413.html</id>
-    <published>2021-02-07T21:54:00.000Z</published>
-    <updated>2021-02-07T21:54:00.000Z</updated>
-    
-    
-    <summary type="html">说实在，HPP-talk是真的不好看，我只好试试改一改了（其实是下学期打算学点css）</summary>
-    
-    
-    
-    <category term="前端入门学习" scheme="https://noionion.top/categories/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="Project" scheme="https://noionion.top/tags/Project/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HPP专用测试文章</title>
-    <link href="https://noionion.top/17660.html"/>
-    <id>https://noionion.top/17660.html</id>
-    <published>2021-02-06T17:27:00.000Z</published>
-    <updated>2021-02-06T17:27:00.000Z</updated>
-    
-    
-    <summary type="html">这是一篇专门用来测试HexoPlusPlus新功能的文章</summary>
-    
-    
-    
-    <category term="用于测试" scheme="https://noionion.top/categories/%E7%94%A8%E4%BA%8E%E6%B5%8B%E8%AF%95/"/>
-    
-    
-    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
     
   </entry>
   
