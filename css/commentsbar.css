@@ -3,8 +3,8 @@
     display: none;
   }
   /* 禁用图片点击,butterfly渲染后会给图片套上fancybox，点开后会造成信笺偏移*/
-  .fancybox{
-     pointer-events: none;
+  .formmain{
+     pointer-events: none !important;
   }
   /* top-img隐藏 */
   #page-header {
