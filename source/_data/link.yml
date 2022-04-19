@@ -129,8 +129,8 @@
       descr: 一顿CV猛如虎.
       
     - name: Mx
-      link: https://home.mx142.cn/
-      avatar: https://mingxin142.gitee.io/images/logo.png
+      link: https://www.wwru.cn/
+      avatar: https://static.mx142.cn/img/logo.png
       descr: 一个分享知识和快乐的地方！
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/home.mx142.cn.png
       
@@ -245,11 +245,10 @@
       descr: 有朋自远方来，不亦乐乎。
       siteshot: 'https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.itciraos.cn/'
 
-    - name: 快乐星球
-      link: https://wxydejoy.top/
-      avatar: https://wxydejoy.top/img/icon/android-chrome-96x96.png
-      descr: 什么是快乐星球!!!
-      siteshot: https://wxydejoy.top/img/siteshot.png
+    - name: 沐印小站；
+      url: https://undf.top;
+      avatar: https://c.undf.top/icon/android-chrome-144x144.png;
+      desc: 时间不在于你拥有多少，而在于你如何使用！
     
     - name: Xujiayao's Blog
       link: https://blog.xujiayao.top/
@@ -366,7 +365,7 @@
 
     - name: 如此肤浅
       link: https://zengyq.cn/
-      avatar: https://gitee.com/zengyuqin/drawing-bed/raw/master/img/boji.png
+      avatar: https://cdn.jsdelivr.net/gh/zeng-yq/drawingBed/img/boji.png
       descr: 但行好事，莫问前程！
 
     - name: 木木木木木
@@ -378,6 +377,46 @@
       link: https://blog.mqawa.cn/
       avatar: https://blog.mqawa.cn/img/mqawa.jpg
       descr: 一个华丽短暂的梦，一个残酷漫长的现实
+
+    - name: 一人の境
+      link: https://blog.holic-x.com/wv-blog/
+      avatar: https://blog.holic-x.com/img/avatar.jpg
+      descr: Carpe Diem ~
+
+    - name: 繁華落尽
+      link: https://qidaink.github.io/
+      avatar: https://fanhua-picture.oss-cn-hangzhou.aliyuncs.com/FanhuaBlog/avatar/qidaink-avatar.jpg
+      descr: 但愿人长久，千里共婵娟
+      siteshot: https://fanhua-picture.oss-cn-hangzhou.aliyuncs.com/FanhuaBlog/ScreenShot/qidaink.github.io.jpg
+
+    - name: 小破团网
+      link: https://www.odirect.cn/
+      avatar: https://cdn.odirect.cn/onedirimg/avatar.jpg
+      descr: You can you do, No can no bb!
+
+    - name: DoraKika
+      link: https://dorakika.cn/
+      avatar: https://dorakika.cn/img/favicon.jpg
+      descr: 热爱漫无边际，生活自有分寸！
+      siteshot: https://markdown-img-1303371957.cos.ap-nanjing.myqcloud.com/siteshot.png
+
+    - name: Lucifer 三思而后行
+      link: http://luciferlpc.top/
+      avatar: http://luciferlpc.top/img/avatar.png
+      descr: 好好吃饭🍣 好好睡觉💤 敲敲代码💻
+      siteshot: http://luciferlpc.top/img/siteshot.png
+
+    - name: wallleap
+      link: https://myblog.wallleap.cn/
+      avatar: https://bu.dusays.com/2022/03/14/b68e56712b914.jpg
+      descr: Luwang's Blog
+      siteshot: https://bu.dusays.com/2022/03/14/7159be581a48b.jpg
+
+    - name: 山岳库博
+      link: https://kmar.top/
+      avatar: https://fastly.jsdelivr.net/gh/EmptyDreams/resources/qqavatar.jpg
+      descr: 开发学习启发性二刺螈
+
 
 
 - class_name: 线下后宫团
@@ -452,6 +491,12 @@
       avatar: https://roundedorange.top/pictures/avatar.png
       descr: 凡有所学，皆成性格。
       siteshot: https://roundedorange.top/pictures/siteshot.png
+
+    - name: Mufanc
+      link: https://blog.mufanc.xyz/
+      avatar: https://blog.mufanc.xyz/assets/images/avatar.jpeg
+      descr: 永不落幕の前奏詩
+
 
 
 - class_name: 测试朋友圈

@@ -1,6 +1,7 @@
 if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
   [data-theme='dark']
-    --global-bg: darken(#121212, 2)
+    // --global-bg: darken(#121212, 2)
+    --global-bg: linear-gradient(90deg, #2c0c16 0%, #043749 100%)
     --font-color: alpha(#FFFFFF, .7)
     --hr-border: alpha(#FFFFFF, .4)
     --hr-before-color: alpha(#FFFFFF, .7)
@@ -14,11 +15,16 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
     --tab-botton-color: alpha(#FFFFFF, .7)
     --tab-button-hover-bg: lighten(#121212, 15)
     --tab-button-active-bg: #121212
-    --card-bg: #121212
+    //--card-bg: #121212
+    --card-bg: #ffffff11
     --sidebar-bg: #121212
-    --btn-hover-color: lighten(#121212, 40)
+    //--btn-hover-color: lighten(#121212, 40)
+    --btn-hover-color: #ff3f3f;
+    //
     --btn-color: alpha(#FFFFFF, .7)
-    --btn-bg: lighten(#121212, 5)
+    //--btn-bg: lighten(#121212, 5)
+    --btn-bg: #a153ff
+    //
     --text-bg-hover: lighten(#121212, 15)
     --light-grey: alpha(#FFFFFF, .7)
     --white: alpha(#FFFFFF, .9)
@@ -27,6 +33,14 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
     --blockquote-bg: lighten(#121212, 10)
     --reward-pop: lighten(#121212, 10)
     --toc-link-color: alpha(#FFFFFF, .6)
+    --hl-color: alpha(#FFFFFF, .7)
+    --hl-bg: lighten(#121212, 2)
+    --hltools-bg: lighten(#121212, 3)
+    --hltools-color: #90a4ae
+    --hlnumber-bg: lighten(#121212, 2)
+    --hlnumber-color: alpha(#FFFFFF, .4)
+    --hlscrollbar-bg: lighten(#121212, 5)
+    --hlexpand-bg: linear-gradient(180deg, rgba(lighten(#121212, 2), .6), rgba(lighten(#121212, 2), .9))
 
     #web_bg:before,
     #footer:before,
@@ -42,7 +56,10 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
         background: #2c2c2c
 
       pre > code
-        background: 0
+        background: lighten(#121212, 2)
+
+      figure.highlight
+        box-shadow: none
 
       .note
         code
@@ -51,39 +68,17 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
       .aplayer
         filter: brightness(.8)
 
+      kbd
+        border-color: #696969
+        background-color: #525252
+        color: #e2f1ff
+
     // 頭部
     #page-header
       &.nav-fixed > #nav,
       &.not-top-img > #nav
         background: alpha(#121212, .8)
         box-shadow: 0 5px 6px -5px rgba(133, 133, 133, 0)
-
-    // 代碼框
-    #article-container
-      pre,
-      .highlight:not(.js-file-line-container)
-        background-color: lighten(#121212, 2) !important
-        color: alpha(#FFFFFF, .7) !important
-
-      figure.highlight
-        box-shadow: none
-
-        if hexo-config('highlight_settings') && hexo-config('highlight_settings.enable')
-          table::-webkit-scrollbar-thumb
-            background: lighten(#121212, 5)
-
-          .line:before
-            color: alpha(#FFFFFF, .7) !important
-
-          .hljs
-            background-color: lighten(#121212, 2) !important
-
-        pre[class*='language-']::-webkit-scrollbar-thumb
-          background: lighten(#121212, 5)
-
-        .highlight-tools
-          background: lighten(#121212, 3) !important
-          color: #90a4ae !important
 
     #post-comment
       #comment-switch
@@ -102,26 +97,22 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
     .hide-button,
     .btn-beautify,
     .mermaid,
+    .hl-label,
     .post-outdate-notice,
     .error-img,
     #article-container iframe,
-    img,
     .gist,
     .ads-wrap
       filter: brightness(.8)
 
+    img
+      if hexo-config('lazyload.enable') && hexo-config('lazyload.blur') && !hexo-config('lazyload.placeholder')
+        filter: blur(0) brightness(.8)
+      else
+        filter: brightness(.8)
+
     #aside-content .aside-list > .aside-list-item:not(:last-child)
       border-bottom: 1px dashed alpha(#FFFFFF, .1)
-
-    // 第三方
-    // 插件 hexo-blog-encrypt
-    #hexo-blog-encrypt
-      label,
-      input
-        color: alpha(#FFFFFF, .7) !important
-
-      input
-        background-color: #121212
 
     // Gitalk
     #gitalk-container
@@ -130,7 +121,7 @@ if hexo-config('darkmode.enable') || hexo-config('display_mode') == 'dark'
       svg
         fill: alpha(#FFFFFF, .9) !important
 
-    // Disqus and Disqusjs
+    // Disqusjs 反代模式下的適配
     #disqus_thread
       #dsqjs
         .dsqjs-tab-active,

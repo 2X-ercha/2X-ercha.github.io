@@ -1,17 +1,29 @@
 nav#nav
-  span#blog_name
-    a#site-name(href=url_for('/')) #[=config.title]
-    
-  #menus
-    if (theme.algolia_search.enable || theme.local_search.enable)
-      #search-button
-        a.site-page.social-icon.search
-          i.fas.fa-search.fa-fw
-          span=' '+_p('search')
-    !=fragment_cache('menus', function(){return partial('includes/header/menu_item')})
+  #nav-group
+    span#blog_name
+      a#site-name(href=url_for('/')) #[=config.title]
+      
+    #menus
+      !=partial('includes/header/menu_item', {}, {cache: true})
 
-    #toggle-menu
-      a.site-page
-        i.fas.fa-bars.fa-fw
+    #navFn
+      if (theme.algolia_search.enable || theme.local_search.enable)
+        #search-button
+          a.social-icon.search
+            svg.icon(aria-hidden="true")
+              use(xlink:href=`#`+ 'icon-sousuo')
+            span=' 搜索'
 
+      #darkmodeBt
+        a.darkmode.switch
+          svg.icon(aria-hidden="true")
+            use(xlink:href=`#`+ 'icon-deng1')
+          if (theme.display_mode == 'dark')
+            span#darkmode-switch=' 开灯'
+          else  
+            span#darkmode-switch=' 关灯'
 
+      #toggle-menu
+        a.site-page
+          svg.icon(aria-hidden="true")
+            use(xlink:href=`#`+ 'icon-mulu')

@@ -1,0 +1,37 @@
+#recent-posts
+  .recent-post-item
+    border-radius: 12px
+    .recent-post-info
+      span
+        margin-left: 0.3em
+      .article-title
+        font-family: 'aqqxs', sans-serif
+      .article-meta-wrap
+        font-family: 'aqqxs', sans-serif
+        font-size: 110%
+        color: #000
+        a
+          color: #000
+          margin-left: 0.3em
+      .content
+        font-family: sans-serif
+
+@media screen and (min-width: 769px)
+  #recent-posts
+    .recent-post-item
+      .post_cover
+        border-radius: 10em 12px 12px 10em / 10em 12px 12px 10em
+      .recent-post-info
+        .article-title
+          font-size: 2em
+
+[data-theme="dark"]
+  #recent-posts
+    .recent-post-item
+      .article-meta-wrap
+        color: #e5e5e5
+        a
+          color: #e5e5e5
+          margin-left: 0.3em
+      .content
+        color: #e5e5e5

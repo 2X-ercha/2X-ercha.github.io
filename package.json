@@ -15,6 +15,7 @@
     "aplayer": "^1.10.1",
     "hexo": "^5.0.0",
     "hexo-abbrlink": "^2.2.1",
+    "hexo-butterfly-footer-beautify": "^1.0.6",
     "hexo-deployer-git": "^3.0.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-baidu-sitemap": "^0.1.9",
