@@ -1,0 +1,29 @@
+#post-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#post-info .post-title {
+  font-family: 'aqqxs', sans-serif;
+  max-width: 20em;
+  text-align: center;
+  border-bottom: 0 !important;
+  margin-bottom: -0.6rem;
+}
+#post-info .post-title:after {
+  border-bottom: 1px solid #78818a;
+  content: '';
+  width: 10em;
+  display: block;
+  margin: 0.5em auto;
+  height: 1px;
+}
+#post-info #post-meta {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+[data-theme='dark'] .post-title:after {
+  border-bottom: 1px solid var(--light-grey);
+}
