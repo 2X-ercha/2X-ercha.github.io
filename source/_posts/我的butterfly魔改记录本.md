@@ -1,6 +1,7 @@
 ---
 title: '个人哔哔: 我的butterfly魔改记录'
 categories: 贰猹随笔
+writeByhand: true
 tags:
   - Diary
   - Course
