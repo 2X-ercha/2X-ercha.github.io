@@ -8532,6 +8532,10 @@ svg.icon {
 #nav.hide-menu #darkmodeBt span {
   display: none !important;
 }
+article.writeByhand {
+  font-family: 'writeByhand', sans-serif;
+  font-size: large;
+}
 #sidebar #sidebar-menus {
   background: -webkit-linear-gradient(30deg, #ffd7e4 0%, #c8f1ff 100%);
   background: -moz-linear-gradient(30deg, #ffd7e4 0%, #c8f1ff 100%);
@@ -8648,6 +8652,11 @@ svg.icon {
 @font-face {
   font-family: 'aqqxs';
   src: url("https://cdn.jsdelivr.net/gh/2x-ercha/cdn-for-try/fonts/FXAiQingQiXiangSuo.ttf");
+  ont-display: swap;
+}
+@font-face {
+  font-family: 'writeByhand';
+  src: url("./font/WoZaiXingYeShenChuDengNi.ttf");
   ont-display: swap;
 }
 .cf-article-avatar .img-alt {
