@@ -6,15 +6,22 @@
         i.fas.fa-pencil-alt
         
   #post-meta
+    .tag-cloud-list.is-center
+      !=cloudTags({source: page.tags, minfontsize: 1.5, maxfontsize: 1.8, limit: 0, unit: 'em'})
+
     .meta-firstline
       if (theme.post_meta.post.date_type)
         span.post-meta-date
           if (theme.post_meta.post.date_type === 'both')
-            i.far.fa-calendar-alt.fa-fw.post-meta-icon
+            //- i.far.fa-calendar-alt.fa-fw.post-meta-icon
+            svg.icon(aria-hidden="true")
+              use(xlink:href=`#`+ 'icon-rili')
             span.post-meta-label= _p('post.created')
             time.post-meta-date-created(datetime=date_xml(page.date) title=_p('post.created') + ' ' + full_date(page.date))=date(page.date, config.date_format)
             span.post-meta-separator |
-            i.fas.fa-history.fa-fw.post-meta-icon
+            //- i.fas.fa-history.fa-fw.post-meta-icon
+            svg.icon(aria-hidden="true")
+              use(xlink:href=`#`+ 'icon-shijian')
             span.post-meta-label= _p('post.updated')
             time.post-meta-date-updated(datetime=date_xml(page.updated) title=_p('post.updated') + ' ' + full_date(page.updated))=date(page.updated, config.date_format)
           else
@@ -29,9 +36,10 @@
         span.post-meta-categories
           if (theme.post_meta.post.date_type)
             span.post-meta-separator |
-
           each item, index in page.categories.data
-            i.fas.fa-inbox.fa-fw.post-meta-icon
+            //- i.fas.fa-inbox.fa-fw.post-meta-icon
+            svg.icon(aria-hidden="true")
+              use(xlink:href=`#`+ 'icon-fenlei1')
             a(href=url_for(item.path)).post-meta-categories #[=item.name]
             if (index < page.categories.data.length - 1)
               i.fas.fa-angle-right.post-meta-separator
@@ -39,7 +47,7 @@
     .meta-secondline
       - let postWordcount = theme.wordcount.enable && (theme.wordcount.post_wordcount || theme.wordcount.min2read)
       if (postWordcount)
-        span.post-meta-separator |
+        //- span.post-meta-separator
         span.post-meta-wordcount
           if theme.wordcount.post_wordcount
             i.far.fa-file-word.fa-fw.post-meta-icon
@@ -109,3 +117,15 @@
             +countBlock
               a(href=url_for(page.path) + '#post-comment')
                 span.fb-comments-count(data-href=urlNoIndex())
+
+    .line 
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
