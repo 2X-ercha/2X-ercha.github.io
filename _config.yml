@@ -165,7 +165,7 @@ footer_beautify:
   runtime_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.js
   runtime_css: https://npm.elemecdn.com/hexo-butterfly-footer-beautify@1.0.0/lib/runtime.css
   # 徽标部分配置项
-  swiperpara: 5 #若非0，则开启轮播功能，每行徽标个数
+  swiperpara: 6 #若非0，则开启轮播功能，每行徽标个数
   bdageitem:
     - link: https://hexo.io/ #徽标指向网站链接
       shields: https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo #徽标API
@@ -173,9 +173,12 @@ footer_beautify:
     - link: https://butterfly.js.org/
       shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
       message: 主题版本Butterfly_v3.7.0-b2
+    - link: https://www.sourcegcdn.com/
+      shields: https://img.shields.io/badge/CDN-sourcegcdn-orange?style=flat&logo=Apache%20RocketMQ
+      message: 本站使用Source Global CDN为部分静态资源提供CDN加速
     - link: https://www.jsdelivr.com/
       shields: https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
-      message: 本站使用JsDelivr为静态资源提供CDN加速
+      message: 本站使用JsDelivr仅用于访问部分静态资源
     - link: https://github.com/
       shields: https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub
       message: 本站项目由Github托管
