@@ -453,9 +453,9 @@ aarch64-none-elf-gdb target/aarch64-unknown-none-softfloat/debug/blogos_armv8
 
 --------
 
-## Write 实例实现和测试
+### Write 实例实现和测试
 
-### 实例实现
+#### 实例实现
 
 回顾实验一的`main.rs`代码，看看我们是如何实现输出`Hello World`的
 
@@ -511,7 +511,7 @@ impl core::fmt::Write for Writer {
 
 --------
 
-### 测试
+#### 测试
 
 向`main.rs`中加入测试函数，并修改`not_main`函数
 
@@ -556,7 +556,7 @@ qemu-system-aarch64 -machine virt -m 1024M -cpu cortex-a53 -nographic -kernel ta
 
 --------
 
-## print!和println!封装
+### print!和println!封装
 
 现在我们已经可以采用print_something函数通过串口输出字符了。但为了输出，我们需要两个步骤：
 
@@ -570,7 +570,7 @@ qemu-system-aarch64 -machine virt -m 1024M -cpu cortex-a53 -nographic -kernel ta
 
 --------
 
-### Write全局接口
+#### Write全局接口
 
 我们尝试创建一个静态的WRITER变量：编辑`src/uart_console.rs`，新增：
 
@@ -639,7 +639,7 @@ pub static ref WRITER: Writer = Writer{};
 
 ---------
 
-### 实现 print! 宏
+#### 实现 print! 宏
 
 现在我们可以开始实现`print!`和`println!`了。我们继续向`src\uart_console.rs`中写入：
 
@@ -680,7 +680,7 @@ macro_rules! println {
 
 --------
 
-### 调用宏并测试
+#### 调用宏并测试
 
 我们不再以额外文件`include!`的方式添加到`main.rs`，而是将其作为模块导入。
 
