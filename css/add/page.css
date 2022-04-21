@@ -24,6 +24,16 @@
   align-items: center;
   flex-direction: column;
 }
+.post-copyright {
+  font-family: 'aqqxs', sans-serif;
+  font-size: large;
+}
+.post-copyright .post-copyright__title {
+  font-size: 28px;
+}
+#pagination {
+  border-radius: 10px;
+}
 [data-theme='dark'] .post-title:after {
   border-bottom: 1px solid var(--light-grey);
 }
