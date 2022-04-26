@@ -22,6 +22,8 @@ updated: 2022-04-26 11:09:00
 
 路漫漫其修远兮，吾将上下而求索，说的莫若如是。
 
+{% note purple 'far fa-hand-scissors' flat %}**仓库地址**：[https://github.com/2X-ercha/blogOS-armV8](https://github.com/2X-ercha/blogOS-armV8)，能不能求一个`star`呢？{% endnote %}
+
 --------
 
 ## 实验一 环境配置
@@ -724,8 +726,6 @@ qemu-system-aarch64 -machine virt -m 1024M -cpu cortex-a53 -nographic -kernel ta
 
 ## 实验三（施工中...）
 
---------
-
 ## 实验四：中断
 
 ### 中断原理
@@ -882,13 +882,17 @@ intc@8000000 {
 
 其中`reg`一行约定了gic的寄存器在内存中的映射范围，并结合gicv2的文档[ARM Generic Interrupt Controller](https://www.kernel.org/doc/Documentation/devicetree/bindings/interrupt-controller/arm%2Cgic.txt)可知：
 
-*   ```vts
+*   GICD寄存器说明中：
+
+    ```vts
     reg = <0x00 0x8000000 0x00 0x10000 0x00 0x8010000 0x00 0x10000>;
     ```
 
     约定：GICD寄存器映射到内存的位置为0x8000000，长度为0x10000， GICC寄存器映射到内存的位置为0x8010000，长度为0x10000
 
-*   ```vts
+*   GICD中断说明中：
+
+    ```vts
     #interrupt-cells = <0x03>;
     ```
 
@@ -949,6 +953,7 @@ intc@8000000 {
     const GICC_PMR_PRIO_LOW: u32 = 0xff; // 优先级掩码寄存器，中断优先级过滤器，较高优先级对应较低优先级字段值。
     const GICC_BPR_NO_GROUP: u32 = 0x00; // 优先级分组是将GICC_BPR（Binary PointRegister）分为两个域，组优先级（group priority）和组内优先级（subpriority）。当决定抢占（Preemption）的时候，组优先级相同的中断被视为一样的，不考虑组内优先级。那就意味着在每个优先级组内只能有一个中断被激活。组优先级又被称为抢占级别（preemption level）。这里令其无组优先级。
     ```
+
 
 ##### GIC初始化
 

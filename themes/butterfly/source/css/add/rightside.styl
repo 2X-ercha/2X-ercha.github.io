@@ -104,13 +104,11 @@
       height: 16.3rem
       margin-top: -0.3rem
       margin-left: -0.7rem
+      scrollbar-width: none
       .toc-child
         margin-left: -1rem
-      &::-webkit-scrollbar
-        width: 0
     .toc-link
       display: block
-      padding-left: .3rem
       border-left: 3px solid transparent
       color: var(--toc-link-color)
       transition: all 0.6s ease-in-out
@@ -122,6 +120,14 @@
         margin: 0.3rem 0 0.3rem 0.1rem
         span.toc-text
           color: #fff
+    .toc-item
+      .toc-level-2
+      .toc-level-3
+      .toc-level-4
+      .toc-level-5
+      .toc-level-6
+        margin-left: -0.5rem
+
 
 .el-notification
   box-shadow: 0 0 10px #000
