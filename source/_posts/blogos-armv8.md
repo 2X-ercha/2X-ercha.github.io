@@ -9,7 +9,7 @@ tags:
 description: 对课程实验的试验记录和深度解析（也差不多是我的实验报告）
 abbrlink: 16433
 date: 2022-04-19 20:01:00
-updated: 2022-04-25 22:34:00
+updated: 2022-04-26 11:09:00
 ---
 
 ## 前言
@@ -2176,6 +2176,8 @@ register_structs! {
     }
 }
 ```
+
+个人也写了个较为完整的驱动（gpiodata那个描述可能有些问题），可以查看[https://github.com/2X-ercha/blogOS-armV8/blob/lab6/src/pl061_all.rs](https://github.com/2X-ercha/blogOS-armV8/blob/lab6/src/pl061_all.rs)
 
 ### 实现关机中断及其处理回调函数
 
