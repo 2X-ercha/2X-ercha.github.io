@@ -15,29 +15,8 @@
     <atom:link href="https://noionion.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>欢迎光临小窝！</description>
-    <pubDate>Wed, 27 Apr 2022 15:57:20 GMT</pubDate>
+    <pubDate>Tue, 26 Apr 2022 11:09:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>用于某次py教材编写而做的精简复习（万字初稿）</title>
-      <link>https://noionion.top/63595.html</link>
-      <guid>https://noionion.top/63595.html</guid>
-      <pubDate>Wed, 27 Apr 2022 15:57:20 GMT</pubDate>
-      
-      <description>balabala水文章</description>
-      
-      
-      
-      
-      <category domain="https://noionion.top/categories/%E6%95%99%E7%A8%8B/">教程</category>
-      
-      
-      <category domain="https://noionion.top/tags/Python/">Python</category>
-      
-      
-      <comments>https://noionion.top/63595.html#disqus_thread</comments>
-      
-    </item>
     
     <item>
       <title>rust写个操作系统：课程实验blogos移至armV8深度解析（更新中）</title>
@@ -427,6 +406,27 @@
       
       
       <comments>https://noionion.top/32088.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>用于某次py教材编写而做的精简复习（万字初稿）</title>
+      <link>https://noionion.top/63595.html</link>
+      <guid>https://noionion.top/63595.html</guid>
+      <pubDate>Tue, 30 Mar 2021 00:00:00 GMT</pubDate>
+      
+      <description>balabala水文章</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://noionion.top/tags/Python/">Python</category>
+      
+      
+      <comments>https://noionion.top/63595.html#disqus_thread</comments>
       
     </item>
     
