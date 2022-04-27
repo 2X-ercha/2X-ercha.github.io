@@ -34,6 +34,20 @@
 #pagination {
   border-radius: 10px;
 }
+@media screen and (min-width: 500px) {
+  .tag_share {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tag_share {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
 [data-theme='dark'] .post-title:after {
   border-bottom: 1px solid var(--light-grey);
 }
