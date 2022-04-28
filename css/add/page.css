@@ -36,7 +36,7 @@
 }
 .relatedPosts > .relatedPosts-list > div {
   border-radius: 12px;
-  background: rgba(255,255,255,0.678);
+  background: rgba(214,214,214,0.267);
   transition: 0.3s;
   cursor: pointer;
   overflow: hidden;
@@ -56,7 +56,7 @@
   -webkit-backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
   filter: blur(0);
-  opacity: 0.15;
+  opacity: 0.35;
 }
 .relatedPosts > .relatedPosts-list .content {
   font-size: large;

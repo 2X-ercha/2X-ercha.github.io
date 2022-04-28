@@ -8803,7 +8803,7 @@ article.writeByhand {
 }
 .relatedPosts > .relatedPosts-list > div {
   border-radius: 12px;
-  background: rgba(255,255,255,0.678);
+  background: rgba(214,214,214,0.267);
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
@@ -8829,9 +8829,9 @@ article.writeByhand {
   -webkit-backface-visibility: hidden;
   -webkit-transform-style: preserve-3d;
   filter: blur(0);
-  opacity: 0.15;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
-  filter: alpha(opacity=15);
+  opacity: 0.35;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
+  filter: alpha(opacity=35);
 }
 .relatedPosts > .relatedPosts-list .content {
   font-size: large;
