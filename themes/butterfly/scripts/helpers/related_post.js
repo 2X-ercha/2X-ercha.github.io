@@ -48,7 +48,8 @@ hexo.extend.helper.register('related_posts', function (currentPost, allPosts) {
   if (relatedPosts.length > 0) {
     result += '<div class="relatedPosts">'
     result +=
-      '<div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>' +
+      // '<div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>' +
+      '<div class="headline is-center"><span>' +
       ' ' +
       headlineLang +
       '</span></div>'
