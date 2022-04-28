@@ -166,6 +166,9 @@ article.writeByhand {
 #site_social_icons {
   display: none !important;
 }
+#post-comment .comment-head {
+  margin: 1rem;
+}
 [data-theme="dark"] #footer #footer-wrap {
   color: #fff;
 }
