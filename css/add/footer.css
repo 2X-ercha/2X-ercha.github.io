@@ -1,3 +1,29 @@
+#footer_deal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer_deal a.deal_link {
+  margin: 1rem 1rem;
+  line-height: 1.3rem;
+  border-radius: 3rem;
+  box-shadow: 2px 2px 4px;
+}
+#footer_deal img.footer_mini_logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 1rem;
+  cursor: pointer;
+  filter: drop-shadow(0 12px 12px rgba(238,125,121,0.212));
+  transition: cubic-bezier(0, 0, 0, 1.29) 0.5s;
+  border-radius: 3rem;
+  box-shadow: 2px 2px 4px;
+}
+#footer_deal img.footer_mini_logo :hover {
+  transform: scale(1.1);
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+}
 .footer-all {
   max-width: 1000px;
   width: 100%;
@@ -19,7 +45,8 @@
   font-size: 20px;
 }
 .footer-all #footer-wrap {
-  max-width: 50%;
+  max-width: 100%;
+  padding: 0 1rem 2rem 1rem;
 }
 .footer-all #footer-wrap .copyright {
   margin: 0.2rem 0;
