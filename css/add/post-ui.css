@@ -37,3 +37,6 @@
 [data-theme="dark"] #recent-posts .recent-post-item .content {
   color: #e5e5e5;
 }
+[data-theme="dark"] #recent-posts > .recent-post-item .post_cover img.post_bg {
+  opacity: 0.35;
+}
