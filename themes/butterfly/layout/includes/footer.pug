@@ -1,5 +1,21 @@
+#footer_deal
+  a.deal_link(href="https://github.com/2X-ercha/" target="_blank" title="Github")
+    svg.icon(aria-hidden="true")
+      use(xlink:href="#icon-github")
+  a.deal_link(href="mailto:noionion@outlook.com" target="_blank" title="Email")
+    svg.icon(aria-hidden="true")
+      use(xlink:href="#icon-youxiang")
+  img.footer_mini_logo.entered.loading(src="/img/simplycha-qaq.webp" title="返回顶部" onclick="btf.scrollToDest(0,500)" data-ll-status="loading")
+  a.deal_link(href="https://space.bilibili.com/334475423" target="_blank" title="Bilibili")
+    svg.icon(aria-hidden="true")
+      use(xlink:href="#icon-CN_bilibiliB")
+  a.deal_link(href="https://music.163.com/#/user/home?id=1395220098" target="_blank" title="wang'yi")
+    svg.icon(aria-hidden="true")
+      use(xlink:href="#icon-yinle")
+
+  
 .footer-all
-  .web-info
+  //- .web-info
     if theme.aside.card_webinfo.post_count
       .webinfo-item
         .item-name= _p('aside.card_webinfo.article_name')
