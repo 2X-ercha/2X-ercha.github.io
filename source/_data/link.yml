@@ -57,31 +57,31 @@
       avatar: https://cdn.jsdelivr.net/gh/uncleacc/cdn/img/custom/avatar.png
       descr: 一只努力学习的蒟蒻仔
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.fezhu.top.png
-    
+
     - name: 火喵酱
       link: https://cat.dorcandy.cn/
       avatar: https://cat.dorcandy.cn/logo
       descr: 一喵一世界
       siteshot: https://cat.dorcandy.cn/background
-      
+
     - name: Android
       link: https://android99.me/
       avatar: https://android99.me/img/avatar.png
       descr: 矩阵
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/android99.me.png
-      
+
     - name: 小嘉的部落格
       link: https://blog.imzjw.cn/
       avatar: https://cdn.jsdelivr.net/npm/nanshen/avatar.jpg
       descr: 好记性不如烂笔头
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/blog.imzjw.cn.png
-      
+
     - name: CC的部落格
       link: https://blog.ccknbc.cc/
       avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
       descr: CC康纳百川
       siteshot: https://cdn.jsdelivr.net/gh/ccknbc-actions/blogroll@webp/www.ccknbc.cc.webp
-      
+
     - name: Lete乐特
       link: https://www.lete114.top/
       avatar: https://www.lete114.top/img/avatar.png
@@ -99,19 +99,19 @@
       avatar: https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
       descr: 一个收藏回忆与分享技术的地方！
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.antmoe.com.png
-    
+
     - name: 随性のBlog
       link: https://hanxea.gitee.io/
       avatar: https://hanxea.gitee.io/img/image.jpg
       descr: 专注于量子研究，量子物理学，电脑技术，IT与互联网技术
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/hanxea.gitee.io.png
-    
+
     - name: 小N博客
       link: https://www.nesxc.com/
       avatar: https://public.cdn.nesxc.com/avatar.jpg
       descr: 青石落晚巷 故人未还乡
       siteshot: https://cdn.jsdelivr.net/gh/Nesxc/ScreenShot@gh-pages/www.hack-gov.com.cn.jpg
-    
+
     - name: 卓越科技的Blog
       link: https://zykj.js.org/
       avatar: https://cdn.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
@@ -122,18 +122,18 @@
       link: https://yuanyuanzi.gitee.io
       avatar: https://cdn.jsdelivr.net/gh/xiayuan-001/blogimg/img/wallhaven-721q7e.jpg
       descr: 分享教程与生活！
-      
+
     - name: CtrlCV博客
       link: https://www.hack-er.cn/
       avatar: https://q1.qlogo.cn/g?b=qq&nk=10001&s=640
       descr: 一顿CV猛如虎.
-      
+
     - name: Mx
       link: https://www.wwru.cn/
       avatar: https://static.mx142.cn/img/logo.png
       descr: 一个分享知识和快乐的地方！
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/home.mx142.cn.png
-      
+
     - name: 未央の童话镇
       link: https://forever97.top/
       avatar: https://forever97.top/img/avatar.png
@@ -168,7 +168,7 @@
       link: https://wr0926.ml/
       avatar: https://cdn.jsdelivr.net/gh/wayne0926/myphoto/img/avatar.jpg
       descr: 以梦为马，不负韶华。
-    
+
     - name: 天昕
       link: https://sutianxin.top/
       avatar: https://gitee.com/sutianxin/my-hexo-blog-photo/raw/master/20210213111233.png
@@ -178,7 +178,7 @@
       link: https://blog.revincx.icu/
       avatar: https://sdn.geekzu.org/avatar/978a0b627668cc2e0f3b284c3b10bd8a?d=identicon
       descr: Revincx的小破站
-    
+
     - name: BARAN 的小站🔥🔥🔥
       link: https://cxvh.com/
       avatar: https://cdn.jsdelivr.net/gh/cxvh/static@main/avatar/avatar.jpg
@@ -226,19 +226,19 @@
       link: http://picpo.top/
       avatar: https://q1.qlogo.cn/g?b=qq&s=640&nk=2587188250
       descr: PiCpo的温馨小窝
-    
+
     - name: XJHui's Blog
       link: https://plushine.cn/
       avatar: https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/touxiang.jpg
       descr: 这个博主想骗访客^_^
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/plushine.cn.png
-      
+
     - name: HopeBlog
       link: https://ranas.cn/
       avatar: https://cdn.jsdelivr.net/gh/HopeLight/photo@1.0/blogfile/tx.webp
       descr: 黎明将至的曙光，怎敢弃途于未来
       siteshot: https://cdn.jsdelivr.net/gh/HopeLight/ScreenShot@gh-pages/blog.ranas.cn.jpg
-    
+
     - name: 青葱雅亭
       link: 'https://www.itciraos.cn/'
       avatar: 'https://www.itciraos.cn/mysource/avatar.webp'
@@ -249,7 +249,7 @@
       url: https://undf.top;
       avatar: https://c.undf.top/icon/android-chrome-144x144.png;
       desc: 时间不在于你拥有多少，而在于你如何使用！
-    
+
     - name: Xujiayao's Blog
       link: https://blog.xujiayao.top/
       avatar: https://blog.xujiayao.top/file/avatar.jpg
@@ -352,7 +352,7 @@
       avatar: https://img.huran.xyz/avatar.png
       descr: 长风破浪会有时，直挂云帆济沧海
       siteshot: https://unpkg.zhimg.com/hexo-avatar/link-siteshot/huran.png
-    
+
     - name: 星空下的YZY
       link: https://226yzy.com/
       avatar: https://s4.ax1x.com/2021/12/11/oTDujJ.jpg
@@ -418,9 +418,14 @@
       descr: 开发学习启发性二刺螈
 
     - name: Gallifrey’Blog
-      link: https://gallifrey.asia
+      link: https://gallifrey.asia/
       avatar: https://gallifrey.asia/images/shizi.png
       descr: 我的技术归档，我的生活，我的梦
+
+    - name: HalfA博客
+      link: https://www.mahaofei.com/
+      avatar: https://img.mahaofei.com/img/avatar.jpg
+      descr: 无限进步！
 
 
 
@@ -431,17 +436,17 @@
       link: http://lijyya.site/
       avatar: http://lijyya.site/images/avatar.png
       descr: 听闻远方有你，我愿跋涉千里
-      
+
     - name: czj
       link: https://www.innoinf.com/
       avatar: https://nwzimg.wezhan.cn/sitefiles10207/10207502/QQ%E5%9B%BE%E7%89%8720200717124242_%E5%89%AF%E6%9C%AC.png
       descr: 创信博客 - 让技术学习触手可及
-      
+
     - name: heart-of-engine
       link: http://www.heart-of-engine.top/
       avatar: https://heart-of-engine-picture-bed-1.oss-cn-beijing.aliyuncs.com/img/%E4%B8%AA%E4%BA%BA%E5%A4%B4%E5%83%8F.jpg
       descr: 专注于数学与编程的完美结合,分享生活,分享知识
-    
+
     - name: small-cai
       link: https://small-cai.github.io/
       avatar: https://z3.ax1x.com/2021/04/10/cd80HJ.jpg
@@ -474,7 +479,7 @@
       link: https://afool.top/
       avatar: https://afool.top/images/nekosense.jpeg
       descr: 以愚者之名攀上顶峰
-      
+
     - name: B1ue1nWh1te
       link: https://www.seaeye.cn/
       avatar: https://www.seaeye.cn/img/portrait.jpg
@@ -482,7 +487,7 @@
       siteshot: https://www.seaeye.cn/img/thumbnail.jpg
 
     - name: Xayah
-      link: https://acmezone.tk/
+      link: https://acmezone.top/
       avatar: https://www.seaeye.cn/img/Xayah.jpg
       descr: 这世界上有多少人，就有多少道。莫问前程，各行各道。同道为亲，道不同不相为谋。生如长河，渡船千艘，唯自渡方是真渡。
 
@@ -531,4 +536,3 @@
       avatar: https://cdn.dusays.com/avatar.png
       descr: 【sitemap测试】师者，传道，授业，解惑！
       siteshot: https://7.dusays.com/2020/11/13/0eccf1ca0dc4b.jpg
-    
