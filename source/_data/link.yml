@@ -197,7 +197,7 @@
 
     - name: 陈鑫磊的博客
       link: https://www.cxl2020mc.top/
-      avatar: https://www.cxl2020mc.top/images/avatar.png
+      avatar: https://www.cxl2020mc.top/img/avatar.png
       descr: 这个人太懒了，什么也没有写。。。。。。
       siteshot: https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/link_siteshot/www.cxl2020mc.top.png
 
@@ -240,10 +240,10 @@
       siteshot: https://cdn.jsdelivr.net/gh/HopeLight/ScreenShot@gh-pages/blog.ranas.cn.jpg
 
     - name: 青葱雅亭
-      link: 'https://www.itciraos.cn/'
-      avatar: 'https://www.itciraos.cn/mysource/avatar.webp'
+      link: https://www.itciraos.cn/
+      avatar: https://www.itciraos.cn/mysource/avatar.webp
       descr: 有朋自远方来，不亦乐乎。
-      siteshot: 'https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.itciraos.cn/'
+      siteshot: https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.itciraos.cn/
 
     - name: 沐印小站；
       url: https://undf.top;
