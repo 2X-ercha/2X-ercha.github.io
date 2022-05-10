@@ -518,9 +518,14 @@
       descr: 我们都曾是海滩上玩沙堡的孩子。现在仍是，只不过不在海滩上罢了。
 
     - name: iLoner
-      link: https://iloner121.com
+      link: https://iloner121.com/
       avatar: https://s1.328888.xyz/2022/04/20/rZmeT.jpg
       descr: 像是一个学软工的艺术落榜生
+
+    - name: 文万声
+      link: https://wenwansheng.cn/
+      avatar: https://wenwansheng.cn/image/avatar.jpg
+      descr: 去码头整点薯条
 
 
 - class_name: 测试朋友圈
