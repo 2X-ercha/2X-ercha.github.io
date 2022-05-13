@@ -9296,3 +9296,7 @@ article.writeByhand {
     transform: translate(0, -18rem);
   }
 }
+.timenode .meta p {
+  font-size: initial;
+  font-family: 'aqqxs', sans-serif;
+}
