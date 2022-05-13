@@ -46,13 +46,13 @@ updated: 2022-05-13 11:19:00
 
 {% endtimenode %}
 
-{% timenode 2022-05-13 前六个实验详解勘误并修改 %}
+{% timenode 2022-05-13 详解勘误并修改 %}
 
 跟老师探讨后，发现前六个实验有一部分发生较大的理解错误。在此进行一次勘误。主要勘误部分有：
 
-* panic的作用
+* panic的作用 [（定位到勘误点）](#能跑起来的裸机程序尝试)
 
-* 程序维持执行的`loop`和汇编`wfi`的作用
+* 程序维持执行的`loop`和汇编`wfi`的作用 [（定位到勘误点）](#时钟中断服务)
 
 * 最小化内核构建中的部分错误
 
@@ -73,6 +73,8 @@ updated: 2022-05-13 11:19:00
 路漫漫其修远兮，吾将上下而求索，说的莫若如是。
 
 {% note purple 'far fa-hand-scissors' flat %}**仓库地址**：[https://github.com/2X-ercha/blogOS-armV8](https://github.com/2X-ercha/blogOS-armV8)，能不能求一个`star`呢？{% endnote %}
+
+{% note red 'fas fa-fan' flat %}**想要速通实验**？请转 [AcmeZone: BlogOS：ARM v8之旅](https://acmezone.top/2022/02/26/BlogOS%EF%BC%9AARM-v8%E4%B9%8B%E6%97%85/){% endnote %}
 
 --------
 
@@ -2332,5 +2334,7 @@ qemu-system-aarch64 -machine virt -m 1024M -cpu cortex-a53 -nographic -kernel ta
 在系统执行过程中，在窗口按键`ctrl + a, c`，后输入`system_powerdown`关机。（这里为了实验更加直观，我注释掉了时间中断的打点输出）
 
 ![关机！](https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/blogos-armv8/powerdown.png)
+
+--------
 
 ## 实验七（施工中...)
