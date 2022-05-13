@@ -9,8 +9,58 @@ tags:
 description: 对课程实验的试验记录和深度解析（也差不多是我的实验报告）
 abbrlink: 16433
 date: 2022-04-19 20:01:00
-updated: 2022-04-26 11:09:00
+updated: 2022-05-13 11:19:00
 ---
+
+{% folding cyan, 更新日志 %}
+
+{% timeline %}
+
+{% timenode 2022-04-18 [实验一详解完成](https://github.com/2X-ercha/blogOS-armV8/tree/lab1) %}
+
+实验一完成，仓库地址：[https://github.com/2X-ercha/blogOS-armV8/tree/lab1](https://github.com/2X-ercha/blogOS-armV8/tree/lab1)
+
+{% endtimenode %}
+
+{% timenode 2022-04-19 [实验二详解完成](https://github.com/2X-ercha/blogOS-armV8/tree/lab2) %}
+
+实验二完成，仓库地址：[https://github.com/2X-ercha/blogOS-armV8/tree/lab2](https://github.com/2X-ercha/blogOS-armV8/tree/lab2)
+
+{% endtimenode %}
+
+{% timenode 2022-04-24 [实验四详解完成](https://github.com/2X-ercha/blogOS-armV8/tree/lab4) %}
+
+实验四完成，仓库地址：[https://github.com/2X-ercha/blogOS-armV8/tree/lab4](https://github.com/2X-ercha/blogOS-armV8/tree/lab4)
+
+{% endtimenode %}
+
+{% timenode 2022-04-25 [实验五详解完成](https://github.com/2X-ercha/blogOS-armV8/tree/lab5) %}
+
+实验五完成，仓库地址：[https://github.com/2X-ercha/blogOS-armV8/tree/lab5](https://github.com/2X-ercha/blogOS-armV8/tree/lab5)
+
+{% endtimenode %}
+
+{% timenode 2022-04-26 [实验六详解完成](https://github.com/2X-ercha/blogOS-armV8/tree/lab6) %}
+
+实验六完成，仓库地址：[https://github.com/2X-ercha/blogOS-armV8/tree/lab6](https://github.com/2X-ercha/blogOS-armV8/tree/lab6)
+
+{% endtimenode %}
+
+{% timenode 2022-05-13 前六个实验详解勘误并修改 %}
+
+跟老师探讨后，发现前六个实验有一部分发生较大的理解错误。在此进行一次勘误。主要勘误部分有：
+
+* panic的作用
+
+* 程序维持执行的`loop`和汇编`wfi`的作用
+
+* 最小化内核构建中的部分错误
+
+{% endtimenode %}
+
+{% endtimeline %}
+
+{% endfolding %}
 
 ## 前言
 
@@ -41,7 +91,7 @@ updated: 2022-04-26 11:09:00
 #### 安装rust
 
 ```bash
-sudo apt-get install gcc 
+sudo apt-get install gcc
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source $HOME/.cargo/env
 cargo install cargo-binutils rustfilt
@@ -142,7 +192,7 @@ error: `#[panic_handler]` function required, but not found
 
     ```cargo
     use core::panic::PanicInfo;
-    
+
     #[panic_handler]
     fn on_panic(_info: &PanicInfo) -> ! {
         loop {}
@@ -155,7 +205,17 @@ error: `#[panic_handler]` function required, but not found
     mod panic;
     ```
 
-    由于程序 panic 后就应该结束，所以用 -> ! 表示该函数不会返回。由于目前的 OS 功能还很弱小，我们有希望系统保持开机状态，所以只能无限循环。
+    ~~由于程序 panic 后就应该结束，所以用 -> ! 表示该函数不会返回。由于目前的 OS 功能还很弱小，我们有希望系统保持开机状态，所以只能无限循环。~~
+
+    这里之前找资料是这么说的。然后跟老师探讨时才发现错了。这里的`panic`里要用`loop`死循环处理属于是rust的特性。`panic`在rust中被规定必须是一个发散函数：
+
+    发散函数（`diverging function`）是rust中的一个特性。发散函数不返回，它使用感叹号!作为返回类型表示。当程序调用发散函数时，该进程将直接进入崩溃（一般上来讲是发生程序员无法处理的错误时调用）。而如何在函数中表示其不返回？rust规定了以下三种情形：
+
+    1. `panic!`以及基于它实现的各种函数/宏，比如`unimplemented!`、`unreachable!`；
+    2. 无限循环`loop{}`；
+    3. 进程退出函数`std::process::exit`以及类似的`libc`中的`exec`一类函数。
+
+  由于我们不适用rust提供的标准库，故只能以死循环这样一种方式来编写我们的`panic`函数。而在我们的程序运行完后就结束了（并不保持开机），也不会调用panic。换言之，编写panic只是因为它是个必需的函数，但我们并不调用它。
 
 --------
 
@@ -175,12 +235,12 @@ error: requires `start` lang_item
     .globl _start
     .extern LD_STACK_PTR
     .section ".text.boot"
-    
+
     _start:
             ldr     x30, =LD_STACK_PTR
             mov     sp, x30
             bl      not_main
-    
+
     .equ PSCI_SYSTEM_OFF, 0x84000002
     .globl system_off
     system_off:
@@ -192,16 +252,41 @@ error: requires `start` lang_item
 
     ```rust
     #![no_main]
-    
+
     #[no_mangle] // 不修改函数名
     pub extern "C" fn not_main() {}
     ```
 
     这里 `pub extern "C" fn not_main` 就是我们需要的 `start` 。 `#[no_mangle]` 属性用于防止改名称被混淆。
-    
+
     由于 `start` 只能由操作系统或引导加载程序直接调用，不会被其他函数调用，所以不能够返回。如果需要离开该函数，应该使用 `exit` 系统调用。
-    
+
     由于 start 函数无法返回或退出，自然也就不会调用 main 。所以将 main 函数删除，并且增加属性标签 `#![no_main]` 。
+
+    然后修改程序启动例程：创建`aarch64-qemu.ld`，输入：
+
+    ```ld
+    ENTRY(_start)
+    SECTIONS
+    {
+        . = 0x40080000;
+        .text.boot : { *(.text.boot) }
+        .text : { *(.text) }
+        .data : { *(.data) }
+        .rodata : { *(.rodata) }
+        .bss : { *(.bss) }
+
+        . = ALIGN(8);
+        . = . + 0x4000;
+        LD_STACK_PTR = .;
+    }
+    ```
+
+    ENTRY(_start)中指明入口函数为_start函数，该函数在start.s中。
+
+    通过 . = 0x40080000; 将程序安排在内存位置0x40080000开始的地方。
+
+    链接脚本中的符号LD_STACK_PTR是全局符号，可以在程序中使用（如start.s中），这里定义的是栈底的位置。
 
 --------
 
@@ -278,31 +363,6 @@ error: linking with `rust-lld` failed: exit status: 1
     "vendor": ""
     }
     ```
-
-    然后修改程序启动例程：创建`aarch64-qemu.ld`，输入：
-
-    ```ld
-    ENTRY(_start)
-    SECTIONS
-    {
-        . = 0x40080000;
-        .text.boot : { *(.text.boot) }
-        .text : { *(.text) }
-        .data : { *(.data) }
-        .rodata : { *(.rodata) }
-        .bss : { *(.bss) }
-    
-        . = ALIGN(8);
-        . = . + 0x4000;
-        LD_STACK_PTR = .;
-    }
-    ```
-
-    ENTRY(_start)中指明入口函数为_start函数，该函数在start.s中。
-
-    通过 . = 0x40080000; 将程序安排在内存位置0x40080000开始的地方。
-    
-    链接脚本中的符号LD_STACK_PTR是全局符号，可以在程序中使用（如start.s中），这里定义的是栈底的位置。
 
 --------
 
@@ -607,13 +667,13 @@ pub static ref WRITER: Writer = Writer{};
     ```
 
     再次编译可发现编译成功。然而，这个WRITER可能没有什么用途，因为它目前还是不可变变量`（immutable variable）`：这意味着我们无法向它写入数据，因为所有与写入数据相关的方法都需要实例的可变引用`&mut self`。
-    
+
     一种解决方案是使用可变静态`（mutable static）`的变量，但所有对它的读写操作都被规定为不安全的（unsafe）操作，因为这很容易导致数据竞争或发生其它不好的事情——使用`static mut`极其不被赞成，甚至有一些提案认为应该将它删除。
 
 * 自旋锁
 
     > 要定义同步的**内部可变**性，我们往往使用标准库提供的互斥锁类`Mutex`，它通过提供当资源被占用时将线程阻塞`（block）`的互斥条件`（mutual exclusion）`实现这一点；
-    > 
+    >
     > 但我们初步的内核代码还没有线程和阻塞的概念，我们将不能使用这个类（而且我们也不能用标准库）。不过，我们还有一种较为基础的互斥锁实现方式——自旋锁`（spinlock）`。
     >
     > **自旋锁**并不会调用阻塞逻辑，而是**在一个小的无限循环中反复尝试获得这个锁**，也因此会一直占用CPU时间，直到互斥锁被它的占用者释放。
@@ -671,13 +731,13 @@ macro_rules! println {
 1. 首先是关于`_print`函数：
 
     > 我们在静态变量`WRITER`中引入了自旋锁，而`_print`函数调用时，将通过`.lock`来完成对`WRITER`锁的占有。同时`_print`函数并调用它的write_fmt方法。这个方法是从名为`Write`的特性中获得的，所以我们需要导入这个特性。额外的`unwrap()`函数将在打印不成功的时候`panic`；但实际上我们的`write_str`总是返回Ok，这种情况不应该发生。
-    > 
+    >
     > 考虑到这个函数是一个私有的实现细节，我们添加一个doc(hidden)属性，防止它在生成的文档中出现。（事实上这个实验也不会去生成文档）
 
 2. 根据声明宏的定义，我们为两个宏都添加了#[macro_export]属性，这样在包的其它地方也可以使用它们。
-    
+
     > 需要注意的是，这将占用包的根命名空间`（root namespace）`，所以我们调用不能通过`use crate::uart_console::print`来导入，也不能直接通过`crate::uart_console::print!()`来调用它。
-    
+
     故，我们应该使用`use crate::print`导入或直接通过`crate::print!()`进行调用。
 
 --------
@@ -750,7 +810,7 @@ qemu-system-aarch64 -machine virt -m 1024M -cpu cortex-a53 -nographic -kernel ta
 1. 初始化：
 
     * 使能中断源（允许发生中断）
-    
+
     * 中断控制器可以选择屏蔽或不屏蔽中断，设置中断优先级等
 
     * cpu 使能中断总开关
@@ -758,23 +818,23 @@ qemu-system-aarch64 -machine virt -m 1024M -cpu cortex-a53 -nographic -kernel ta
 2. 中断跳转：
 
     * cpu 每执行完一条指令就会查看有无异常发生
-    
+
     * 发生异常，cpu 分辩中断源
-    
+
     * cpu 被强制跳转到中断向量表（汇编）中的跳转地址
-    
+
     * 跳转到相应的中断服务函数
 
 3. 中断处理回调函数：
 
     * 保护现场，保证当前执行的程序能完好返回（存储指令寄存器，以及存数据的寄存器等等各种寄存器，会采用压栈的方式）
-    
+
     * 获取中断id（a7 架构，其中可能还需要切换处理器模式等等），根据id跳转到对应的中断处理函数。
-    
+
     * 中断处理函数可以是我们自己编写的，代表的是中断发生后要处理的事情
-    
+
     * 处理完成，返回中断服务函数。
-    
+
     * 还原现场（将各个寄存器的值还回，指令寄存器需要-4后再返回，这里涉及到arm处理器的3级指令流水线，不做细讲）
 
 ### GIC内核驱动编写及调用
@@ -804,14 +864,14 @@ GIC 是联系外设中断和 CPU 的桥梁，也是各 CPU 之间中断互联的
 1. distributor：主要负责中断源的管理、优先级、中断使能、中断屏蔽等，如下：
 
     * 中断分发，对于PPI,SGI是各个core独有的中断，不参与目的core的仲裁，SPI，是所有core共享的，根据配置决定中断发往的core。
-      
+
     * 中断优先级的处理，将最高优先级中断发送给cpu interface。
-      
+
 
     **寄存器使用 GICD_ 作为前缀。一个gic中，只有一个GICD。**  
 
 2. cpu interface：要用于连接处理器，与处理器进行交互。将GICD发送的中断信息，通过IRQ,FIQ管脚，传输给core。
-   
+
     **寄存器使用 GICC_ 作为前缀。每一个core，有一个cpu interface。**
 
 3. 另外还有专门服务于虚拟中断的`virtual cpu interface`，这里并不考虑。
@@ -941,12 +1001,12 @@ intc@8000000 {
     ```rust
     //GICC寄存器基址
     const GICD_BASE: u64 = 0x08010000;
-    
+
     //GICC实验所需寄存器
     const GICC_CTLR: *mut u32 = (GICC_BASE + 0x0) as *mut u32;
     const GICC_PMR: *mut u32 = (GICC_BASE + 0x0004) as *mut u32;
     const GICC_BPR: *mut u32 = (GICC_BASE + 0x0008) as *mut u32;
-    
+
     //GICC常量值
     const GICC_CTLR_ENABLE: u32 = 1;  // Enable GICC
     const GICC_CTLR_DISABLE: u32 = 0; // Disable GICC
@@ -1454,7 +1514,11 @@ pub fn init_gicv2() {
 }
 ```
 
-在这里我们将这个函数设置成为了低电平触发，所以我们在主函数调用时需要将系统转入低电平的运行状态。编辑`src/main.rs`，结果如下：
+~~在这里我们将这个函数设置成为了低电平触发，所以我们在主函数调用时需要将系统转入低电平的运行状态。~~
+
+这里的`wfi`是使系统进入休眠状态，这里我们并不需要，低电平触发是指系统的每一个指令周期结束时触发。
+
+由于我们的系统一执行完输出就结束了，我们希望它能够保持开机状态，故使用一个死循环来保证系统不会关机。编辑`src/main.rs`，结果如下：
 
 ```rust
 // 不使用标准库
@@ -1474,11 +1538,13 @@ global_asm!(include_str!("start.s"));
 pub extern "C" fn not_main() {
     println!("[0] Hello from Rust!");
     interrupts::init_gicv2(); //初始化gicv2和timer
+    /* 勘误
     unsafe {
         loop { // 轮询系统中断
             asm!("wfi"); // 将系统置于低电平运行状态
         }
-    }
+    }*/
+    loop {}
 }
 ```
 
@@ -1530,7 +1596,7 @@ unsafe extern "C" fn el1_irq(ctx: &mut ExceptionCtx) {
 
 * `GICC_IAR`寄存器中存放的是当前的中断号。例如当时间中断发生时，寄存器中将写入中断号`30`（前5位）和对应的内核编号（后三位），我们可以通过读取该寄存器中的值来做中断号识别
 
-* `GICC_EOIR`寄存器则用于标记某一中断被完成，即中断处理结束的信号。这个信号告诉控制器：中断已经被处理，并且系统已经准备好接收下一个中断。 
+* `GICC_EOIR`寄存器则用于标记某一中断被完成，即中断处理结束的信号。这个信号告诉控制器：中断已经被处理，并且系统已经准备好接收下一个中断。
 
 基于以上，我们可以根据[GIC手册](https://documentation-service.arm.com/static/5f8ff196f86e16515cdbf969?token=)修改`el1_irq`处理回调函数，修改如下：
 
@@ -1606,13 +1672,13 @@ UART作为异步串口通信协议的一种，工作原理是将传输数据的�
 `tock-registers`提供了一些接口用于更好的定义寄存器。官方说明如下：
 
 > The crate provides three types for working with memory mapped registers: `ReadWrite`, `ReadOnly`, and `WriteOnly`, providing read-write, read-only, and write-only functionality, respectively. These types implement the `Readable`, `Writeable` and `ReadWriteable`  traits.
-> 
+>
 > Defining the registers is done with the `register_structs` macro, which expects for each register an offset, a field name, and a type. Registers must be declared in increasing order of offsets and contiguously. Gaps when defining the registers must be explicitly annotated with an offset and gap identifier (by convention using a field named `_reservedN`), but without a type. The macro will then automatically take care of calculating the gap size and inserting a suitable filler struct. The end of the struct is marked with its size and the `@END` keyword, effectively pointing to the offset immediately past the list of registers.
 
 翻译如下：
 
 > tock-registers 提供了三种类型的内存映射寄存器：ReadWrite、ReadOnly和WriteOnly，分别提供读写、只读和只读功能。这些类型实现了可读、可写和可读写特性。
-> 
+>
 > 寄存器的定义是通过`register_structs`宏完成的，该宏要求每个寄存器有一个偏移量、一个字段名和一个类型。寄存器必须按偏移量的递增顺序和连续顺序声明。定义寄存器时，必须使用偏移量和间隙标识符（按照惯例，使用名为_reservedN的字段）显式注释间隙，但不使用类型。然后，宏将自动计算间隙大小并插入合适的填充结构。结构的末尾用大小和@end关键字标记，有效地指向寄存器列表后面的偏移量。
 
 根据官方的说明[tock_registers](https://docs.rs/tock-registers/latest/tock_registers/)作为一个示例，我们来实现`pl011`串口驱动。
@@ -2104,7 +2170,7 @@ register_structs! {
 // 寄存器位级描述
 register_bitfields![
     u32,
-    
+
     // PrimeCell GPIO interrupt mask
     pub GPIOIE [
         IO3 OFFSET(3) NUMBITS(1) [
@@ -2116,7 +2182,7 @@ register_bitfields![
 ```
 
 > 这里的`IO3`只是对三号位的一个命名，`OFFSET`偏移参数指明该位为第三号位，`NUMBITS`指明该位功能共有1位。你在其它的定义中可能会见到以两位甚至更多来存储对应信息。
-> 
+>
 > `IO3`下的键值更像是一种标识，定义后变可以以更方便的方式对寄存器进行读写。左边的命名是对右边赋值的解释。我们之后在解释时，不需要去记忆某一个位中赋值多少是什么功能，而可以通过命名去做精准的调用。例如[官方文档示例](https://github.com/tock/tock/blob/master/libraries/tock-register-interface/README.md)中：
 >
 > ```rust
@@ -2160,7 +2226,7 @@ pub const PL061REGS: *mut PL061Regs = (0x0903_0000) as *mut PL061Regs;
 // 寄存器位级描述
 register_bitfields![
     u32,
-    
+
     // PrimeCell GPIO interrupt mask
     pub GPIOIE [
         IO3 OFFSET(3) NUMBITS(1) [
@@ -2196,7 +2262,7 @@ register_structs! {
 // GPIO中断号39
 const GPIO_IRQ: u32 = 39;
 
-use tock_registers::interfaces::{Readable, Writeable}; 
+use tock_registers::interfaces::{Readable, Writeable};
 
 pub fn init_gicv2() {
     // ...
@@ -2253,7 +2319,7 @@ fn handle_gpio_irq(_ctx: &mut ExceptionCtx){
 我们尝试关机，这里用到了`Arm`的`Semihosting`功能。
 
 > Semihosting 的作用
-> 
+>
 > Semihosting 能够让 bare-metal 的 ARM 设备通过拦截指定的 SVC 指令，在连操作系统都没有的环境中实现 POSIX 中的许多标准函数，比如 printf、scanf、open、read、write 等等。这些 IO 操作将被 Semihosting 协议转发到 Host 主机上，然后由主机代为执行。
 
 构建并运行内核。为了启用`semihosting`功能，在QEMU执行时需要加入`-semihosting`参数
