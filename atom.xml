@@ -6,7 +6,7 @@
   <link href="https://noionion.top/atom.xml" rel="self"/>
   
   <link href="https://noionion.top/"/>
-  <updated>2022-05-14T11:19:00.000Z</updated>
+  <updated>2022-05-21T21:19:00.000Z</updated>
   <id>https://noionion.top/</id>
   
   <author>
@@ -17,18 +17,118 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>rust写个操作系统：课程实验blogos移至armV8深度解析（更新中）</title>
-    <link href="https://noionion.top/16433.html"/>
-    <id>https://noionion.top/16433.html</id>
+    <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验七 死锁与简单处理</title>
+    <link href="https://noionion.top/b484f477.html"/>
+    <id>https://noionion.top/b484f477.html</id>
+    <published>2022-05-14T20:01:00.000Z</published>
+    <updated>2022-05-21T21:19:00.000Z</updated>
+    
+    
+    <summary type="html">HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</summary>
+    
+    
+    
+    <category term="BlogOS_armv8" scheme="https://noionion.top/categories/BlogOS-armv8/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="os" scheme="https://noionion.top/tags/os/"/>
+    
+    <category term="rust" scheme="https://noionion.top/tags/rust/"/>
+    
+    <category term="blogos" scheme="https://noionion.top/tags/blogos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验六 GPIO关机</title>
+    <link href="https://noionion.top/ec262d5c.html"/>
+    <id>https://noionion.top/ec262d5c.html</id>
+    <published>2022-04-26T20:01:00.000Z</published>
+    <updated>2022-05-21T21:19:00.000Z</updated>
+    
+    
+    <summary type="html">HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</summary>
+    
+    
+    
+    <category term="BlogOS_armv8" scheme="https://noionion.top/categories/BlogOS-armv8/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="os" scheme="https://noionion.top/tags/os/"/>
+    
+    <category term="rust" scheme="https://noionion.top/tags/rust/"/>
+    
+    <category term="blogos" scheme="https://noionion.top/tags/blogos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验五 输入</title>
+    <link href="https://noionion.top/82ab7cd4.html"/>
+    <id>https://noionion.top/82ab7cd4.html</id>
+    <published>2022-04-25T20:01:00.000Z</published>
+    <updated>2022-05-21T21:19:00.000Z</updated>
+    
+    
+    <summary type="html">HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</summary>
+    
+    
+    
+    <category term="BlogOS_armv8" scheme="https://noionion.top/categories/BlogOS-armv8/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="os" scheme="https://noionion.top/tags/os/"/>
+    
+    <category term="rust" scheme="https://noionion.top/tags/rust/"/>
+    
+    <category term="blogos" scheme="https://noionion.top/tags/blogos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验四 中断</title>
+    <link href="https://noionion.top/a4c75e16.html"/>
+    <id>https://noionion.top/a4c75e16.html</id>
+    <published>2022-04-24T20:01:00.000Z</published>
+    <updated>2022-05-21T21:19:00.000Z</updated>
+    
+    
+    <summary type="html">HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</summary>
+    
+    
+    
+    <category term="BlogOS_armv8" scheme="https://noionion.top/categories/BlogOS-armv8/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="os" scheme="https://noionion.top/tags/os/"/>
+    
+    <category term="rust" scheme="https://noionion.top/tags/rust/"/>
+    
+    <category term="blogos" scheme="https://noionion.top/tags/blogos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验二 Hello World</title>
+    <link href="https://noionion.top/4735f31b.html"/>
+    <id>https://noionion.top/4735f31b.html</id>
     <published>2022-04-19T20:01:00.000Z</published>
-    <updated>2022-05-14T11:19:00.000Z</updated>
+    <updated>2022-05-21T21:19:00.000Z</updated>
     
     
-    <summary type="html">对课程实验的试验记录和深度解析（也差不多是我的实验报告）</summary>
+    <summary type="html">HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</summary>
     
     
     
-    <category term="教程" scheme="https://noionion.top/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="BlogOS_armv8" scheme="https://noionion.top/categories/BlogOS-armv8/"/>
     
     
     <category term="Course" scheme="https://noionion.top/tags/Course/"/>
@@ -61,6 +161,56 @@
     <category term="DTS" scheme="https://noionion.top/tags/DTS/"/>
     
     <category term="Linux" scheme="https://noionion.top/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验一 环境配置</title>
+    <link href="https://noionion.top/adfdff.html"/>
+    <id>https://noionion.top/adfdff.html</id>
+    <published>2022-04-18T20:01:00.000Z</published>
+    <updated>2022-05-21T21:19:00.000Z</updated>
+    
+    
+    <summary type="html">HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</summary>
+    
+    
+    
+    <category term="BlogOS_armv8" scheme="https://noionion.top/categories/BlogOS-armv8/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="os" scheme="https://noionion.top/tags/os/"/>
+    
+    <category term="rust" scheme="https://noionion.top/tags/rust/"/>
+    
+    <category term="blogos" scheme="https://noionion.top/tags/blogos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rust写个操作系统——课程实验blogos移至armV8深度解析</title>
+    <link href="https://noionion.top/16433.html"/>
+    <id>https://noionion.top/16433.html</id>
+    <published>2022-04-17T20:01:00.000Z</published>
+    <updated>2022-05-21T21:19:00.000Z</updated>
+    
+    
+    <summary type="html">HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</summary>
+    
+    
+    
+    <category term="BlogOS_armv8" scheme="https://noionion.top/categories/BlogOS-armv8/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="os" scheme="https://noionion.top/tags/os/"/>
+    
+    <category term="rust" scheme="https://noionion.top/tags/rust/"/>
+    
+    <category term="blogos" scheme="https://noionion.top/tags/blogos/"/>
     
   </entry>
   
@@ -313,122 +463,6 @@
     
     
     <category term="Diary" scheme="https://noionion.top/tags/Diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>欧拉函数算法笔记</title>
-    <link href="https://noionion.top/64036.html"/>
-    <id>https://noionion.top/64036.html</id>
-    <published>2021-05-11T20:28:00.000Z</published>
-    <updated>2021-05-11T20:28:00.000Z</updated>
-    
-    
-    <summary type="html">ACM通识课笔记——数学——欧拉函数</summary>
-    
-    
-    
-    <category term="C++学习笔记" scheme="https://noionion.top/categories/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="C++" scheme="https://noionion.top/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>快速幂算法笔记</title>
-    <link href="https://noionion.top/4524.html"/>
-    <id>https://noionion.top/4524.html</id>
-    <published>2021-04-27T20:28:00.000Z</published>
-    <updated>2021-04-27T20:28:00.000Z</updated>
-    
-    
-    <summary type="html">ACM通识课笔记——二分/数学——快速幂</summary>
-    
-    
-    
-    <category term="C++学习笔记" scheme="https://noionion.top/categories/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="C++" scheme="https://noionion.top/tags/C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【转载】基于Butterfly的外挂标签引入</title>
-    <link href="https://noionion.top/32088.html"/>
-    <id>https://noionion.top/32088.html</id>
-    <published>2021-04-10T18:55:44.000Z</published>
-    <updated>2021-04-10T18:55:44.000Z</updated>
-    
-    
-    <summary type="html">添加大量外挂标签样式。</summary>
-    
-    
-    
-    <category term="教程" scheme="https://noionion.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用于某次py教材编写而做的精简复习（万字初稿）</title>
-    <link href="https://noionion.top/63595.html"/>
-    <id>https://noionion.top/63595.html</id>
-    <published>2021-03-30T00:00:00.000Z</published>
-    <updated>2021-03-30T00:00:00.000Z</updated>
-    
-    
-    <summary type="html">balabala水文章</summary>
-    
-    
-    
-    <category term="教程" scheme="https://noionion.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    
-    <category term="Python" scheme="https://noionion.top/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>个人哔哔: 我的butterfly魔改记录</title>
-    <link href="https://noionion.top/10567.html"/>
-    <id>https://noionion.top/10567.html</id>
-    <published>2021-02-20T20:43:07.000Z</published>
-    <updated>2021-02-20T20:43:07.000Z</updated>
-    
-    
-    <summary type="html">一如魔改深似海，一直魔改一直耍</summary>
-    
-    
-    
-    <category term="贰猹随笔" scheme="https://noionion.top/categories/%E8%B4%B0%E7%8C%B9%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
-    
-    <category term="Diary" scheme="https://noionion.top/tags/Diary/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>html入门学习（〇）</title>
-    <link href="https://noionion.top/9661.html"/>
-    <id>https://noionion.top/9661.html</id>
-    <published>2021-02-19T19:57:27.000Z</published>
-    <updated>2021-02-19T19:57:27.000Z</updated>
-    
-    
-    <summary type="html">来学学新东西</summary>
-    
-    
-    
-    <category term="前端入门学习" scheme="https://noionion.top/categories/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%97%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-    <category term="html" scheme="https://noionion.top/tags/html/"/>
     
   </entry>
   
