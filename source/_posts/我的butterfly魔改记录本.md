@@ -230,7 +230,7 @@ var data_handle = (nofollow,data, maxnumber) => {
         
         //左侧头像
         html_item += ' <a target="' + opentype + '" class="moments-item-img" href="' + post_item[2] + '" title="' + post_item[0] + '"rel="'+ rel + '">';
-        html_item += '<img onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/Zfour/Butterfly-friend-poor-html/friendcircle/404.png&quot;"';
+        html_item += '<img onerror="this.onerror=null,this.src=&quot;https://cdn1.tianli0.top/gh/Zfour/Butterfly-friend-poor-html/friendcircle/404.png&quot;"';
         html_item += ' src="' + post_item[4] + '"></a>';
         //右侧文章信息
         html_item += '<div class="moments-item-info">';
@@ -431,7 +431,7 @@ a.moments-item-title {
 ```CSS
 @font-face{
     font-family:'aqqxs' ;  /* 字体名自定义即可 */
-    src:url('https://cdn.jsdelivr.net/gh/2x-ercha/cdn-for-try/fonts/FXAiQingQiXiangSuo.ttf'); /* 字体文件路径 */
+    src:url('https://cdn1.tianli0.top/gh/2x-ercha/cdn-for-try/fonts/FXAiQingQiXiangSuo.ttf'); /* 字体文件路径 */
     font-display : swap;
 }
 
@@ -483,12 +483,12 @@ a.categoryBar-list-link {
 ```CSS
 /* 鼠标样式 */
 body {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+    cursor: url(https://cdn1.tianli0.top/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
         default;
 }
 a,
 img {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+    cursor: url(https://cdn1.tianli0.top/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
         default;
 }
 

@@ -21,7 +21,7 @@ github: https://github.com/2X-ercha/butterfly-css-for-hpptalk
 
 ## Bfnoion
 
-引用地址：https://cdn.jsdelivr.net/gh/2x-ercha/butterfly-css-for-hpptalk/Butterfly_1.css
+引用地址：https://cdn1.tianli0.top/gh/2x-ercha/butterfly-css-for-hpptalk/Butterfly_1.css
 
 已对bf主题色适配（已支持魔改颜色后的bf）
 
@@ -29,15 +29,15 @@ github: https://github.com/2X-ercha/butterfly-css-for-hpptalk
 
 #### （未配上作者魔改后的bf前的效果）
 
-![light_normal](https://cdn.jsdelivr.net/gh/2X-ercha/picture-bed@master/1612706582000.png)
+![light_normal](https://cdn1.tianli0.top/gh/2X-ercha/picture-bed@master/1612706582000.png)
 
-![dark_normal](https://cdn.jsdelivr.net/gh/2X-ercha/picture-bed@master/1612706593000.png)
+![dark_normal](https://cdn1.tianli0.top/gh/2X-ercha/picture-bed@master/1612706593000.png)
 
 #### （配上作者魔改后的bf后的效果）
 
-![light_revision](https://cdn.jsdelivr.net/gh/2X-ercha/picture-bed@master/1612707007000.png)
+![light_revision](https://cdn1.tianli0.top/gh/2X-ercha/picture-bed@master/1612707007000.png)
 
-![dark_revision](https://cdn.jsdelivr.net/gh/2X-ercha/picture-bed@master/1612707030000.png)
+![dark_revision](https://cdn1.tianli0.top/gh/2X-ercha/picture-bed@master/1612707030000.png)
 
 --------
 
@@ -45,4 +45,4 @@ github: https://github.com/2X-ercha/butterfly-css-for-hpptalk
 
 还没出。。。（咕咕咕）
 
-![](https://cdn.jsdelivr.net/gh/2x-ercha/twikoo-magic/image/baitian/file_6574840.webp)
+![](https://cdn1.tianli0.top/gh/2x-ercha/twikoo-magic/image/baitian/file_6574840.webp)

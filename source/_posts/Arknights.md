@@ -35,7 +35,7 @@ emmm，那我试着爬一爬吧
 
 然后我在左侧菜单里面翻找了半天（啊啊啊，立绘在哪里啊！！！）
 
-<img src="https://cdn.jsdelivr.net/gh/NotFoundNEKKO/BQBTwT@1.0/真叫人质壁分离.jpg" width="300" height="300">
+<img src="https://cdn1.tianli0.top/gh/NotFoundNEKKO/BQBTwT@1.0/真叫人质壁分离.jpg" width="300" height="300">
 
 。。。我眼瞎，右上角大大的搜索框我看不见。。。
 

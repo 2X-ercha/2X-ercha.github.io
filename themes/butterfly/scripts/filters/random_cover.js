@@ -39,7 +39,7 @@ function randomCover () {
       return cover
     }
   } else {
-    cover = 'https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/img/default.jpg'
+    cover = 'https://cdn1.tianli0.top/npm/butterfly-extsrc@1/img/default.jpg'
     return cover
   }
 }

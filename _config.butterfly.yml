@@ -18,7 +18,7 @@ menu:
     友情链接: /link/ || icon-pengyou
     朋友文章: /friendcircle/ || icon-pengyouquanzhushou2x
     留言信箱: /messageboard/ || icon-shuoshuo-
-    # 网站收录: 
+    # 网站收录:
   猹的哔哔 || icon-liuyan:
     贰猹随笔: /tags/Diary/ || icon-tubiaozhizuomoban-
     猹的自述: /about/ || icon-xinfeng
@@ -195,7 +195,7 @@ wordcount:
 # false: do not show the article introduction
 index_post_content:
   method: 2
-  length: 500 # if you set method to 2 or 3, the length need to config
+  length: 100 # if you set method to 2 or 3, the length need to config
 
 # Post
 # --------------------------------------
@@ -531,7 +531,7 @@ tag_ui: index # 留空或 index
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background: 
+background:
 
 # Footer Background
 footer_bg: false
@@ -868,7 +868,7 @@ inject:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
     - <script src="/js/add/nav.js"></script>
     - <script src="/js/add/rightside.js"></script>
-    # - <script src="https://cdn.jsdelivr.net/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script> # 拉姆雷姆角标参考
+    # - <script src="https://cdn1.tianli0.top/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script> # 拉姆雷姆角标参考
     # - <script src="xxxx"></script>
 
 # CDN
@@ -885,14 +885,14 @@ CDN:
   pjax: https://cdnjs.sourcegcdn.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
 
   # comments
-  gitalk: https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js
-  disqusjs: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
+  gitalk: https://cdn1.tianli0.top/npm/gitalk@latest/dist/gitalk.min.js
+  gitalk_css: https://cdn1.tianli0.top/npm/gitalk/dist/gitalk.min.css
+  valine: https://cdn1.tianli0.top/npm/valine/dist/Valine.min.js
+  disqusjs: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqus.js
+  disqusjs_css: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
   twikoo: https://cdnjs.sourcegcdn.com/ajax/libs/twikoo/1.5.4/twikoo.all.min.js
-  waline: https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js
+  waline: https://cdn1.tianli0.top/npm/@waline/client/dist/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
@@ -902,8 +902,8 @@ CDN:
   # search
   local_search: /js/search/local-search.js
   algolia_js: /js/search/algolia.js
-  algolia_search: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
-  algolia_search_css: https://cdn.jsdelivr.net/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
+  algolia_search: https://cdn1.tianli0.top/npm/instantsearch.js@2.10.5/dist/instantsearch.min.js
+  algolia_search_css: https://cdn1.tianli0.top/npm/instantsearch.js@2.10.5/dist/instantsearch.min.css
 
   # math
   mathjax: https://cdnjs.sourcegcdn.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.min.js
@@ -916,8 +916,8 @@ CDN:
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # background effect
-  canvas_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
-  canvas_fluttering_ribbon: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
+  canvas_ribbon: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/canvas-ribbon.min.js
+  canvas_fluttering_ribbon: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/canvas-fluttering-ribbon.min.js
   canvas_nest: https://cdnjs.sourcegcdn.com/ajax/libs/canvas-nest.js/2.0.4/canvas-nest.js
 
   lazyload: https://cdnjs.sourcegcdn.com/ajax/libs/vanilla-lazyload/17.3.1/lazyload.iife.min.js
@@ -935,10 +935,10 @@ CDN:
   snackbar: https://cdnjs.sourcegcdn.com/ajax/libs/node-snackbar/0.1.16/snackbar.min.js
 
   # effect
-  activate_power_mode: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
-  fireworks: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/fireworks.min.js
-  click_heart: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-heart.min.js
-  ClickShowText: https://cdn.jsdelivr.net/npm/butterfly-extsrc@1/dist/click-show-text.min.js
+  activate_power_mode: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/activate-power-mode.min.js
+  fireworks: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/fireworks.min.js
+  click_heart: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/click-heart.min.js
+  ClickShowText: https://cdn1.tianli0.top/npm/butterfly-extsrc@1/dist/click-show-text.min.js
 
   # fontawesome
   fontawesome: https://cdnjs.sourcegcdn.com/ajax/libs/font-awesome/6.1.1/css/all.min.css
@@ -953,12 +953,12 @@ CDN:
   # aplayer
   aplayer_css: https://cdnjs.sourcegcdn.com/ajax/libs/aplayer/1.10.1/APlayer.min.css
   aplayer_js: https://cdnjs.sourcegcdn.com/ajax/libs/aplayer/1.10.1/APlayer.min.js
-  meting_js: https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
+  meting_js: https://cdn1.tianli0.top/gh/metowolf/MetingJS@1.2/dist/Meting.min.js
 
   # Prism.js
   prismjs_js: hhttps://cdnjs.sourcegcdn.com/ajax/libs/prism/1.28.0/prism.min.js
-  prismjs_lineNumber_js: https://cdn.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
-  prismjs_autoloader: https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
+  prismjs_lineNumber_js: https://cdn1.tianli0.top/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.js
+  prismjs_autoloader: https://cdn1.tianli0.top/npm/prismjs/plugins/autoloader/prism-autoloader.min.js
 
 # tag-plugins-plus
 ## see https://akilar.top/posts/615e2dec/
@@ -967,11 +967,11 @@ tag_plugins:
   priority: 5 #过滤器优先权
   issues: false #issues标签依赖注入开关
   CDN:
-    anima: https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css #动画标签anima的依赖
-    jquery: https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #issues标签依赖
-    issues: https://cdn.jsdelivr.net/npm/hexo-theme-volantis@latest/source/js/issues.min.js #issues标签依赖
+    anima: https://cdn1.tianli0.top/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css #动画标签anima的依赖
+    jquery: https://cdn1.tianli0.top/npm/jquery@latest/dist/jquery.min.js #issues标签依赖
+    issues: https://cdn1.tianli0.top/npm/hexo-theme-volantis@latest/source/js/issues.min.js #issues标签依赖
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
-    carousel: https://cdn.jsdelivr.net/npm/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js
+    carousel: https://cdn1.tianli0.top/npm/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js
 
 # 友链样式，butterfly为默认样式，volantis为站点卡片样式.flexcard为弹性卡片样式
-flink_style: flexcard # butterfly | volantis | flexcard    
+flink_style: flexcard # butterfly | volantis | flexcard

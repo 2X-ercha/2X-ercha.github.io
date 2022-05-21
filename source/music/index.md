@@ -1,7 +1,7 @@
 ---
 title: 我的歌单 | My Playlist
 date: 2020-12-13 01:07:00
-cover: https://cdn.jsdelivr.net/gh/radium-bit/res@latest/Music.jpg
+cover: https://cdn1.tianli0.top/gh/radium-bit/res@latest/Music.jpg
 type: "music"
 sitemap: false
 ---

@@ -85,7 +85,7 @@ var data_handle = (nofollow,data, maxnumber) => {
         
         //左侧头像
         html_item += ' <a target="' + opentype + '" class="moments-item-img" href="' + post_item[2] + '" title="' + post_item[0] + '"rel="'+ rel + '">';
-        html_item += '<img onerror="this.onerror=null,this.src=&quot;https://cdn.jsdelivr.net/gh/Zfour/Butterfly-friend-poor-html/friendcircle/404.png&quot;"';
+        html_item += '<img onerror="this.onerror=null,this.src=&quot;https://cdn1.tianli0.top/gh/Zfour/Butterfly-friend-poor-html/friendcircle/404.png&quot;"';
         html_item += ' src="' + post_item[4] + '"></a>';
         //右侧文章信息
         html_item += '<div class="moments-item-info">';

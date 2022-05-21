@@ -96,6 +96,6 @@ theme: butterfly
 
 ## 截圖
 
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-1.png)
+![](https://cdn1.tianli0.top/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-1.png)
 
-![](https://cdn.jsdelivr.net/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-2.png)
+![](https://cdn1.tianli0.top/gh/jerryc127/CDN/img/theme-butterfly-readme-homepage-2.png)
