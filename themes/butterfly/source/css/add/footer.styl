@@ -1,49 +1,24 @@
-#footer_deal
-  display: flex
-  justify-content: center
-  align-items: center
-  a.deal_link
-    margin: 1rem 1rem
-    line-height: 1.3rem
-    border-radius: 3rem
-    box-shadow: 2px 2px 4px
-  img.footer_mini_logo
-    width: 50px
-    height: 50px
-    margin: 0 1rem
-    cursor: pointer
-    filter: drop-shadow(0 12px 12px #ee7d7936)
-    transition: cubic-bezier(0,0,0,1.29) .5s
-    border-radius: 3rem
-    box-shadow: 2px 2px 4px
-    :hover
-      transform: scale(1.1)
-      -webkit-backface-visibility: hidden
-      -webkit-transform-style: preserve-3d
-
-.footer-all
-  max-width: 1000px
-  width: 100%
-  margin: auto
-  display: flex
-  align-items: center
-  justify-content: center
-  .web-info
+#footer
+  padding-bottom: 2rem
+  .wordcount
+    text-align: center
+    font-family: 'Noto Serif SC', -apple-system,BlinkMacSystemFont,Roboto,Segoe UI,Helvetica,Arial,serif
+    font-size: large
+    padding: 2rem 0 0 0
+  .footer-content
+    padding: 2rem 0 0 0
+    text-align: center
+    a
+      font-family: 'aqqxs', sans-serif
+      color: var(--font-color)
+      font-size: 1rem
+  .statistics
     display: flex
-    font-family: 'aqqxs', sans-serif
-    background: var(--card-bg)
-    box-shadow: var(--card-box-shadow)
-    border-radius: 12px
-    .webinfo-item
-      margin: 0 0.5rem
-      text-align: center
-      font-size: 20px
-  #footer-wrap
-    max-width: 100%
-    padding: 0 1rem 2rem 1rem
-    .copyright
-      margin: 0.2rem 0
-
-@media screen and (max-width: 920px)
-  .web-info
-    display: none !important
+    flex-direction: row
+    justify-content: center
+    #site_pv
+      display: inline
+      text-align: right
+    #site_uv
+      display: inline
+      text-align: left

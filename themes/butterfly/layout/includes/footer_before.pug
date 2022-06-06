@@ -1,0 +1,50 @@
+#footer_deal
+  a.deal_link(href="https://github.com/2X-ercha/" target="_blank" title="Github")
+    svg.icon(aria-hidden="true")
+      use(xlink:href="#icon-github")
+  a.deal_link(href="mailto:noionion@outlook.com" target="_blank" title="Email")
+    svg.icon(aria-hidden="true")
+      use(xlink:href="#icon-youxiang")
+  img.footer_mini_logo.entered.loading(src="/img/simplycha-qaq.webp" title="返回顶部" onclick="btf.scrollToDest(0,500)" data-ll-status="loading")
+  a.deal_link(href="https://space.bilibili.com/334475423" target="_blank" title="Bilibili")
+    svg.icon(aria-hidden="true")
+      use(xlink:href="#icon-CN_bilibiliB")
+  a.deal_link(href="https://music.163.com/#/user/home?id=1395220098" target="_blank" title="wang'yi")
+    svg.icon(aria-hidden="true")
+      use(xlink:href="#icon-yinle")
+
+  
+.footer-all
+  //- .web-info
+    if theme.aside.card_webinfo.post_count
+      .webinfo-item
+        .item-name= _p('aside.card_webinfo.article_name')
+        .item-count= site.posts.length
+    if theme.runtimeshow.enable
+      .webinfo-item
+        .item-name= _p('aside.card_webinfo.runtime.name')
+        .item-count#runtimeshow(data-publishDate=date_xml(theme.runtimeshow.publish_date))
+    if theme.wordcount.enable && theme.wordcount.total_wordcount
+      .webinfo-item
+        .item-name=_p('aside.card_webinfo.site_wordcount')
+        .item-count=totalcount(site)
+  #footer-wrap
+    if theme.footer.owner.enable
+      - var now = new Date()
+      - var nowYear = now.getFullYear()
+      if theme.footer.owner.since && theme.footer.owner.since != nowYear
+        .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear} By ${config.author}`
+      else
+        .copyright!= `&copy;${nowYear} By ${config.author}`
+    if theme.footer.copyright
+      .framework-info
+        span= _p('footer.framework') + ' '
+        a(href='https://hexo.io')= 'Hexo'
+        span.footer-separator |
+        span= _p('footer.theme') + ' '
+        a(href='https://github.com/jerryc127/hexo-theme-butterfly')= 'Butterfly'
+    if theme.footer.custom_text
+      .footer_custom_text!=`${theme.footer.custom_text}`
+  
+  
+  
