@@ -6,7 +6,7 @@
   <link href="https://noionion.top/atom.xml" rel="self"/>
   
   <link href="https://noionion.top/"/>
-  <updated>2022-05-21T21:19:00.000Z</updated>
+  <updated>2022-06-06T15:40:00.000Z</updated>
   <id>https://noionion.top/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HNU工训综合项目二：基于485总线的评分系统速通指北</title>
+    <link href="https://noionion.top/55380.html"/>
+    <id>https://noionion.top/55380.html</id>
+    <published>2022-06-06T15:40:00.000Z</published>
+    <updated>2022-06-06T15:40:00.000Z</updated>
+    
+    
+    <summary type="html">HNU 大二工训综合项目二：基于485总线的评分系统速通</summary>
+    
+    
+    
+    <category term="教程" scheme="https://noionion.top/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+  </entry>
   
   <entry>
     <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验七 死锁与简单处理</title>
@@ -444,25 +463,6 @@
     <category term="C++" scheme="https://noionion.top/tags/C/"/>
     
     <category term="CCF" scheme="https://noionion.top/tags/CCF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>严肃: 严防盗站，志此以告</title>
-    <link href="https://noionion.top/10853.html"/>
-    <id>https://noionion.top/10853.html</id>
-    <published>2021-07-01T00:00:00.000Z</published>
-    <updated>2021-07-01T00:00:00.000Z</updated>
-    
-    
-    <summary type="html">被盗站了特别特别不爽</summary>
-    
-    
-    
-    <category term="贰猹随笔" scheme="https://noionion.top/categories/%E8%B4%B0%E7%8C%B9%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="Diary" scheme="https://noionion.top/tags/Diary/"/>
     
   </entry>
   

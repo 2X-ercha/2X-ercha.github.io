@@ -15,8 +15,29 @@
     <atom:link href="https://noionion.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>欢迎光临小窝！</description>
-    <pubDate>Sat, 21 May 2022 21:19:00 GMT</pubDate>
+    <pubDate>Mon, 06 Jun 2022 15:40:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>HNU工训综合项目二：基于485总线的评分系统速通指北</title>
+      <link>https://noionion.top/55380.html</link>
+      <guid>https://noionion.top/55380.html</guid>
+      <pubDate>Mon, 06 Jun 2022 15:40:00 GMT</pubDate>
+      
+      <description>HNU 大二工训综合项目二：基于485总线的评分系统速通</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      
+      <comments>https://noionion.top/55380.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验七 死锁与简单处理</title>
@@ -484,27 +505,6 @@
       
       
       <comments>https://noionion.top/64980.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>严肃: 严防盗站，志此以告</title>
-      <link>https://noionion.top/10853.html</link>
-      <guid>https://noionion.top/10853.html</guid>
-      <pubDate>Thu, 01 Jul 2021 00:00:00 GMT</pubDate>
-      
-      <description>被盗站了特别特别不爽</description>
-      
-      
-      
-      
-      <category domain="https://noionion.top/categories/%E8%B4%B0%E7%8C%B9%E9%9A%8F%E7%AC%94/">贰猹随笔</category>
-      
-      
-      <category domain="https://noionion.top/tags/Diary/">Diary</category>
-      
-      
-      <comments>https://noionion.top/10853.html#disqus_thread</comments>
       
     </item>
     
