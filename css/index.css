@@ -8684,7 +8684,7 @@ article.writeByhand {
   background: linear-gradient(90deg, #2c0c16 0%, #043749 100%) !important;
 }
 #footer {
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
 }
 #footer .wordcount {
   text-align: center;
@@ -8702,32 +8702,35 @@ article.writeByhand {
   font-size: 1rem;
 }
 #footer .statistics {
+  padding-top: 0.6rem;
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -moz-box-orient: horizontal;
-  -o-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -moz-box-pack: center;
   -o-box-pack: center;
   -ms-flex-pack: center;
   -webkit-justify-content: center;
   justify-content: center;
+  font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica, Arial, serif;
+  font-size: 0.6rem;
 }
 #footer .statistics #site_pv {
   display: inline;
-  text-align: right;
+  text-align: center;
 }
 #footer .statistics #site_uv {
   display: inline;
-  text-align: left;
+  text-align: center;
 }
 #post-info {
   display: -webkit-box;

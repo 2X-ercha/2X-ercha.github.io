@@ -1,5 +1,5 @@
 #footer {
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
 }
 #footer .wordcount {
   text-align: center;
@@ -17,15 +17,18 @@
   font-size: 1rem;
 }
 #footer .statistics {
+  padding-top: 0.6rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica, Arial, serif;
+  font-size: 0.6rem;
 }
 #footer .statistics #site_pv {
   display: inline;
-  text-align: right;
+  text-align: center;
 }
 #footer .statistics #site_uv {
   display: inline;
-  text-align: left;
+  text-align: center;
 }
