@@ -6,7 +6,7 @@
   <link href="https://noionion.top/atom.xml" rel="self"/>
   
   <link href="https://noionion.top/"/>
-  <updated>2022-06-08T23:01:00.000Z</updated>
+  <updated>2022-06-09T03:21:00.000Z</updated>
   <id>https://noionion.top/</id>
   
   <author>
@@ -17,7 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八 内存管理（上）</title>
+    <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八下 内存管理</title>
+    <link href="https://noionion.top/16886.html"/>
+    <id>https://noionion.top/16886.html</id>
+    <published>2022-06-09T03:21:00.000Z</published>
+    <updated>2022-06-09T03:21:00.000Z</updated>
+    
+    
+    <summary type="html">HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</summary>
+    
+    
+    
+    <category term="BlogOS_armv8" scheme="https://noionion.top/categories/BlogOS-armv8/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="os" scheme="https://noionion.top/tags/os/"/>
+    
+    <category term="rust" scheme="https://noionion.top/tags/rust/"/>
+    
+    <category term="blogos" scheme="https://noionion.top/tags/blogos/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八上 内存管理</title>
     <link href="https://noionion.top/49749.html"/>
     <id>https://noionion.top/49749.html</id>
     <published>2022-06-08T23:01:00.000Z</published>
@@ -446,27 +471,6 @@
     <category term="C++" scheme="https://noionion.top/tags/C/"/>
     
     <category term="ACM" scheme="https://noionion.top/tags/ACM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HNU:小学期软件实训第二周（继续划水）</title>
-    <link href="https://noionion.top/54171.html"/>
-    <id>https://noionion.top/54171.html</id>
-    <published>2021-07-15T17:30:00.000Z</published>
-    <updated>2021-07-15T17:30:00.000Z</updated>
-    
-    
-    <summary type="html">划水划水</summary>
-    
-    
-    
-    <category term="C++学习笔记" scheme="https://noionion.top/categories/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="C++" scheme="https://noionion.top/tags/C/"/>
-    
-    <category term="CCF" scheme="https://noionion.top/tags/CCF/"/>
     
   </entry>
   

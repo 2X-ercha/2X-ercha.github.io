@@ -15,11 +15,38 @@
     <atom:link href="https://noionion.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>欢迎光临小窝！</description>
-    <pubDate>Wed, 08 Jun 2022 23:01:00 GMT</pubDate>
+    <pubDate>Thu, 09 Jun 2022 03:21:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八 内存管理（上）</title>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八下 内存管理</title>
+      <link>https://noionion.top/16886.html</link>
+      <guid>https://noionion.top/16886.html</guid>
+      <pubDate>Thu, 09 Jun 2022 03:21:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/16886.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八上 内存管理</title>
       <link>https://noionion.top/49749.html</link>
       <guid>https://noionion.top/49749.html</guid>
       <pubDate>Wed, 08 Jun 2022 23:01:00 GMT</pubDate>
@@ -486,29 +513,6 @@
       
       
       <comments>https://noionion.top/13221.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>HNU:小学期软件实训第二周（继续划水）</title>
-      <link>https://noionion.top/54171.html</link>
-      <guid>https://noionion.top/54171.html</guid>
-      <pubDate>Thu, 15 Jul 2021 17:30:00 GMT</pubDate>
-      
-      <description>划水划水</description>
-      
-      
-      
-      
-      <category domain="https://noionion.top/categories/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">C++学习笔记</category>
-      
-      
-      <category domain="https://noionion.top/tags/C/">C++</category>
-      
-      <category domain="https://noionion.top/tags/CCF/">CCF</category>
-      
-      
-      <comments>https://noionion.top/54171.html#disqus_thread</comments>
       
     </item>
     
