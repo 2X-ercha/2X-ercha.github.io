@@ -1,5 +1,5 @@
 ---
-title: rust写个操作系统——课程实验blogos移至armV8深度解析：实验八 内存管理（上）
+title: rust写个操作系统——课程实验blogos移至armV8深度解析：实验八上 内存管理
 categories: BlogOS_armv8
 tags:
   - Course
