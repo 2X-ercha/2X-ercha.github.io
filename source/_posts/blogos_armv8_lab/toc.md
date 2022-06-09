@@ -71,6 +71,32 @@ sticky: 100
 
   文章地址: [https://noionion.top/b484f477.html](https://noionion.top/b484f477.html)
 
+* **2022-06-09 实验八解析完成**
+
+  文章地址: [https://noionion.top/49749.html](https://noionion.top/49749.html)
+
+  * 第一部分：`identity mapping`直接映射（外设映射到`0-1g`部分）
+
+    仓库地址：[分支名：lab8-identity_mapping_0-1g - https://github.com/2X-ercha/blogOS-armV8/tree/lab8-identity_mapping_0-1g](https://github.com/2X-ercha/blogOS-armV8/tree/lab8-identity_mapping_0-1g)
+
+  * 第一部分补充：自行实验部分-`identity mapping`偏移映射与页面共享（外设映射到`2-3g`部分）
+
+    仓库地址：[分支名：lab8-identity_mapping_2-3g - https://github.com/2X-ercha/blogOS-armV8/tree/lab8-identity_mapping_2-3g](https://github.com/2X-ercha/blogOS-armV8/tree/lab8-identity_mapping_2-3g)
+
+  文章地址: [https://noionion.top/16886.html](https://noionion.top/16886.html)
+
+  * 第二部分上：非`identity mapping`映射（内核置于下半部分-原始地址，外设置于虚拟页`0xffffffff0000000`开始的页处）
+
+    先尝试不用二级页表，用块映射实现
+
+    仓库地址：[分支名：lab8-block_mapping - https://github.com/2X-ercha/blogOS-armV8/tree/lab8-block_mapping](https://github.com/2X-ercha/blogOS-armV8/tree/lab8-block_mapping)
+
+  * 第二部分下：非`identity mapping`映射（内核置于下半部分-原始地址，外设置于虚拟页`0xffffffff00000000`开始的页处）
+
+    进一步改用二级页表实现
+
+    仓库地址：[分支名：lab8-multi-level_page_tables - https://github.com/2X-ercha/blogOS-armV8/tree/lab8-multi-level_page_tables](https://github.com/2X-ercha/blogOS-armV8/tree/lab8-multi-level_page_tables)
+
 {% endnote %}
 
 ## 日志
