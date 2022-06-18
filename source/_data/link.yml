@@ -414,7 +414,7 @@
 
     - name: 山岳库博
       link: https://kmar.top/
-      avatar: https://fastly.jsdelivr.net/gh/EmptyDreams/resources/qqavatar.jpg
+      avatar: https://npm.elemecdn.com/@kmar/fonts/avatar/own.jpg
       descr: 开发学习启发性二刺螈
 
     - name: Gallifrey’Blog
@@ -428,10 +428,30 @@
       descr: 无限进步！
 
     - name: Tianli
-      link: https://tianli-blog.club
+      link: https://tianli-blog.club/
       avatar: https://img1.tianli0.top/logo.png
       descr: 惟其不可能，所以才相信。
 
+    - name: 白雾茫茫丶
+      link: https://blog.xmwpro.com/
+      avatar: https://cyan-blog.oss-cn-shenzhen.aliyuncs.com/global/avatar.jpg
+      descr: 记录学习、生活和有趣的事
+
+    - name: Eacls
+      link: https://www.eacls.top/
+      avatar: https://cdn.jsdelivr.net/gh/Eacls/eacpho/img/logo.png
+      descr: 看一看世界的繁华
+
+    - name: Yuexin’s Blog
+      link: https://wyxogo.top/
+      avatar: https://wyxogo.top/images/avatar.webp
+      descr: KEEP WALKING
+
+    - name: Felix_Chen的基地
+      link: https://www.felixchen0707.cn/
+      avatar: https://www.felixchen0707.cn/img/theme_img/profile.jpg
+      descr: 抬头看星空
+      siteshot: https://www.felixchen0707.cn/img/theme_img/siteshot.jpg
 
 
 - class_name: 线下后宫团
