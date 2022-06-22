@@ -15,8 +15,31 @@
     <atom:link href="https://noionion.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>欢迎光临小窝！</description>
-    <pubDate>Thu, 09 Jun 2022 03:21:00 GMT</pubDate>
+    <pubDate>Wed, 22 Jun 2022 22:00:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>回忆录: 知心友与白月光</title>
+      <link>https://noionion.top/12476.html</link>
+      <guid>https://noionion.top/12476.html</guid>
+      <pubDate>Wed, 22 Jun 2022 22:00:00 GMT</pubDate>
+      
+      <description>想写自己的回忆了，再不写，记忆就更糊了。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E5%9B%9E%E5%BF%86%E5%BD%95/">回忆录</category>
+      
+      
+      <category domain="https://noionion.top/tags/Diary/">Diary</category>
+      
+      <category domain="https://noionion.top/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/">回忆录</category>
+      
+      
+      <comments>https://noionion.top/12476.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八下 内存管理</title>
@@ -490,29 +513,6 @@
       
       
       <comments>https://noionion.top/51816.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>ACM暑假训练：01字典树杂谈</title>
-      <link>https://noionion.top/13221.html</link>
-      <guid>https://noionion.top/13221.html</guid>
-      <pubDate>Fri, 23 Jul 2021 13:55:07 GMT</pubDate>
-      
-      <description>一天进步一点点</description>
-      
-      
-      
-      
-      <category domain="https://noionion.top/categories/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">C++学习笔记</category>
-      
-      
-      <category domain="https://noionion.top/tags/C/">C++</category>
-      
-      <category domain="https://noionion.top/tags/ACM/">ACM</category>
-      
-      
-      <comments>https://noionion.top/13221.html#disqus_thread</comments>
       
     </item>
     

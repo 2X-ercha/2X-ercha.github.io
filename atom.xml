@@ -6,7 +6,7 @@
   <link href="https://noionion.top/atom.xml" rel="self"/>
   
   <link href="https://noionion.top/"/>
-  <updated>2022-06-09T03:21:00.000Z</updated>
+  <updated>2022-06-22T22:00:00.000Z</updated>
   <id>https://noionion.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>回忆录: 知心友与白月光</title>
+    <link href="https://noionion.top/12476.html"/>
+    <id>https://noionion.top/12476.html</id>
+    <published>2022-06-22T22:00:00.000Z</published>
+    <updated>2022-06-22T22:00:00.000Z</updated>
+    
+    
+    <summary type="html">想写自己的回忆了，再不写，记忆就更糊了。</summary>
+    
+    
+    
+    <category term="回忆录" scheme="https://noionion.top/categories/%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+    
+    
+    <category term="Diary" scheme="https://noionion.top/tags/Diary/"/>
+    
+    <category term="回忆录" scheme="https://noionion.top/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/"/>
+    
+  </entry>
   
   <entry>
     <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八下 内存管理</title>
@@ -438,27 +459,6 @@
     <id>https://noionion.top/51816.html</id>
     <published>2021-07-24T01:00:00.000Z</published>
     <updated>2021-07-24T01:00:00.000Z</updated>
-    
-    
-    <summary type="html">一天进步一点点</summary>
-    
-    
-    
-    <category term="C++学习笔记" scheme="https://noionion.top/categories/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="C++" scheme="https://noionion.top/tags/C/"/>
-    
-    <category term="ACM" scheme="https://noionion.top/tags/ACM/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ACM暑假训练：01字典树杂谈</title>
-    <link href="https://noionion.top/13221.html"/>
-    <id>https://noionion.top/13221.html</id>
-    <published>2021-07-23T13:55:07.000Z</published>
-    <updated>2021-07-23T13:55:07.000Z</updated>
     
     
     <summary type="html">一天进步一点点</summary>
