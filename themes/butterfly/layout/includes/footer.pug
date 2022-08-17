@@ -1,7 +1,64 @@
 .wordcount
-  span= '猹居然写了 ' + totalcount(site) + ' 字'
+  - let allword = totalcount(site)
+  span= '猹居然写了 ' + allword + ' 字'
   </br>
-  span= "好像写完一本 曹禺 的《日出》了啊"
+  if isNaN(allword)
+    - allword= Number(allword.replace('k', ''))
+    if allword< 50
+      span= "还在努力更新中.. 加油！加油啦！"
+    else if allword< 70
+      span= "好像写完一本 埃克苏佩里 的 《小王子》 了啊"
+    else if allword< 90
+      span= "好像写完一本 鲁迅 的 《呐喊》 了啊"
+    else if allword< 100
+      span= "好像写完一本 林海音 的 《城南旧事》 了啊"
+    else if allword< 110
+      span= "好像写完一本 马克·吐温 的 《王子与乞丐》了！ 了啊"
+    else if allword< 120
+      span= "好像写完一本 鲁迅 的 《彷徨》 了啊"
+    else if allword< 130
+      span= "好像写完一本 余华 的 《活着》 了啊"
+    else if allword< 140
+      span= "好像写完一本 曹禺 的 《雷雨》 了啊"
+    else if allword< 150
+      span= "好像写完一本 史铁生 的 《宿命的写作》 了啊"
+    else if allword< 160
+      span= "好像写完一本 伯内特 的 《秘密花园》 了啊"
+    else if allword< 170
+      span= "好像写完一本 曹禺 的 《日出》 了啊"
+    else if allword< 180
+      span= "好像写完一本 马克·吐温 的 《汤姆·索亚历险记》 了啊"
+    else if allword< 190
+      span= "好像写完一本 沈从文 的 《边城》 了啊"
+    else if allword< 200
+      span= "好像写完一本 亚米契斯 的 《爱的教育》 了啊"
+    else if allword< 210
+      span= "好像写完一本 巴金 的 《寒夜》 了啊"
+    else if allword< 220
+      span= "好像写完一本 东野圭吾 的 《解忧杂货店》 了啊"
+    else if allword< 230
+      span= "好像写完一本 莫泊桑 的 《一生》 了啊"
+    else if allword< 250
+      span= "好像写完一本 简·奥斯汀 的 《傲慢与偏见》 了啊"
+    else if allword< 280
+      span= "好像写完一本 钱钟书 的 《围城》 了啊"
+    else if allword< 300
+      span= "好像写完一本 张炜 的 《古船》 了啊"
+    else if allword< 310
+      span= "好像写完一本 茅盾 的 《子夜》 了啊"
+    else if allword< 320
+      span= "好像写完一本 阿来 的 《尘埃落定》 了啊"
+    else if allword< 340
+      span= "好像写完一本 艾米莉·勃朗特 的 《呼啸山庄》 了啊"
+    else if allword< 350
+      span= "好像写完一本 雨果 的 《巴黎圣母院》 了啊"
+    else if allword< 360
+      span= "好像写完一本 东野圭吾 的 《白夜行》 了啊"
+    else
+      span= "好像写完一本我国著名的 四大名著 了！！！"
+  else
+    span= "还在努力更新中.. 加油！加油啦！"
+
 .footer-content
   a(href="https://hexo.io" target="_blank" rel="nofollow noopener")
     span(style="padding: 0.4rem")= 'hexo'
