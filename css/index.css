@@ -8661,6 +8661,15 @@ article.writeByhand {
   src: url("./font/WoZaiXingYeShenChuDengNi.ttf");
   ont-display: swap;
 }
+.tag.link {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  padding: 0.5em;
+}
 .cf-article-avatar .img-alt {
   display: none;
 }

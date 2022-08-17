@@ -15,8 +15,35 @@
     <atom:link href="https://noionion.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>欢迎光临小窝！</description>
-    <pubDate>Wed, 22 Jun 2022 22:00:00 GMT</pubDate>
+    <pubDate>Wed, 17 Aug 2022 17:00:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>猹的魔改日记-小小的重写个页脚</title>
+      <link>https://noionion.top/46524.html</link>
+      <guid>https://noionion.top/46524.html</guid>
+      <pubDate>Wed, 17 Aug 2022 17:00:00 GMT</pubDate>
+      
+      <description>魔改第三弹！</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E9%AD%94%E6%94%B9%E6%97%A5%E8%AE%B0%E6%9C%AC/">魔改日记本</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/Diary/">Diary</category>
+      
+      <category domain="https://noionion.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://noionion.top/tags/butterfly/">butterfly</category>
+      
+      
+      <comments>https://noionion.top/46524.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>回忆录: 知心友与白月光</title>
@@ -490,29 +517,6 @@
       
       
       <comments>https://noionion.top/54068.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>ACM暑假训练：【求极大化矩阵】DP之悬线法</title>
-      <link>https://noionion.top/51816.html</link>
-      <guid>https://noionion.top/51816.html</guid>
-      <pubDate>Sat, 24 Jul 2021 01:00:00 GMT</pubDate>
-      
-      <description>一天进步一点点</description>
-      
-      
-      
-      
-      <category domain="https://noionion.top/categories/C-%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/">C++学习笔记</category>
-      
-      
-      <category domain="https://noionion.top/tags/C/">C++</category>
-      
-      <category domain="https://noionion.top/tags/ACM/">ACM</category>
-      
-      
-      <comments>https://noionion.top/51816.html#disqus_thread</comments>
       
     </item>
     
