@@ -1,5 +1,21 @@
 extends includes/layout.pug
 
+block content_leftside
+  #content_leftside
+    #left_menu
+      //- 联系方式
+      if(theme.social)
+        #leftside-social
+          !=fragment_cache('social', function(){return partial('includes/header/social')})
+      //- 阅读进度
+      if is_post()
+        button#leftside-contents(type="button", title="目录")
+          span#read-percent 0
+      //- 跳转评论
+      button#leftside-comment
+        a(href="#post-comment" title=_p("rightside.scroll_to_comment"))
+          i.fas.fa-comments
+
 block content
   #post
     if top_img === false
@@ -32,4 +48,17 @@ block content
     if page.comments !== false && theme.comments && theme.comments.use
       - var commentsJsLoad = true
       !=partial('includes/third-party/comments/index', {}, {cache: true})
+
+block content_rightside
+  - let tocNumber = page.toc_number !== undefined ? page.toc_number : theme.toc.number
+  #content_rightside
+    #rightside-toc
+      .toc-box
+        if (page.encrypt == true)
+          .toc-content.toc-div-class(style="display:none")!=toc(page.origin, {list_number: tocNumber})
+        else 
+          .toc-content!=toc(page.content, {list_number: tocNumber})
+    #rightside-button
+      button#rightside-go-up(type="button" title=_p("rightside.back_to_top"))
+        i.fas.fa-arrow-up
       

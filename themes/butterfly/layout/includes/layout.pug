@@ -18,13 +18,17 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
     #body-wrap(class=pageType)
       include ./header/index.pug
 
-      main#content-inner.layout(class=hideAside)
-        if body
-          div!= body
-        else
-          block content
-          if theme.aside.enable && page.aside !== false
-            include widget/index.pug
+      #mainbody
+        block content_leftside
+        main#content-inner.layout(class=hideAside)
+          if body
+            div!= body
+          else
+            block content
+            if theme.aside.enable && page.aside !== false
+              include widget/index.pug
+        
+        block content_rightside
 
       - var footerBg = theme.footer_bg
       if (footerBg)

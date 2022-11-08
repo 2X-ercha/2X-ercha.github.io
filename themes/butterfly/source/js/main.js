@@ -329,12 +329,16 @@ document.addEventListener('DOMContentLoaded', function () {
  * 滾動處理
  */
   const scrollFn = function () {
-    const $rightside = document.getElementById('rightside')
+    const $rightside_toc = document.getElementById('rightside-toc')
+    const $leftside_menu = document.getElementById('left_menu')
+    const $rightside_button = document.getElementById('rightside-button')
     const innerHeight = window.innerHeight + 56
 
     // 當滾動條小于 56 的時候
     if (document.body.scrollHeight <= innerHeight) {
-      $rightside.style.cssText = 'opacity: 1; transform: translateX(-38px)'
+      $rightside_toc.style.cssText = 'opacity: 0'
+      $leftside_menu.style.cssText = 'opacity: 0'
+      $rightside_button.style.cssText = 'bottom: -3rem'
       return
     }
 
@@ -355,6 +359,13 @@ document.addEventListener('DOMContentLoaded', function () {
       return btf.throttle(function (e) {
         const currentTop = window.scrollY || document.documentElement.scrollTop
         const isDown = scrollDirection(currentTop)
+        
+        //滚动条高度+视窗高度 = 可见区域底部高度
+        const currentBottom = currentTop + document.documentElement.clientHeight;
+        // 获取位置监测容器，此处采用评论区
+        var eventlistner = document.getElementById('post-comment');
+        var centerY = eventlistner.offsetTop+(eventlistner.offsetHeight/2);
+
         if (currentTop > 56) {
           if (isDown) {
             if ($header.classList.contains('nav-visible')) $header.classList.remove('nav-visible')
@@ -370,18 +381,27 @@ document.addEventListener('DOMContentLoaded', function () {
             }
           }
           $header.classList.add('nav-fixed')
-          if (window.getComputedStyle($rightside).getPropertyValue('opacity') === '0') {
-            $rightside.style.cssText = 'opacity: 1; transform: translateX(-38px)'
+          if(centerY > currentBottom){
+            $rightside_toc.style.cssText = 'opacity: 1'
+            $leftside_menu.style.cssText = 'opacity: 1'
+          } else {
+            $rightside_toc.style.cssText = 'opacity: 0'
+            $leftside_menu.style.cssText = 'opacity: 0'
           }
+          $rightside_button.style.cssText = 'bottom: 1rem'
         } else {
           if (currentTop === 0) {
             $header.classList.remove('nav-fixed', 'nav-visible')
           }
-          $rightside.style.cssText = "opacity: ''; transform: ''"
+          $rightside_toc.style.cssText = 'opacity: 0'
+          $leftside_menu.style.cssText = 'opacity: 0'
+          $rightside_button.style.cssText = 'bottom: -3rem'
         }
 
         if (document.body.scrollHeight <= innerHeight) {
-          $rightside.style.cssText = 'opacity: 1; transform: translateX(-38px)'
+          $rightside_toc.style.cssText = 'opacity: 0'
+          $leftside_menu.style.cssText = 'opacity: 0'
+          $rightside_button.style.cssText = 'bottom: -3rem'
         }
       }, 200)()
     }
@@ -393,10 +413,11 @@ document.addEventListener('DOMContentLoaded', function () {
  *  toc
  */
   const tocFn = function () {
-    const $cardTocLayout = document.getElementById('card-toc')
+    const $cardTocLayout = document.getElementById('rightside-toc')
     const $cardToc = $cardTocLayout.getElementsByClassName('toc-content')[0]
     const $tocLink = $cardToc.querySelectorAll('.toc-link')
     const $article = document.getElementById('article-container')
+    const $readpercent = document.querySelector("#read-percent")
 
     // main of scroll
     window.tocScrollFn = function () {
@@ -416,7 +437,7 @@ document.addEventListener('DOMContentLoaded', function () {
       const scrollPercent = (currentTop - headerHeight) / (contentMath)
       const scrollPercentRounded = Math.round(scrollPercent * 100)
       const percentage = (scrollPercentRounded > 100) ? 100 : (scrollPercentRounded <= 0) ? 0 : scrollPercentRounded
-      $cardToc.setAttribute('progress-percentage', percentage)
+      $readpercent.innerHTML = percentage
     }
 
     // anchor
@@ -445,10 +466,12 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
 
+    /*
     document.getElementById('mobile-toc-button').addEventListener('click', () => {
       if (window.getComputedStyle($cardTocLayout).getPropertyValue('opacity') === '0') mobileToc.open()
       else mobileToc.close()
     })
+    */
 
     // toc元素點擊
     $cardToc.addEventListener('click', (e) => {
@@ -506,6 +529,9 @@ document.addEventListener('DOMContentLoaded', function () {
       $cardToc.querySelectorAll('.active').forEach(item => { item.classList.remove('active') })
       const currentActive = $tocLink[currentIndex]
       currentActive.classList.add('active')
+
+      var offset = -currentIndex * 1.5 + 4.25
+      $cardToc.style.translate = "0 " + offset + "rem"
 
       setTimeout(() => {
         autoScrollToc(currentActive)
@@ -589,10 +615,10 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  document.getElementById('rightside').addEventListener('click', function (e) {
+  document.getElementById('rightside-button').addEventListener('click', function (e) {
     const $target = e.target.id || e.target.parentNode.id
     switch ($target) {
-      case 'go-up':
+      case 'rightside-go-up':
         rightSideFn.scrollToTop()
         break
       case 'rightside_config':

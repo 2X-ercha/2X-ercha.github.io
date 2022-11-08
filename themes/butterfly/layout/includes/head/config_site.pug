@@ -5,7 +5,7 @@
   else isHighlightShrink = theme.highlight_shrink
 
   var pageToc = page.toc === true || page.toc === false ? page.toc : theme.toc.enable
-  var showToc = is_post() && theme.aside.enable && pageToc && (toc(page.content) !== '' || page.encrypt == true )
+  var showToc = is_post() && pageToc && (toc(page.content) !== '' || page.encrypt == true )
 -
 
 script#config-diff

@@ -48,11 +48,11 @@ copy:
 # formal:
 #   icon: link || the description
 social:
-  Github: https://github.com/2X-ercha || icon-github
-  Email: mailto:noionion@outlook.com || icon-youxiang
-  Bilibili: https://space.bilibili.com/334475423 || icon-CN_bilibiliB
-  网易云: https://music.163.com/#/user/home?id=1395220098 || icon-yinle
-  rss: //rss.xml || icon-rss
+  Github: https://github.com/2X-ercha || fab fa-github
+  Email: mailto:noionion@outlook.com || fas fa-envelope
+  # Bilibili: https://space.bilibili.com/334475423 || icon-CN_bilibiliB
+  # 网易云: https://music.163.com/#/user/home?id=1395220098 || icon-yinle
+  rss: //rss.xml || fas fa-rss
 
 # search (搜索)
 # --------------------------------------
@@ -867,7 +867,6 @@ inject:
   bottom:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
     - <script src="/js/add/nav.js"></script>
-    - <script src="/js/add/rightside.js"></script>
     # - <script src="https://cdn1.tianli0.top/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script> # 拉姆雷姆角标参考
     # - <script src="xxxx"></script>
 
