@@ -337,8 +337,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // 當滾動條小于 56 的時候
     if (document.body.scrollHeight <= innerHeight) {
       $rightside_toc.style.cssText = 'opacity: 0'
-      $leftside_menu.style.cssText = 'opacity: 0'
-      $rightside_button.style.cssText = 'bottom: -3rem'
+      if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0'
+      if($rightside_button) $rightside_button.style.cssText = 'bottom: -3rem'
       return
     }
 
@@ -362,9 +362,6 @@ document.addEventListener('DOMContentLoaded', function () {
         
         //滚动条高度+视窗高度 = 可见区域底部高度
         const currentBottom = currentTop + document.documentElement.clientHeight;
-        // 获取位置监测容器，此处采用评论区
-        var eventlistner = document.getElementById('post-comment');
-        var centerY = eventlistner.offsetTop+(eventlistner.offsetHeight/2);
 
         if (currentTop > 56) {
           if (isDown) {
@@ -381,27 +378,32 @@ document.addEventListener('DOMContentLoaded', function () {
             }
           }
           $header.classList.add('nav-fixed')
-          if(centerY > currentBottom){
-            $rightside_toc.style.cssText = 'opacity: 1'
-            $leftside_menu.style.cssText = 'opacity: 1'
-          } else {
-            $rightside_toc.style.cssText = 'opacity: 0'
-            $leftside_menu.style.cssText = 'opacity: 0'
+          // 获取位置监测容器，此处采用评论区
+          var eventlistner = document.getElementById('post-comment');
+          if(eventlistner){
+            var centerY = eventlistner.offsetTop+(eventlistner.offsetHeight/2);
+            if(centerY > currentBottom){
+              if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 1'
+              if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 1'
+            } else {
+              if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 0'
+              if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0'
+            }
           }
-          $rightside_button.style.cssText = 'bottom: 1rem'
+          if($rightside_button) $rightside_button.style.cssText = 'bottom: 1rem'
         } else {
           if (currentTop === 0) {
             $header.classList.remove('nav-fixed', 'nav-visible')
           }
-          $rightside_toc.style.cssText = 'opacity: 0'
-          $leftside_menu.style.cssText = 'opacity: 0'
-          $rightside_button.style.cssText = 'bottom: -3rem'
+          if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 0'
+          if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0'
+          if($rightside_button) $rightside_button.style.cssText = 'bottom: -3rem'
         }
 
         if (document.body.scrollHeight <= innerHeight) {
-          $rightside_toc.style.cssText = 'opacity: 0'
-          $leftside_menu.style.cssText = 'opacity: 0'
-          $rightside_button.style.cssText = 'bottom: -3rem'
+          if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 0'
+          if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0'
+          if($rightside_button) $rightside_button.style.cssText = 'bottom: -3rem'
         }
       }, 200)()
     }
@@ -615,34 +617,37 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 
-  document.getElementById('rightside-button').addEventListener('click', function (e) {
-    const $target = e.target.id || e.target.parentNode.id
-    switch ($target) {
-      case 'rightside-go-up':
-        rightSideFn.scrollToTop()
-        break
-      case 'rightside_config':
-        rightSideFn.showOrHideBtn()
-        break
-      case 'readmode':
-        rightSideFn.switchReadMode()
-        break
-      case 'darkmode':
-        rightSideFn.switchDarkMode()
-        break
-      case 'hide-aside-btn':
-        rightSideFn.hideAsideBtn()
-        break
-      case 'font-plus':
-        rightSideFn.adjustFontSize(true)
-        break
-      case 'font-minus':
-        rightSideFn.adjustFontSize()
-        break
-      default:
-        break
-    }
-  })
+  const rightside_buttons = document.getElementById('rightside-button')
+  if(rightside_buttons){
+    rightside_buttons.addEventListener('click', function (e) {
+      const $target = e.target.id || e.target.parentNode.id
+      switch ($target) {
+        case 'rightside-go-up':
+          rightSideFn.scrollToTop()
+          break
+        case 'rightside_config':
+          rightSideFn.showOrHideBtn()
+          break
+        case 'readmode':
+          rightSideFn.switchReadMode()
+          break
+        case 'darkmode':
+          rightSideFn.switchDarkMode()
+          break
+        case 'hide-aside-btn':
+          rightSideFn.hideAsideBtn()
+          break
+        case 'font-plus':
+          rightSideFn.adjustFontSize(true)
+          break
+        case 'font-minus':
+          rightSideFn.adjustFontSize()
+          break
+        default:
+          break
+      }
+    })
+  }
 
   /**
  * menu
