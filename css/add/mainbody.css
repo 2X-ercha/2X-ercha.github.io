@@ -261,7 +261,7 @@
 [data-theme="dark"] #mainbody #content_rightside #rightside-button button i {
   color: #fff;
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
   #content_leftside #left_menu {
     display: none !important;
   }
