@@ -8966,10 +8966,20 @@ article.writeByhand {
   color: #000;
 }
 #mainbody #content_rightside #rightside-toc .toc-link.active {
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  -webkit-transform-origin: 2.5rem 0.75rem;
+  -moz-transform-origin: 2.5rem 0.75rem;
+  -o-transform-origin: 2.5rem 0.75rem;
+  -ms-transform-origin: 2.5rem 0.75rem;
+  transform-origin: 2.5rem 0.75rem;
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
   font-weight: bolder;
-}
-#mainbody #content_rightside #rightside-toc .toc-link.active span.toc-text {
-  font-size: large;
 }
 #mainbody #content_rightside #rightside-toc .toc-item {
   -webkit-transition: all 0.5s ease-in-out;
