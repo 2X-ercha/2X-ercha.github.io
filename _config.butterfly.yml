@@ -52,7 +52,7 @@ social:
   Email: mailto:noionion@outlook.com || fas fa-envelope
   # Bilibili: https://space.bilibili.com/334475423 || icon-CN_bilibiliB
   # 网易云: https://music.163.com/#/user/home?id=1395220098 || icon-yinle
-  rss: //rss.xml || fas fa-rss
+  rss: /rss.xml || fas fa-rss
 
 # search (搜索)
 # --------------------------------------

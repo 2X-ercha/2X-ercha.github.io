@@ -378,11 +378,11 @@ document.addEventListener('DOMContentLoaded', function () {
             }
           }
           $header.classList.add('nav-fixed')
-          // 获取位置监测容器，此处采用评论区
-          var eventlistner = document.getElementById('post-comment');
+          // 获取位置监测容器，此处采用文章主体
+          var eventlistner = document.getElementById('post');
           if(eventlistner){
-            var centerY = eventlistner.offsetTop+(eventlistner.offsetHeight/2);
-            if(centerY > currentBottom){
+            var centerY = eventlistner.offsetTop+eventlistner.offsetHeight;
+            if(centerY > currentBottom && currentTop > eventlistner.offsetTop+document.getElementById('post-info').offsetHeight){
               if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 1'
               if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 1'
             } else {

@@ -1,5 +1,10 @@
 #mainbody
   display: flex
+  #post
+    background: none
+    box-shadow: none
+    &:hover
+      box-shadow: none
   #content_leftside
     flex: 1
     width: fill-available
@@ -9,7 +14,7 @@
     #left_menu
       top: -1rem
       opacity: 0
-      transition: all 0.5s
+      transition: all 0.3s ease-in-out
       position: fixed
       display: flex
       height: 100%
@@ -20,9 +25,10 @@
       justify-content: center
       align-items: center
       translate: -0.7rem 0
+      i
+        color: #000
       #leftside-social
-        opacity: 0.5
-        background: var(--card-bg)
+        opacity: 0.7
         border-radius: 1rem
         width: 1.5rem
         box-shadow: 0 0 5px #000
@@ -32,14 +38,14 @@
         margin: 0.4rem
         transition: all 0.5s
         .fa-fw
-          margin: 0.25rem 0
+          margin: 0.5rem 0
           transition: all 0.3s
+          transform: scale(1.3)
         &:hover
           opacity: 1
       #leftside-contents
       #leftside-comment
-        opacity: 0.5
-        background: var(--card-bg)
+        opacity: 0.7
         border-radius: 1rem
         width: 1.5rem
         height: 1.5rem
@@ -47,6 +53,24 @@
         margin: 0.3rem
         font-weight: bold
         transition: all 0.5s
+        .fas::hover
+            transform: scale(1.3)
+        &:hover
+          opacity: 1
+      #leftside-qq
+      #leftside-rmb
+        text-align: center
+        line-height: 1rem
+        margin: 0.3rem
+        opacity: 0.7
+        border-radius: 1rem
+        width: 1rem
+        height: 1rem
+        box-shadow: 0 0 5px #000
+        font-weight: bold
+        transition: all 0.5s
+        .fas::hover
+            transform: scale(1.3)
         &:hover
           opacity: 1
   #content_rightside
@@ -58,7 +82,7 @@
     #rightside-toc
       top: -1rem
       opacity: 0
-      transition: all 0.5s ease-in-out
+      transition: all 0.3s ease-in-out
       position: fixed
       display: flex
       height: 100%
@@ -127,7 +151,6 @@
         &.active
           transform: scale(1.3)
           transform-origin: 2.5rem 0.75rem
-          opacity: 1
           font-weight: bolder
       .toc-item
         transition: all 0.5s ease-in-out
@@ -171,12 +194,11 @@
 
         &.active
           transition: all 0.5s ease-in-out
-          opacity: 0.8
+          opacity: 1
           .toc-child
             display: block
         &:hover
-          opacity: 0.8
-          font-weight: bolder
+          opacity: 1
     #rightside-button
       position: fixed
       z-index: 101
@@ -203,11 +225,13 @@
         &:hover
           color: #a153ff
       #left_menu
+        i
+          color: #fff
         #leftside-social
-          box-shadow: 0 0 5px #fff
         #leftside-contents
         #leftside-comment
-          background: var(--card-bg)
+        #leftside-qq
+        #leftside-rmb
           box-shadow: 0 0 5px #fff
         #leftside-contents span
           color: #fff
@@ -244,6 +268,13 @@
           box-shadow: 0 0 5px #fff
           i
             color: #fff
+
+.start
+.end 
+  font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica, Arial, serif
+  font-size: large
+  font-weight: bolder
+  opacity: 0.5
 
 @media screen and (max-width: 1200px)
   #content_leftside

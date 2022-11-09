@@ -9,45 +9,70 @@ block content_leftside
           !=fragment_cache('social', function(){return partial('includes/header/social')})
       //- 阅读进度
       if is_post()
-        button#leftside-contents(type="button", title="目录")
+        button#leftside-contents(type="button", title="阅读进度")
           span#read-percent 0
       //- 跳转评论
       button#leftside-comment
         a(href="#post-comment" title=_p("rightside.scroll_to_comment"))
           i.fas.fa-comments
+      button#leftside-qq(title="糖果屋交流群")
+        i.fas.fa-qrcode
+      button#leftside-rmb(title="打赏博主")
+        i.fas.fa-rmb
+        
 
 block content
   #post
     if top_img === false
       include includes/header/post-info.pug
-
     if (page.writeByhand)
       article#article-container.post-content.writeByhand!=page.content
     else
       article#article-container.post-content!=page.content
-    include includes/post/post-copyright.pug
     .tag_share
       if (theme.post_meta.post.tags)
         .post-meta__tag-list
           each item, index in page.tags.data
             a(href=url_for(item.path)).post-meta__tags #[=item.name]
       include includes/third-party/share/index.pug
-        
-    if theme.reward.enable
-      !=partial('includes/post/reward', {}, {cache: true})
+    .end.is-center='end'
+    .line.is-center
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+      svg.icon(aria-hidden="true")
+        use(xlink:href=`#`+ 'icon-xigua2')
+    
+    //-
+      include includes/post/post-copyright.pug
 
-    //- ad
-    if theme.ad && theme.ad.post
-      .ads-wrap!=theme.ad.post
+      .tag_share
+        if (theme.post_meta.post.tags)
+          .post-meta__tag-list
+            each item, index in page.tags.data
+              a(href=url_for(item.path)).post-meta__tags #[=item.name]
+        include includes/third-party/share/index.pug
+      
+        if theme.reward.enable
+          !=partial('includes/post/reward', {}, {cache: true})
 
-    //- if theme.post_pagination
-      include includes/pagination.pug
-    if theme.related_post && theme.related_post.enable
-      != related_posts(page,site.posts)
+      //- ad
+      if theme.ad && theme.ad.post
+        .ads-wrap!=theme.ad.post
 
-    if page.comments !== false && theme.comments && theme.comments.use
-      - var commentsJsLoad = true
-      !=partial('includes/third-party/comments/index', {}, {cache: true})
+      //- if theme.post_pagination
+        include includes/pagination.pug
+      if theme.related_post && theme.related_post.enable
+        != related_posts(page,site.posts)
+
+      if page.comments !== false && theme.comments && theme.comments.use
+        - var commentsJsLoad = true
+        !=partial('includes/third-party/comments/index', {}, {cache: true})
 
 block content_rightside
   - let tocNumber = page.toc_number !== undefined ? page.toc_number : theme.toc.number
