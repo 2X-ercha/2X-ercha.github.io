@@ -209,3 +209,9 @@ article.writeByhand {
   display: flex;
   padding: 0.5em;
 }
+#article-container img {
+  border-radius: 0.5rem;
+}
+.img-alt {
+  display: none !important;
+}
