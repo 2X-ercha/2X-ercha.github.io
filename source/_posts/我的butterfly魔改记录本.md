@@ -576,11 +576,3 @@ img {
     background-color: #0000005e;
 }
 ```
-
--------
-
-# 另外这里给店长打个广告
-
-**butterfly魔改售后服务中心**<del>（其实就是店长自己的群）</del>
-
-<img src=https://noionion-picture-bed.oss-cn-hangzhou.aliyuncs.com/img/akicandyroom.jpg alt='🧊Akilarの糖果屋' style='max-height:500px'>
