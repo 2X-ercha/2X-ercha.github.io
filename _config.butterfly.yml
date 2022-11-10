@@ -387,7 +387,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: blog-twikoo-5gjox0si204192ef
+  envId: https://blog-twikoo.noionion.top
   region:
   visitor: false
   option:
@@ -890,7 +890,7 @@ CDN:
   disqusjs: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqus.js
   disqusjs_css: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqusjs.css
   utterances: https://utteranc.es/client.js
-  twikoo: https://cdnjs.sourcegcdn.com/ajax/libs/twikoo/1.5.4/twikoo.all.min.js
+  twikoo: https://cdnjs.sourcegcdn.com/ajax/libs/twikoo/1.6.7/twikoo.all.min.js
   waline: https://cdn1.tianli0.top/npm/@waline/client/dist/Waline.min.js
 
   # share
