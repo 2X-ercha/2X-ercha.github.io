@@ -383,11 +383,11 @@ document.addEventListener('DOMContentLoaded', function () {
           if(eventlistner){
             var centerY = eventlistner.offsetTop+eventlistner.offsetHeight;
             if(centerY > currentBottom && currentTop > eventlistner.offsetTop+document.getElementById('post-info').offsetHeight){
-              if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 1'
-              if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 1'
+              if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 1; pointer-events: all'
+              if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 1; pointer-events: all'
             } else {
-              if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 0'
-              if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0'
+              if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 0; pointer-events: none'
+              if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0; pointer-events: none'
             }
           }
           if($rightside_button) $rightside_button.style.cssText = 'bottom: 1rem'
@@ -395,14 +395,14 @@ document.addEventListener('DOMContentLoaded', function () {
           if (currentTop === 0) {
             $header.classList.remove('nav-fixed', 'nav-visible')
           }
-          if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 0'
-          if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0'
+          if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 0; pointer-events: none'
+          if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0; pointer-events: none'
           if($rightside_button) $rightside_button.style.cssText = 'bottom: -3rem'
         }
 
         if (document.body.scrollHeight <= innerHeight) {
-          if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 0'
-          if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0'
+          if($rightside_toc) $rightside_toc.style.cssText = 'opacity: 0; pointer-events: none'
+          if($leftside_menu) $leftside_menu.style.cssText = 'opacity: 0; pointer-events: none'
           if($rightside_button) $rightside_button.style.cssText = 'bottom: -3rem'
         }
       }, 200)()

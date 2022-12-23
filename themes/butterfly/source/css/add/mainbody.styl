@@ -12,9 +12,9 @@
     display: flex
     flex-direction: row-reverse
     #left_menu
-      pointer-events: none
       top: -1rem
       opacity: 0
+      pointer-events: none
       transition: all 0.3s ease-in-out
       position: fixed
       display: flex
@@ -29,7 +29,6 @@
       i
         color: #000
       .leftside-social
-        pointer-events: all
         text-align: center
         opacity: 0.7
         width: 1.5rem
@@ -45,7 +44,6 @@
       .leftside-comment
       .leftside-qq
       .leftside-rmb
-        pointer-events: all
         text-align: center
         margin-bottom: 0.25rem
         opacity: 0.7
@@ -77,6 +75,9 @@
       top: -0.62rem
       flex-direction: row-reverse
       .candy_qrcode
+        transition: all 0.3s ease-in-out
+        opacity: 0
+        pointer-events: none
         max-width: 9rem
         width: 100%
 
@@ -90,6 +91,7 @@
     #rightside-toc
       top: -1rem
       opacity: 0
+      pointer-events: none
       transition: all 0.3s ease-in-out
       position: fixed
       display: flex
@@ -233,10 +235,15 @@
         &:hover
           color: #a153ff
       #left_menu
+        .leftside-contents
+          box-shadow: 0 0 5px #fff
         i
           color: #fff
         .leftside-contents span
           color: #fff
+      #left_display
+        .candy_qrcode
+          filter: invert(1)
     #content_rightside
       #rightside-toc
         span.toc-text
