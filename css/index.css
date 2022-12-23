@@ -8727,11 +8727,11 @@ article.writeByhand {
   flex-direction: row-reverse;
 }
 #mainbody #content_leftside #left_menu {
-  pointer-events: none;
   top: -1rem;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
+  pointer-events: none;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -8772,7 +8772,6 @@ article.writeByhand {
   color: #000;
 }
 #mainbody #content_leftside #left_menu .leftside-social {
-  pointer-events: all;
   text-align: center;
   opacity: 0.7;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
@@ -8807,7 +8806,6 @@ article.writeByhand {
 #mainbody #content_leftside #left_menu .leftside-comment,
 #mainbody #content_leftside #left_menu .leftside-qq,
 #mainbody #content_leftside #left_menu .leftside-rmb {
-  pointer-events: all;
   text-align: center;
   margin-bottom: 0.25rem;
   opacity: 0.7;
@@ -8888,6 +8886,15 @@ article.writeByhand {
   flex-direction: row-reverse;
 }
 #mainbody #content_leftside #left_display .candy_qrcode {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  pointer-events: none;
   max-width: 9rem;
   width: 100%;
 }
@@ -8919,6 +8926,7 @@ article.writeByhand {
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);
+  pointer-events: none;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -9151,11 +9159,18 @@ article.writeByhand {
 [data-theme="dark"] #mainbody #content_leftside a:hover {
   color: #a153ff;
 }
+[data-theme="dark"] #mainbody #content_leftside #left_menu .leftside-contents {
+  -webkit-box-shadow: 0 0 5px #fff;
+  box-shadow: 0 0 5px #fff;
+}
 [data-theme="dark"] #mainbody #content_leftside #left_menu i {
   color: #fff;
 }
 [data-theme="dark"] #mainbody #content_leftside #left_menu .leftside-contents span {
   color: #fff;
+}
+[data-theme="dark"] #mainbody #content_leftside #left_display .candy_qrcode {
+  filter: invert(1);
 }
 [data-theme="dark"] #mainbody #content_rightside #rightside-toc span.toc-text {
   color: #fff;
