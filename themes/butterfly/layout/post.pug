@@ -5,21 +5,24 @@ block content_leftside
     #left_menu
       //- 联系方式
       if(theme.social)
-        #leftside-social
+        .leftside-social
           !=fragment_cache('social', function(){return partial('includes/header/social')})
       //- 阅读进度
-      if is_post()
-        button#leftside-contents(type="button", title="阅读进度")
-          span#read-percent 0
+      .leftside-contents
+        span#read-percent 0
       //- 跳转评论
-      button#leftside-comment
-        a(href="#post-comment" title=_p("rightside.scroll_to_comment"))
-          i.fas.fa-comments
-      button#leftside-qq(title="糖果屋交流群")
-        i.fas.fa-qrcode
-      button#leftside-rmb(title="打赏博主")
-        i.fas.fa-rmb
-        
+      .leftside-comment
+        a(href="#post-comment" title="要去留言吗？")
+          i.fa-lg.fas.fa-comment
+      .leftside-qq(title="来糖果屋聊天噻！")
+        i.fa-lg.fas.fa-qrcode
+      .leftside-rmb
+        a(title="柿还在施工的捐赠页！不给看！")
+          i.fa-lg.fas.fa-money-check-dollar
+    #left_display
+      .candy_qrcode
+        img(src="./img/candy-qr.png")
+
 
 block content
   #post

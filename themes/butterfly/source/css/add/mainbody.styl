@@ -12,6 +12,7 @@
     display: flex
     flex-direction: row-reverse
     #left_menu
+      pointer-events: none
       top: -1rem
       opacity: 0
       transition: all 0.3s ease-in-out
@@ -27,14 +28,11 @@
       translate: -0.7rem 0
       i
         color: #000
-      #leftside-social
+      .leftside-social
+        pointer-events: all
+        text-align: center
         opacity: 0.7
-        border-radius: 1rem
         width: 1.5rem
-        box-shadow: 0 0 5px #000
-        display: flex
-        flex-direction: column
-        align-items: center
         margin: 0.4rem
         transition: all 0.5s
         .fa-fw
@@ -43,36 +41,46 @@
           transform: scale(1.3)
         &:hover
           opacity: 1
-      #leftside-contents
-      #leftside-comment
+      .leftside-contents
+      .leftside-comment
+      .leftside-qq
+      .leftside-rmb
+        pointer-events: all
+        text-align: center
+        margin-bottom: 0.25rem
         opacity: 0.7
-        border-radius: 1rem
         width: 1.5rem
         height: 1.5rem
-        box-shadow: 0 0 5px #000
-        margin: 0.3rem
         font-weight: bold
         transition: all 0.5s
+        a
+          font-weight: bolder
+        .fas
+          margin: 0.5rem 0
+          width: 1.25em
         .fas::hover
-            transform: scale(1.3)
+          transform: scale(1.3)
         &:hover
           opacity: 1
-      #leftside-qq
-      #leftside-rmb
-        text-align: center
-        line-height: 1rem
-        margin: 0.3rem
-        opacity: 0.7
+      .leftside-contents
         border-radius: 1rem
-        width: 1rem
-        height: 1rem
         box-shadow: 0 0 5px #000
-        font-weight: bold
-        transition: all 0.5s
-        .fas::hover
-            transform: scale(1.3)
-        &:hover
-          opacity: 1
+        margin-bottom: 0.5rem
+    #left_display
+      // box-shadow: 0 0 5px #000
+      width: inherit
+      height: 100%
+      margin-right: 3rem
+      display: flex
+      align-items: center
+      position: fixed
+      top: -0.62rem
+      flex-direction: row-reverse
+      .candy_qrcode
+        max-width: 9rem
+        width: 100%
+
+
   #content_rightside
     flex: 1
     width: fill-available
@@ -227,13 +235,7 @@
       #left_menu
         i
           color: #fff
-        #leftside-social
-        #leftside-contents
-        #leftside-comment
-        #leftside-qq
-        #leftside-rmb
-          box-shadow: 0 0 5px #fff
-        #leftside-contents span
+        .leftside-contents span
           color: #fff
     #content_rightside
       #rightside-toc
