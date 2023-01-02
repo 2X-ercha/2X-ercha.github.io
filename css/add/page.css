@@ -5,7 +5,7 @@
   margin-bottom: 5rem !important;
 }
 #post-info .post-title {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   max-width: 20em;
   text-align: center;
   border-bottom: 0 !important;
@@ -26,7 +26,7 @@
   flex-direction: column;
 }
 .post-copyright {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   font-size: large;
 }
 .post-copyright .post-copyright__title {

@@ -60,7 +60,7 @@ svg.icon {
   flex: 0.5;
 }
 #nav #nav-group #blog_name a#site-name {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   font-size: 18px;
 }
 #nav #nav-group #navFn {
@@ -69,11 +69,11 @@ svg.icon {
   flex: 0.5;
 }
 #nav #nav-group #navFn span {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   font-size: 14px;
 }
 #nav #nav-group .menus_items span {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   font-size: 16px;
 }
 #nav #nav-group .menus_items .menus_item .menus_item_child {
@@ -95,7 +95,7 @@ article.writeByhand {
 }
 #sidebar #sidebar-menus {
   background: linear-gradient(60deg, #ffd7e4 0%, #c8f1ff 100%);
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
 /* 手机侧栏菜单展开 信息、头像位置调整*/
 /* 手机侧栏菜单展开 follow_me按钮*/
 /* 手机侧栏菜单展开 社交图标 */
@@ -161,7 +161,7 @@ article.writeByhand {
 }
 #site-title,
 #subtitle {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
 }
 #site_social_icons {
   display: none !important;
@@ -195,11 +195,12 @@ article.writeByhand {
   }
 }
 /* 字体样式引入 */
-@font-face {
-  font-family: 'aqqxs';
-  src: url("https://cdn1.tianli0.top/gh/2x-ercha/cdn-for-try/fonts/FXAiQingQiXiangSuo.ttf");
-  ont-display: swap;
-}
+/*
+@font-face
+  font-family: 'aqqxs'
+  src: url('https://cdn1.tianli0.top/gh/2x-ercha/cdn-for-try/fonts/FXAiQingQiXiangSuo.ttf')
+  ont-display: swap
+*/
 @font-face {
   font-family: 'writeByhand';
   src: url("./font/WoZaiXingYeShenChuDengNi.ttf");

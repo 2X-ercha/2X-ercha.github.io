@@ -8432,7 +8432,7 @@ svg.icon {
   flex: 0.5;
 }
 #nav #nav-group #blog_name a#site-name {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   font-size: 18px;
 }
 #nav #nav-group #navFn {
@@ -8447,11 +8447,11 @@ svg.icon {
   flex: 0.5;
 }
 #nav #nav-group #navFn span {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   font-size: 14px;
 }
 #nav #nav-group .menus_items span {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   font-size: 16px;
 }
 #nav #nav-group .menus_items .menus_item .menus_item_child {
@@ -8477,7 +8477,7 @@ article.writeByhand {
   background: -o-linear-gradient(30deg, #ffd7e4 0%, #c8f1ff 100%);
   background: -ms-linear-gradient(30deg, #ffd7e4 0%, #c8f1ff 100%);
   background: linear-gradient(60deg, #ffd7e4 0%, #c8f1ff 100%);
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
 /* 手机侧栏菜单展开 信息、头像位置调整*/
 /* 手机侧栏菜单展开 follow_me按钮*/
 /* 手机侧栏菜单展开 社交图标 */
@@ -8551,7 +8551,7 @@ article.writeByhand {
 }
 #site-title,
 #subtitle {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
 }
 #site_social_icons {
   display: none !important;
@@ -8586,11 +8586,6 @@ article.writeByhand {
   #aside-content {
     display: none;
   }
-}
-@font-face {
-  font-family: 'aqqxs';
-  src: url("https://cdn1.tianli0.top/gh/2x-ercha/cdn-for-try/fonts/FXAiQingQiXiangSuo.ttf");
-  ont-display: swap;
 }
 @font-face {
   font-family: 'writeByhand';
@@ -8648,7 +8643,7 @@ article.writeByhand {
   text-align: center;
 }
 #footer .footer-content a {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   color: var(--font-color);
   font-size: 1rem;
 }
@@ -9256,7 +9251,7 @@ article.writeByhand {
   margin-bottom: 5rem !important;
 }
 #post-info .post-title {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   max-width: 20em;
   text-align: center;
   border-bottom: 0 !important;
@@ -9292,7 +9287,7 @@ article.writeByhand {
   flex-direction: column;
 }
 .post-copyright {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   font-size: large;
 }
 .post-copyright .post-copyright__title {
@@ -9447,10 +9442,10 @@ article.writeByhand {
   margin-left: 0.3em;
 }
 #recent-posts .recent-post-item .recent-post-info .article-title {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
 }
 #recent-posts .recent-post-item .recent-post-info .article-meta-wrap {
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
   font-size: 110%;
   color: #000;
 }
@@ -9486,7 +9481,7 @@ article.writeByhand {
 }
 .timenode .meta p {
   font-size: initial;
-  font-family: 'aqqxs', sans-serif;
+  font-family: 'LXGW WenKai Screen', sans-serif;
 }
 #post-comment .comment-head {
   margin: 0 0 1rem 0;
