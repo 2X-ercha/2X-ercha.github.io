@@ -862,6 +862,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css" />
     # - <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
