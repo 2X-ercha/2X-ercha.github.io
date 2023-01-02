@@ -28,10 +28,7 @@ block content
   #post
     if top_img === false
       include includes/header/post-info.pug
-    if (page.writeByhand)
-      article#article-container.post-content.writeByhand!=page.content
-    else
-      article#article-container.post-content!=page.content
+    article#article-container.post-content!=page.content
     .tag_share
       if (theme.post_meta.post.tags)
         .post-meta__tag-list

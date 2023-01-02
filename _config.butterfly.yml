@@ -616,7 +616,7 @@ beautify:
 font:
   global-font-size:
   code-font-size:
-  font-family:
+  font-family: 'LXGW WenKai Screen'
   code-font-family:
 
 # Font settings for the site title and site subtitle
