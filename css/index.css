@@ -1338,7 +1338,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: LXGW WenKai Screen;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -7018,7 +7018,7 @@ p.p.subtitle:first-child {
 }
 span.p.logo,
 p.p.logo {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: LXGW WenKai Screen;
 }
 span.p.code,
 p.p.code {
@@ -8431,10 +8431,6 @@ svg.icon {
   -ms-flex: 0.5;
   flex: 0.5;
 }
-#nav #nav-group #blog_name a#site-name {
-  font-family: 'LXGW WenKai Screen', sans-serif;
-  font-size: 18px;
-}
 #nav #nav-group #navFn {
   text-align: right;
   box-flex: 0.5;
@@ -8445,14 +8441,6 @@ svg.icon {
   -webkit-flex: 0.5;
   -ms-flex: 0.5;
   flex: 0.5;
-}
-#nav #nav-group #navFn span {
-  font-family: 'LXGW WenKai Screen', sans-serif;
-  font-size: 14px;
-}
-#nav #nav-group .menus_items span {
-  font-family: 'LXGW WenKai Screen', sans-serif;
-  font-size: 16px;
 }
 #nav #nav-group .menus_items .menus_item .menus_item_child {
   border-radius: 0.625rem;
@@ -8477,7 +8465,6 @@ article.writeByhand {
   background: -o-linear-gradient(30deg, #ffd7e4 0%, #c8f1ff 100%);
   background: -ms-linear-gradient(30deg, #ffd7e4 0%, #c8f1ff 100%);
   background: linear-gradient(60deg, #ffd7e4 0%, #c8f1ff 100%);
-  font-family: 'LXGW WenKai Screen', sans-serif;
 /* 手机侧栏菜单展开 信息、头像位置调整*/
 /* 手机侧栏菜单展开 follow_me按钮*/
 /* 手机侧栏菜单展开 社交图标 */
@@ -8549,10 +8536,6 @@ article.writeByhand {
 #sidebar #sidebar-menus .fas.fa-chevron-down.expand {
   display: none;
 }
-#site-title,
-#subtitle {
-  font-family: 'LXGW WenKai Screen', sans-serif;
-}
 #site_social_icons {
   display: none !important;
 }
@@ -8586,11 +8569,6 @@ article.writeByhand {
   #aside-content {
     display: none;
   }
-}
-@font-face {
-  font-family: 'writeByhand';
-  src: url("./font/WoZaiXingYeShenChuDengNi.ttf");
-  ont-display: swap;
 }
 .tag.link {
   display: -webkit-box;
@@ -8643,7 +8621,6 @@ article.writeByhand {
   text-align: center;
 }
 #footer .footer-content a {
-  font-family: 'LXGW WenKai Screen', sans-serif;
   color: var(--font-color);
   font-size: 1rem;
 }
@@ -9251,7 +9228,6 @@ article.writeByhand {
   margin-bottom: 5rem !important;
 }
 #post-info .post-title {
-  font-family: 'LXGW WenKai Screen', sans-serif;
   max-width: 20em;
   text-align: center;
   border-bottom: 0 !important;
@@ -9285,10 +9261,6 @@ article.writeByhand {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-}
-.post-copyright {
-  font-family: 'LXGW WenKai Screen', sans-serif;
-  font-size: large;
 }
 .post-copyright .post-copyright__title {
   font-size: 28px;
@@ -9441,12 +9413,7 @@ article.writeByhand {
 #recent-posts .recent-post-item .recent-post-info span {
   margin-left: 0.3em;
 }
-#recent-posts .recent-post-item .recent-post-info .article-title {
-  font-family: 'LXGW WenKai Screen', sans-serif;
-}
 #recent-posts .recent-post-item .recent-post-info .article-meta-wrap {
-  font-family: 'LXGW WenKai Screen', sans-serif;
-  font-size: 110%;
   color: #000;
 }
 #recent-posts .recent-post-item .recent-post-info .article-meta-wrap a {
@@ -9478,10 +9445,6 @@ article.writeByhand {
   opacity: 0.35;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
   filter: alpha(opacity=35);
-}
-.timenode .meta p {
-  font-size: initial;
-  font-family: 'LXGW WenKai Screen', sans-serif;
 }
 #post-comment .comment-head {
   margin: 0 0 1rem 0;

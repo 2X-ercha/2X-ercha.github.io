@@ -4,12 +4,7 @@
 #recent-posts .recent-post-item .recent-post-info span {
   margin-left: 0.3em;
 }
-#recent-posts .recent-post-item .recent-post-info .article-title {
-  font-family: 'LXGW WenKai Screen', sans-serif;
-}
 #recent-posts .recent-post-item .recent-post-info .article-meta-wrap {
-  font-family: 'LXGW WenKai Screen', sans-serif;
-  font-size: 110%;
   color: #000;
 }
 #recent-posts .recent-post-item .recent-post-info .article-meta-wrap a {
