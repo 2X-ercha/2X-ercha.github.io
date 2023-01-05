@@ -6,7 +6,7 @@
   <link href="https://noionion.top/atom.xml" rel="self"/>
   
   <link href="https://noionion.top/"/>
-  <updated>2022-12-28T23:00:00.000Z</updated>
+  <updated>2023-01-05T23:00:00.000Z</updated>
   <id>https://noionion.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从零开始的异世界主题开发生活-hexo事件管理与扩展使用</title>
+    <link href="https://noionion.top/55440.html"/>
+    <id>https://noionion.top/55440.html</id>
+    <published>2023-01-05T23:00:00.000Z</published>
+    <updated>2023-01-05T23:00:00.000Z</updated>
+    
+    
+    <summary type="html">开了坑总得干点活，hexo的主题不是那么好整……特别是hexo那糟糕的文档下，开发真的很麻烦</summary>
+    
+    
+    
+    <category term="trefoil 开发日志" scheme="https://noionion.top/categories/trefoil-%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/"/>
+    
+    
+    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
+    
+    <category term="hexo" scheme="https://noionion.top/tags/hexo/"/>
+    
+    <category term="theme-trefoil" scheme="https://noionion.top/tags/theme-trefoil/"/>
+    
+  </entry>
   
   <entry>
     <title>个人哔哔: 2022年度总结与全新的大饼</title>
@@ -456,31 +479,6 @@
     <category term="C++" scheme="https://noionion.top/tags/C/"/>
     
     <category term="CCF" scheme="https://noionion.top/tags/CCF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改</title>
-    <link href="https://noionion.top/12280.html"/>
-    <id>https://noionion.top/12280.html</id>
-    <published>2021-08-21T00:00:00.000Z</published>
-    <updated>2021-08-22T00:30:00.000Z</updated>
-    
-    
-    <summary type="html">开始自己魔改博客了！</summary>
-    
-    
-    
-    <category term="魔改日记本" scheme="https://noionion.top/categories/%E9%AD%94%E6%94%B9%E6%97%A5%E8%AE%B0%E6%9C%AC/"/>
-    
-    
-    <category term="Diary" scheme="https://noionion.top/tags/Diary/"/>
-    
-    <category term="Course" scheme="https://noionion.top/tags/Course/"/>
-    
-    <category term="hexo" scheme="https://noionion.top/tags/hexo/"/>
-    
-    <category term="butterfly" scheme="https://noionion.top/tags/butterfly/"/>
     
   </entry>
   

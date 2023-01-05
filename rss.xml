@@ -15,8 +15,33 @@
     <atom:link href="https://noionion.top/rss.xml" rel="self" type="application/rss+xml"/>
     
     <description>欢迎光临小窝！</description>
-    <pubDate>Wed, 28 Dec 2022 23:00:00 GMT</pubDate>
+    <pubDate>Thu, 05 Jan 2023 23:00:00 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>从零开始的异世界主题开发生活-hexo事件管理与扩展使用</title>
+      <link>https://noionion.top/55440.html</link>
+      <guid>https://noionion.top/55440.html</guid>
+      <pubDate>Thu, 05 Jan 2023 23:00:00 GMT</pubDate>
+      
+      <description>开了坑总得干点活，hexo的主题不是那么好整……特别是hexo那糟糕的文档下，开发真的很麻烦</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/trefoil-%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/">trefoil 开发日志</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://noionion.top/tags/theme-trefoil/">theme-trefoil</category>
+      
+      
+      <comments>https://noionion.top/55440.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>个人哔哔: 2022年度总结与全新的大饼</title>
@@ -496,33 +521,6 @@
       
       
       <comments>https://noionion.top/45048.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>猹的魔改日记-菜单栏及移动端侧边菜单栏的魔改</title>
-      <link>https://noionion.top/12280.html</link>
-      <guid>https://noionion.top/12280.html</guid>
-      <pubDate>Sat, 21 Aug 2021 00:00:00 GMT</pubDate>
-      
-      <description>开始自己魔改博客了！</description>
-      
-      
-      
-      
-      <category domain="https://noionion.top/categories/%E9%AD%94%E6%94%B9%E6%97%A5%E8%AE%B0%E6%9C%AC/">魔改日记本</category>
-      
-      
-      <category domain="https://noionion.top/tags/Diary/">Diary</category>
-      
-      <category domain="https://noionion.top/tags/Course/">Course</category>
-      
-      <category domain="https://noionion.top/tags/hexo/">hexo</category>
-      
-      <category domain="https://noionion.top/tags/butterfly/">butterfly</category>
-      
-      
-      <comments>https://noionion.top/12280.html#disqus_thread</comments>
       
     </item>
     
