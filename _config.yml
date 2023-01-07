@@ -188,3 +188,19 @@ footer_beautify:
   swiper_css: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css
   swiper_js: https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js
   swiperbdage_init_js: https://npm.elemecdn.com/hexo-butterfly-footer-beautify/lib/swiperbdage_init_js.min.js
+
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
