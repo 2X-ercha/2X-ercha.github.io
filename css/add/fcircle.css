@@ -1,3 +1,14 @@
-/* build time:Sat Jan 07 2023 03:19:54 GMT+0000 (Coordinated Universal Time)*/
-.cf-article-avatar .img-alt{display:none}#cf-more,#cf-state,.cf-article{background:linear-gradient(90deg,#ffd7e4 0,#c8f1ff 100%)!important;border-style:groove}[data-theme=dark] #cf-more,[data-theme=dark] #cf-state,[data-theme=dark] .cf-article{background:linear-gradient(90deg,#2c0c16 0,#043749 100%)!important}
-/* rebuild by neat */
+.cf-article-avatar .img-alt {
+  display: none;
+}
+#cf-state,
+#cf-more,
+.cf-article {
+  background: linear-gradient(90deg, #ffd7e4 0%, #c8f1ff 100%) !important;
+  border-style: groove;
+}
+[data-theme="dark"] #cf-state,
+[data-theme="dark"] #cf-more,
+[data-theme="dark"] .cf-article {
+  background: linear-gradient(90deg, #2c0c16 0%, #043749 100%) !important;
+}

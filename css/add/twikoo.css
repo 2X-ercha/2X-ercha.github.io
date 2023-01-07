@@ -1,3 +1,8 @@
-/* build time:Sat Jan 07 2023 03:19:54 GMT+0000 (Coordinated Universal Time)*/
-#post-comment .comment-head{margin:0 0 1rem 0;opacity:.5}#post-comment .comment-head .comment-headline{font-weight:700;font-size:.8rem}
-/* rebuild by neat */
+#post-comment .comment-head {
+  margin: 0 0 1rem 0;
+  opacity: 0.5;
+}
+#post-comment .comment-head .comment-headline {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
