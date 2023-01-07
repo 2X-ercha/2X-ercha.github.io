@@ -194,9 +194,10 @@ neat_html:
   enable: true
   exclude:
 neat_css:
-  enable: true
+  enable: false
   exclude:
     - '*.min.css'
+    - 'css/index.css'
 neat_js:
   enable: true
   mangle: true
