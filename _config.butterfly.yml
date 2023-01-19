@@ -387,7 +387,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://blog-twikoo.noionion.top
+  envId: https://twikoo.noionion.cn
   region:
   visitor: false
   option:
