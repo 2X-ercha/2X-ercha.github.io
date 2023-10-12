@@ -1,0 +1,125 @@
+#post-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem !important;
+}
+#post-info .post-title {
+  max-width: 20em;
+  text-align: center;
+  border-bottom: 0 !important;
+  margin-bottom: -0.6rem;
+}
+#post-info .post-title:after {
+  border-bottom: 1px solid #78818a;
+  content: '';
+  width: 10em;
+  display: block;
+  margin: 0.5em auto;
+  height: 1px;
+}
+#post-info #post-meta {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.post-copyright .post-copyright__title {
+  font-size: 28px;
+}
+#pagination {
+  border-radius: 10px;
+}
+.relatedPosts > .relatedPosts-list > div {
+  border-radius: 12px;
+  background: rgba(214,214,214,0.267);
+  transition: 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+}
+.relatedPosts > .relatedPosts-list > div .fa-history::before {
+  font-size: smaller;
+}
+.relatedPosts > .relatedPosts-list > div:hover {
+  background: #b07272;
+}
+.relatedPosts > .relatedPosts-list > div:hover .cover {
+  opacity: 0.05;
+  filter: blur(5px);
+}
+.relatedPosts > .relatedPosts-list > div:hover .content .date,
+.relatedPosts > .relatedPosts-list > div:hover .content .title {
+  color: #fff;
+}
+.relatedPosts > .relatedPosts-list .cover {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  filter: blur(0);
+  opacity: 0.35;
+}
+.relatedPosts > .relatedPosts-list .content {
+  font-size: large;
+  font-family: fangsong;
+}
+.relatedPosts > .relatedPosts-list .content .date,
+.relatedPosts > .relatedPosts-list .content .title {
+  color: #000;
+}
+.relatedPosts {
+  margin: 0;
+}
+@media screen and (min-width: 500px) {
+  .tag_share {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 500px) {
+  .tag_share {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+.tk-input[data-v-619b4c52] .el-textarea__inner {
+  min-height: 210px !important;
+}
+.tk-input[data-v-619b4c52] .el-textarea__inner :focus {
+  background-image: none !important;
+}
+[data-theme='dark'] .post-title:after {
+  border-bottom: 1px solid var(--light-grey);
+}
+[data-theme='dark'] .relatedPosts > .relatedPosts-list > div {
+  border-radius: 12px;
+  background: rgba(0,0,0,0.31);
+  transition: 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+}
+[data-theme='dark'] .relatedPosts > .relatedPosts-list > div:hover {
+  background: #a8b2d6;
+}
+[data-theme='dark'] .relatedPosts > .relatedPosts-list > div:hover .cover {
+  opacity: 0.05;
+  filter: blur(5px);
+}
+[data-theme='dark'] .relatedPosts > .relatedPosts-list > div:hover .content .date,
+[data-theme='dark'] .relatedPosts > .relatedPosts-list > div:hover .content .title {
+  color: #000;
+}
+[data-theme='dark'] .relatedPosts > .relatedPosts-list .cover {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  filter: blur(0);
+  opacity: 0.15;
+}
+[data-theme='dark'] .relatedPosts > .relatedPosts-list .content {
+  font-size: large;
+  font-family: fangsong;
+}
+[data-theme='dark'] .relatedPosts > .relatedPosts-list .content .date,
+[data-theme='dark'] .relatedPosts > .relatedPosts-list .content .title {
+  color: #fff;
+}

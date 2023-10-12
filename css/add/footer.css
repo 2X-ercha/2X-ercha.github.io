@@ -1,0 +1,33 @@
+#footer {
+  padding-bottom: 2.5rem;
+}
+#footer .wordcount {
+  text-align: center;
+  font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica, Arial, serif;
+  font-size: large;
+  padding: 2rem 0 0 0;
+}
+#footer .footer-content {
+  padding: 2rem 0 0 0;
+  text-align: center;
+}
+#footer .footer-content a {
+  color: var(--font-color);
+  font-size: 1rem;
+}
+#footer .statistics {
+  padding-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Noto Serif SC', -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Helvetica, Arial, serif;
+  font-size: 0.6rem;
+}
+#footer .statistics #site_pv {
+  display: inline;
+  text-align: center;
+}
+#footer .statistics #site_uv {
+  display: inline;
+  text-align: center;
+}

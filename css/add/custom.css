@@ -1,0 +1,196 @@
+/* 阿里矢量图标库 */
+svg.icon {
+  width: 1.2rem;
+  height: 1.2rem;
+/* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15rem;
+  fill: currentColor;
+  overflow: hidden;
+}
+/* 头图透明 */
+#page-header {
+  background: transparent !important;
+/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */
+}
+#page-header .post-bg:before {
+  background-color: transparent !important;
+}
+#footer {
+  background: transparent !important;
+}
+#footer #footer-wrap {
+  color: #000;
+}
+#footer #footer-wrap a {
+  color: #000;
+}
+#nav #nav-group {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+/* 搜索与黑夜切换样式 */
+/* 元素布局 */
+/* 横向排布子菜单 */
+}
+#nav #nav-group #search-button {
+  display: inline;
+  padding: 0 0 0 0.5rem;
+  position: relative;
+  padding-bottom: 0.3rem;
+  text-shadow: 0.05rem 0.05rem 0.1rem #000;
+  font-size: 0.78em;
+  cursor: pointer;
+}
+#nav #nav-group #darkmodeBt {
+  display: inline;
+  padding: 0 0 0 0.5rem;
+  position: relative;
+  padding-bottom: 0.3rem;
+  text-shadow: 0.05rem 0.05rem 0.1rem #000;
+  font-size: 0.78em;
+  cursor: pointer;
+}
+#nav #nav-group #toggle-menu {
+  padding: 0.1rem 0 0 0.5rem;
+}
+#nav #nav-group #blog_name {
+  box-flex: 0.5;
+  flex: 0.5;
+}
+#nav #nav-group #navFn {
+  text-align: right;
+  box-flex: 0.5;
+  flex: 0.5;
+}
+#nav #nav-group .menus_items .menus_item .menus_item_child {
+  border-radius: 0.625rem;
+}
+#nav #nav-group .menus_items .menus_item .menus_item_child li {
+  display: inline-block;
+}
+#nav #nav-group .menus_items .menus_item .menus_item_child li:hover {
+  background-color: #5bf;
+  border-radius: 0.625rem;
+}
+#nav.hide-menu #darkmodeBt span {
+  display: none !important;
+}
+article.writeByhand {
+  font-family: 'writeByhand', sans-serif;
+  font-size: large;
+}
+#sidebar #sidebar-menus {
+  background: linear-gradient(60deg, #ffd7e4 0%, #c8f1ff 100%);
+/* 手机侧栏菜单展开 信息、头像位置调整*/
+/* 手机侧栏菜单展开 follow_me按钮*/
+/* 手机侧栏菜单展开 社交图标 */
+}
+#sidebar #sidebar-menus .site-data {
+  margin-top: 0.5rem;
+/* 分类等字体加粗 */
+}
+#sidebar #sidebar-menus .site-data .headline {
+  font-size: 0.875rem;
+}
+#sidebar #sidebar-menus .site-data .length-num {
+  font-size: 0.8rem !important;
+}
+#sidebar #sidebar-menus #sidebar-avatar {
+  margin-top: 0.2rem;
+/* 作者名 */
+}
+#sidebar #sidebar-menus #sidebar-avatar .author-info__name {
+  font-weight: 500;
+  font-size: 1.57em;
+}
+#sidebar #sidebar-menus #sidebar-avatar .avatar-img img {
+  width: 110px;
+  height: 110px;
+  border-radius: 70px;
+  transition: all 0.5s;
+}
+#sidebar #sidebar-menus #card-info-btn {
+  display: block;
+  margin: 0.3rem 1rem 0 1rem;
+  background-color: var(--btn-bg);
+  color: var(--btn-color);
+  text-align: center;
+  line-height: 2.4;
+  overflow: hidden;
+  border-radius: 0.625rem;
+}
+#sidebar #sidebar-menus .menu-info-social-icons {
+  margin: 0.5rem 0 0 0;
+}
+#sidebar #sidebar-menus .menu-info-social-icons .social-icon {
+  display: inline;
+  padding: 0 0.7rem 0 0.7rem;
+}
+#sidebar #sidebar-menus .simply-cha-top {
+  margin: 0 0 -3rem 0;
+  height: 4rem;
+  background: url("/img/simplycha-top.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+#sidebar #sidebar-menus .simply-cha {
+  margin-top: -4rem;
+  height: 5rem;
+  background: url("/img/simplycha.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#sidebar #sidebar-menus .fas.fa-chevron-down.expand {
+  display: none;
+}
+#site_social_icons {
+  display: none !important;
+}
+#post-comment .comment-head {
+  margin: 1rem;
+}
+[data-theme="dark"] #footer #footer-wrap {
+  color: #fff;
+}
+[data-theme="dark"] #footer #footer-wrap a {
+  color: #fff;
+}
+[data-theme="dark"] #footer:before {
+  background: transparent !important;
+}
+[data-theme="dark"] #page-header:before {
+  background: transparent !important;
+}
+[data-theme="dark"] #nav .menus_items .menus_item .menus_item_child li:hover {
+  background-color: #2298e7;
+  border-radius: 0.625rem;
+}
+[data-theme="dark"] #sidebar #sidebar-menus {
+  background: linear-gradient(60deg, #2c0c16 0%, #043749 100%);
+}
+/* 存在手机侧栏菜单时，隐藏下侧内容（即侧边栏（900以上出现的bug不怎么影响了 */
+@media screen and (max-width: 900px) {
+  #aside-content {
+    display: none;
+  }
+}
+/* 字体样式引入 */
+/*
+@font-face
+  font-family: 'aqqxs'
+  src: url('https://cdn1.tianli0.top/gh/2x-ercha/cdn-for-try/fonts/FXAiQingQiXiangSuo.ttf')
+  ont-display: swap
+*/
+.tag.link {
+  display: flex;
+  padding: 0.5em;
+}
+#article-container img {
+  border-radius: 0.5rem;
+}
+.img-alt {
+  display: none !important;
+}

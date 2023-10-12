@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>贰猹の小窝</title>
+    <link>https://noionion.top/</link>
+    
+    <image>
+      <url>https://noionion.top/icon.png</url>
+      <title>贰猹の小窝</title>
+      <link>https://noionion.top/</link>
+    </image>
+    
+    <atom:link href="https://noionion.top/rss.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>欢迎光临小窝！</description>
+    <pubDate>Mon, 23 Oct 2023 12:01:00 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>个人哔哔: 谈薪时间-该问hr哪些问题</title>
+      <link>https://noionion.top/20692.html</link>
+      <guid>https://noionion.top/20692.html</guid>
+      <pubDate>Mon, 23 Oct 2023 12:01:00 GMT</pubDate>
+      
+      <description>除了工资结构五险一金，还有什么值得问hr的</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E8%B4%B0%E7%8C%B9%E9%9A%8F%E7%AC%94/">贰猹随笔</category>
+      
+      
+      <category domain="https://noionion.top/tags/Diary-Work/">Diary Work</category>
+      
+      
+      <comments>https://noionion.top/20692.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>个人哔哔: 秋招与未来</title>
+      <link>https://noionion.top/53532.html</link>
+      <guid>https://noionion.top/53532.html</guid>
+      <pubDate>Mon, 23 Oct 2023 12:00:00 GMT</pubDate>
+      
+      <description>关于未来的方向选择，以及之后的航向</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E8%B4%B0%E7%8C%B9%E9%9A%8F%E7%AC%94/">贰猹随笔</category>
+      
+      
+      <category domain="https://noionion.top/tags/Diary-Work/">Diary Work</category>
+      
+      
+      <comments>https://noionion.top/53532.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>从零开始的异世界主题开发生活-hexo事件管理与扩展使用</title>
+      <link>https://noionion.top/55440.html</link>
+      <guid>https://noionion.top/55440.html</guid>
+      <pubDate>Thu, 05 Jan 2023 15:00:00 GMT</pubDate>
+      
+      <description>开了坑总得干点活，hexo的主题不是那么好整……特别是hexo那糟糕的文档下，开发真的很麻烦</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/trefoil-%E5%BC%80%E5%8F%91%E6%97%A5%E5%BF%97/">trefoil 开发日志</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://noionion.top/tags/theme-trefoil/">theme-trefoil</category>
+      
+      
+      <comments>https://noionion.top/55440.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>个人哔哔: 2022年度总结与全新的大饼</title>
+      <link>https://noionion.top/33884.html</link>
+      <guid>https://noionion.top/33884.html</guid>
+      <pubDate>Wed, 28 Dec 2022 15:00:00 GMT</pubDate>
+      
+      <description>一年的摸鱼记录和船新的开始！</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E8%B4%B0%E7%8C%B9%E9%9A%8F%E7%AC%94/">贰猹随笔</category>
+      
+      
+      <category domain="https://noionion.top/tags/Diary/">Diary</category>
+      
+      
+      <comments>https://noionion.top/33884.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>猹的魔改日记-文章页抛弃卡片、丢弃小菜单以及布局重构</title>
+      <link>https://noionion.top/64594.html</link>
+      <guid>https://noionion.top/64594.html</guid>
+      <pubDate>Sat, 24 Dec 2022 15:00:00 GMT</pubDate>
+      
+      <description>魔改第四弹！</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E9%AD%94%E6%94%B9%E6%97%A5%E8%AE%B0%E6%9C%AC/">魔改日记本</category>
+      
+      
+      <category domain="https://noionion.top/tags/Diary/">Diary</category>
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://noionion.top/tags/butterfly/">butterfly</category>
+      
+      
+      <comments>https://noionion.top/64594.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>猹的魔改日记-小小的重写个页脚</title>
+      <link>https://noionion.top/46524.html</link>
+      <guid>https://noionion.top/46524.html</guid>
+      <pubDate>Wed, 17 Aug 2022 09:00:00 GMT</pubDate>
+      
+      <description>魔改第三弹！</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E9%AD%94%E6%94%B9%E6%97%A5%E8%AE%B0%E6%9C%AC/">魔改日记本</category>
+      
+      
+      <category domain="https://noionion.top/tags/Diary/">Diary</category>
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://noionion.top/tags/butterfly/">butterfly</category>
+      
+      
+      <comments>https://noionion.top/46524.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>回忆录: 知心友与白月光</title>
+      <link>https://noionion.top/12476.html</link>
+      <guid>https://noionion.top/12476.html</guid>
+      <pubDate>Wed, 22 Jun 2022 14:00:00 GMT</pubDate>
+      
+      <description>想写自己的回忆了，再不写，记忆就更糊了。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E5%9B%9E%E5%BF%86%E5%BD%95/">回忆录</category>
+      
+      
+      <category domain="https://noionion.top/tags/Diary/">Diary</category>
+      
+      <category domain="https://noionion.top/tags/%E5%9B%9E%E5%BF%86%E5%BD%95/">回忆录</category>
+      
+      
+      <comments>https://noionion.top/12476.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八下 内存管理</title>
+      <link>https://noionion.top/16886.html</link>
+      <guid>https://noionion.top/16886.html</guid>
+      <pubDate>Wed, 08 Jun 2022 19:21:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/16886.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验八上 内存管理</title>
+      <link>https://noionion.top/49749.html</link>
+      <guid>https://noionion.top/49749.html</guid>
+      <pubDate>Wed, 08 Jun 2022 15:01:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/49749.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>HNU工训综合项目二：基于485总线的评分系统速通指北</title>
+      <link>https://noionion.top/55380.html</link>
+      <guid>https://noionion.top/55380.html</guid>
+      <pubDate>Mon, 06 Jun 2022 07:40:00 GMT</pubDate>
+      
+      <description>HNU 大二工训综合项目二：基于485总线的评分系统速通</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      
+      <comments>https://noionion.top/55380.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验七 死锁与简单处理</title>
+      <link>https://noionion.top/b484f477.html</link>
+      <guid>https://noionion.top/b484f477.html</guid>
+      <pubDate>Sat, 14 May 2022 12:01:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/b484f477.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验六 GPIO关机</title>
+      <link>https://noionion.top/ec262d5c.html</link>
+      <guid>https://noionion.top/ec262d5c.html</guid>
+      <pubDate>Tue, 26 Apr 2022 12:01:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/ec262d5c.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验五 输入</title>
+      <link>https://noionion.top/82ab7cd4.html</link>
+      <guid>https://noionion.top/82ab7cd4.html</guid>
+      <pubDate>Mon, 25 Apr 2022 12:01:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/82ab7cd4.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验四 中断</title>
+      <link>https://noionion.top/a4c75e16.html</link>
+      <guid>https://noionion.top/a4c75e16.html</guid>
+      <pubDate>Sun, 24 Apr 2022 12:01:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/a4c75e16.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验二 Hello World</title>
+      <link>https://noionion.top/4735f31b.html</link>
+      <guid>https://noionion.top/4735f31b.html</guid>
+      <pubDate>Tue, 19 Apr 2022 12:01:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/4735f31b.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>关于linux: 设备树浅析（更新中）</title>
+      <link>https://noionion.top/36455.html</link>
+      <guid>https://noionion.top/36455.html</guid>
+      <pubDate>Tue, 19 Apr 2022 12:00:00 GMT</pubDate>
+      
+      <description>对设备树的一些个人理解和解析</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/DTS/">DTS</category>
+      
+      <category domain="https://noionion.top/tags/Linux/">Linux</category>
+      
+      
+      <comments>https://noionion.top/36455.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析：实验一 环境配置</title>
+      <link>https://noionion.top/adfdff.html</link>
+      <guid>https://noionion.top/adfdff.html</guid>
+      <pubDate>Mon, 18 Apr 2022 12:01:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/adfdff.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>rust写个操作系统——课程实验blogos移至armV8深度解析</title>
+      <link>https://noionion.top/16433.html</link>
+      <guid>https://noionion.top/16433.html</guid>
+      <pubDate>Sun, 17 Apr 2022 12:01:00 GMT</pubDate>
+      
+      <description>HNU 操作系统课程实验：将 blogos 移植到 armv8 架构。</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/BlogOS-armv8/">BlogOS_armv8</category>
+      
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/os/">os</category>
+      
+      <category domain="https://noionion.top/tags/rust/">rust</category>
+      
+      <category domain="https://noionion.top/tags/blogos/">blogos</category>
+      
+      
+      <comments>https://noionion.top/16433.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>猹的魔改日记-小菜单和复制/F12提示栏</title>
+      <link>https://noionion.top/40244.html</link>
+      <guid>https://noionion.top/40244.html</guid>
+      <pubDate>Tue, 30 Nov 2021 13:00:00 GMT</pubDate>
+      
+      <description>魔改第二弹！</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E9%AD%94%E6%94%B9%E6%97%A5%E8%AE%B0%E6%9C%AC/">魔改日记本</category>
+      
+      
+      <category domain="https://noionion.top/tags/Diary/">Diary</category>
+      
+      <category domain="https://noionion.top/tags/Course/">Course</category>
+      
+      <category domain="https://noionion.top/tags/hexo/">hexo</category>
+      
+      <category domain="https://noionion.top/tags/butterfly/">butterfly</category>
+      
+      
+      <comments>https://noionion.top/40244.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>个人哔哔: 一年期至，又一年始（不定时写完）</title>
+      <link>https://noionion.top/47865.html</link>
+      <guid>https://noionion.top/47865.html</guid>
+      <pubDate>Sun, 31 Oct 2021 07:00:00 GMT</pubDate>
+      
+      <description>突然想写点东西</description>
+      
+      
+      
+      
+      <category domain="https://noionion.top/categories/%E8%B4%B0%E7%8C%B9%E9%9A%8F%E7%AC%94/">贰猹随笔</category>
+      
+      
+      <category domain="https://noionion.top/tags/Diary/">Diary</category>
+      
+      
+      <comments>https://noionion.top/47865.html#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
